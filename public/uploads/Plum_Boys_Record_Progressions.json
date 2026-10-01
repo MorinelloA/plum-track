@@ -1,0 +1,465 @@
+{
+  "100": [
+    {
+      "Name": "Chuck McMillan",
+      "Time": 11.04,
+      "Date": 1975,
+      "Meet": null,
+      "Converted": "Yes",
+      "Link": "https://web.archive.org/web/20021006013958/http://www.pbsd.k12.pa.us/Oblock/Casarcia/track/boys.htm",
+      "Notes": "Converted from 9.9 HT 100 yard dash"
+    },
+    {
+      "Name": "Tracy Wilburn",
+      "Time": 11.04,
+      "Date": 2003,
+      "Meet": null,
+      "Converted": "Yes",
+      "Link": "https://web.archive.org/web/20040128033758/http://www.runningmustangs.org/"
+    },
+    {
+      "Name": "Tracy Wilburn",
+      "Time": 11.04,
+      "Date": 2004,
+      "Meet": null,
+      "Converted": "Yes",
+      "Link": "https://web.archive.org/web/20041207201039/http://www.runningmustangs.org/results/resultsindex.htm"
+    },
+    {
+      "Name": "Jeff Robinson",
+      "Time": 10.94,
+      "Date": 2008,
+      "Meet": "Pine Richland Invitational",
+      "Converted": "Yes",
+      "Link": "https://pa.milesplit.com/meets/35429-pine-richland-invitational-2008/results"
+    }
+  ],
+  "200": [
+    {
+      "Name": "Greg Bacon",
+      "Time": 22.54,
+      "Date": 1999,
+      "Meet": null,
+      "Converted": "Yes",
+      "Link": "https://web.archive.org/web/20040128033758/http://www.runningmustangs.org/"
+    },
+    {
+      "Name": "Troy Besterci",
+      "Time": 22.04,
+      "Date": 2008,
+      "Meet": "Pine Richland Invitational",
+      "Converted": "Yes",
+      "Link": "https://pa.milesplit.com/meets/35429-pine-richland-invitational-2008/results"
+    }
+  ],
+  "400": [
+    {
+      "Name": "Greg Bacon",
+      "Time": 50.14,
+      "Date": 2000,
+      "Meet": null,
+      "Converted": "Yes",
+      "Link": "https://web.archive.org/web/20040128033758/http://www.runningmustangs.org/"
+    },
+    {
+      "Name": "Jim Urbano",
+      "Time": 50.14,
+      "Date": 1998,
+      "Meet": null,
+      "Converted": "Yes"
+    },
+    {
+      "Name": "Kent Holmes",
+      "Time": 49.75,
+      "Date": "2026-04-18",
+      "Meet": "Shippensburg 99th Roddick HS Invitational 2026",
+      "Converted": null,
+      "Link": "https://pa.milesplit.com/meets/721813-shippensburg-99th-roddick-hs-invitational-2026/results",
+      "Notes": "Check if a record"
+    },
+    {
+      "Name": "Kent Holmes",
+      "Time": 48.85,
+      "Date": "2026-05-14",
+      "Meet": "WPIAL Finals",
+      "Converted": "No",
+      "Link": "https://pa.milesplit.com/meets/763233-wpial-district-7-championships-slippery-rock-2026/results"
+    }
+  ],
+  "800": [
+    {
+      "Name": "Dave McDowell",
+      "Time": "1:58.64",
+      "Date": 1980,
+      "Meet": null,
+      "Converted": "Yes",
+      "Link": "https://web.archive.org/web/20040128033758/http://www.runningmustangs.org/"
+    },
+    {
+      "Name": "Bryce Rupp",
+      "Time": "1:55.49",
+      "Date": "2010-05-20",
+      "Meet": "WPIAL Finals",
+      "Converted": "No",
+      "Link": "https://pa.milesplit.com/meets/66656-piaa-district-7-aaa-championships-2010/results/123877"
+    }
+  ],
+  "1600": [
+    {
+      "Name": "Mark Flanick",
+      "Time": "4:25.34",
+      "Date": 1972,
+      "Meet": null,
+      "Converted": "Yes"
+    },
+    {
+      "Name": "Cameron Christeson",
+      "Time": "4:24.53",
+      "Date": "2002-05-14",
+      "Meet": "WPIAL Finals",
+      "Converted": "No",
+      "Link": "https://web.archive.org/web/20040128033758/http://www.runningmustangs.org/"
+    },
+    {
+      "Name": "Connor Pivirotto",
+      "Time": "4:19.06",
+      "Date": "2023-05-17",
+      "Meet": "WPIAL Finals",
+      "Converted": "No",
+      "Link": "https://pa.milesplit.com/meets/518053"
+    }
+  ],
+  "3200": [
+    {
+      "Name": "Ed Shepard",
+      "Time": "9:37.04",
+      "Date": 1974,
+      "Meet": null,
+      "Converted": "Yes",
+      "Link": "https://web.archive.org/web/20040128033758/http://www.runningmustangs.org/",
+      "Notes": "Converted from yards"
+    },
+    {
+      "Name": "Rich Addison",
+      "Time": "9:29.40",
+      "Date": "2010-05-20",
+      "Meet": "WPIAL Finals",
+      "Converted": "No",
+      "Link": "https://pa.milesplit.com/meets/66656-piaa-district-7-aaa-championships-2010/results/123877"
+    },
+    {
+      "Name": "Jake Susalla",
+      "Time": "9:21.24",
+      "Date": "2016-04-16",
+      "Meet": "TSTCA Outdoor Championships",
+      "Converted": "No",
+      "Link": "https://ny.milesplit.com/meets/228199-tstca-outdoor-championships-2016/results/439320"
+    },
+    {
+      "Name": "Jake Susalla",
+      "Time": "9:19.95",
+      "Date": "2016-05-06",
+      "Meet": "Baldwin Invitational",
+      "Converted": "No",
+      "Link": "https://ny.milesplit.com/meets/228200-43rd-annual-elite-runners-and-walkersbrooks-baldwin-invitational-2016/results/449107"
+    },
+    {
+      "Name": "Jake Susalla",
+      "Time": "9:16.37",
+      "Date": "2016-05-19",
+      "Meet": "WPIAL Finals",
+      "Converted": "No",
+      "Link": "https://ny.milesplit.com/meets/237541-piaa-district-7-aa-and-aaa-championships-2016/results/453352"
+    },
+    {
+      "Name": "Jake Susalla",
+      "Time": "9:15.44",
+      "Date": "2016-05-28",
+      "Meet": "PIAA States",
+      "Converted": "No",
+      "Link": "https://ny.milesplit.com/meets/226393-piaa-tandf-state-championships-2016/results/455602"
+    }
+  ],
+  "110H": [
+    {
+      "Name": "Chris Manganaro",
+      "Time": 14.34,
+      "Date": 1976,
+      "Meet": "PIAA State Finals",
+      "Converted": "Yes",
+      "Link": "https://web.archive.org/web/20040128033758/http://www.runningmustangs.org/",
+      "Notes": "Converted from 120 yard hurdle HT"
+    },
+    {
+      "Name": "Owen Proskin",
+      "Time": 14.3,
+      "Date": "2026-03-28",
+      "Meet": "49th Annual Altoona Area Igloo Invitational 2026",
+      "Converted": "No",
+      "Link": "https://pa.milesplit.com/meets/724637-49th-annual-altoona-area-igloo-invitational-2026/results/1267075/formatted/"
+    },
+    {
+      "Name": "Owen Proskin",
+      "Time": 14.06,
+      "Date": "2026-05-07",
+      "Meet": "Northern Area Last Chance",
+      "Converted": "No",
+      "Link": "https://pa.milesplit.com/meets/733383-northern-area-last-chance-2026/results"
+    }
+  ],
+  "300H": [
+    {
+      "Name": "Tim Holt",
+      "Time": 40.14,
+      "Date": 1977,
+      "Meet": "WPIAL Finals",
+      "Converted": "Yes",
+      "Link": null,
+      "Notes": "Converted from a 330 yard hurdle 40.2 HT"
+    },
+    {
+      "Name": "BJ Zeller",
+      "Time": 39.74,
+      "Date": 1998,
+      "Meet": "WPIAL Finals",
+      "Converted": "Yes",
+      "Link": "https://web.archive.org/web/20040128033758/http://www.runningmustangs.org/"
+    },
+    {
+      "Name": "Tony Morinello",
+      "Time": 39.64,
+      "Date": 2004,
+      "Meet": "Plum vs Springdale vs Highlands",
+      "Converted": "Yes"
+    },
+    {
+      "Name": "Tony Morinello",
+      "Time": 39.63,
+      "Date": "2004-04-23",
+      "Meet": "Pine Richland Invitational",
+      "Converted": "No",
+      "Link": "https://pa.milesplit.com/meets/7112-pine-richland-invitational-2004/results/14483/raw"
+    },
+    {
+      "Name": "Tony Morinello",
+      "Time": 39.06,
+      "Date": "2004-04-30",
+      "Meet": "Mars Invitational",
+      "Converted": "No",
+      "Link": "https://pa.milesplit.com/meets/6875-mars-invitational-2004/results/14701/raw"
+    },
+    {
+      "Name": "Tony Morinello",
+      "Time": 38.64,
+      "Date": "2004-05-11",
+      "Meet": "WPIAL Qualifiers",
+      "Converted": "No",
+      "Link": "https://pa.milesplit.com/meets/7540-wpial-aaa-northernsouthern-qualifiers-2004/results/15000/raw"
+    }
+  ],
+  "4x100": [
+    {
+      "Name": "J. Lhota, C. Stukus, T. Leone, J. Truxell",
+      "Time": 43.44,
+      "Date": 1989,
+      "Meet": null,
+      "Converted": "Yes",
+      "Link": "https://web.archive.org/web/20040128033758/http://www.runningmustangs.org/"
+    },
+    {
+      "Name": null,
+      "Time": 43.27,
+      "Date": "2026-04-18",
+      "Meet": "Shippensburg 99th Roddick HS Invitational 2026",
+      "Converted": null,
+      "Link": "https://pa.milesplit.com/meets/721813-shippensburg-99th-roddick-hs-invitational-2026/results"
+    },
+    {
+      "Name": null,
+      "Time": 42.96,
+      "Date": "2026-04-28",
+      "Meet": "WPIAL Team Semifinal Playoff Meet - North Allegheny 2026",
+      "Converted": "No",
+      "Link": "https://pa.milesplit.com/meets/752776-wpial-team-semifinal-playoff-meet-north-allegheny-2026/results"
+    },
+    {
+      "Name": null,
+      "Time": 42.7,
+      "Date": "2026-05-14",
+      "Meet": "WPIAL Finals",
+      "Converted": "No",
+      "Link": "https://pa.milesplit.com/meets/763233-wpial-district-7-championships-slippery-rock-2026/results"
+    }
+  ],
+  "4x400": [
+    {
+      "Name": "J. Rumbaugh, R. Leone, M. Julian, R. Carter",
+      "Time": "3:24.74",
+      "Date": 1991,
+      "Meet": null,
+      "Converted": "Yes",
+      "Link": "https://web.archive.org/web/20040128033758/http://www.runningmustangs.org/"
+    },
+    {
+      "Name": null,
+      "Time": "3:24.54",
+      "Date": "2025-05-14",
+      "Meet": "WPIAL Finals",
+      "Converted": "No",
+      "Link": "https://pa.milesplit.com/meets/674558"
+    },
+    {
+      "Name": null,
+      "Time": "3:22.92",
+      "Date": "2026-05-07",
+      "Meet": "Northern Area Last Chance",
+      "Converted": "No",
+      "Link": "https://pa.milesplit.com/meets/733383-northern-area-last-chance-2026/results"
+    },
+    {
+      "Name": null,
+      "Time": "3:19.67",
+      "Date": "2026-05-14",
+      "Meet": "WPIAL Finals",
+      "Converted": "No",
+      "Link": "https://pa.milesplit.com/meets/763233-wpial-district-7-championships-slippery-rock-2026/results"
+    }
+  ],
+  "4x800": [
+    {
+      "Name": "B. Ferry, D.McDowell, D. Kosman, T. Laylock",
+      "Time": "8:05.44",
+      "Date": 1981,
+      "Meet": null,
+      "Converted": "Yes",
+      "Link": "https://web.archive.org/web/20040128033758/http://www.runningmustangs.org/"
+    },
+    {
+      "Name": "Bryce Rupp, Matt Betts, Sam Griffiths, Nate Andrews",
+      "Time": "8:04.49",
+      "Date": "2010-04-30",
+      "Meet": "Mars Invitational",
+      "Converted": "No",
+      "Link": "https://pa.milesplit.com/meets/67248"
+    },
+    {
+      "Name": "Bryce Rupp, Matt Betts, Sam Griffiths, Nate Andrews",
+      "Time": "7:58.33",
+      "Date": "2010-05-20",
+      "Meet": "WPIAL Finals",
+      "Converted": "No",
+      "Link": "https://pa.milesplit.com/meets/66656"
+    }
+  ],
+  "High Jump": [
+    {
+      "Name": "Mark Kost",
+      "Distance": "6-4.75",
+      "Date": 1977,
+      "Meet": null,
+      "Link": "https://web.archive.org/web/20040128033758/http://www.runningmustangs.org/"
+    },
+    {
+      "Name": "Jim Vensel",
+      "Distance": "6-5",
+      "Date": 2007
+    },
+    {
+      "Name": "Owen Proskin",
+      "Distance": "6-5",
+      "Date": "4-8-2026",
+      "Meet": "Plum vs Trinity Christian vs Woodland Hills",
+      "Link": "https://pa.milesplit.com/meets/734452-plum-and-trinity-christian-woodland-hills-hs-2026/results"
+    }
+  ],
+  "Long Jump": [
+    {
+      "Name": "Chris Manganaro",
+      "Distance": "22-8",
+      "Date": 1976,
+      "Meet": null,
+      "Link": "https://web.archive.org/web/20040128033758/http://www.runningmustangs.org/"
+    },
+    {
+      "Name": "Dom Siciliano",
+      "Distance": "23-0",
+      "Date": 2010
+    }
+  ],
+  "Triple Jump": [
+    {
+      "Name": "Ross Meli",
+      "Distance": "45-0",
+      "Date": 1972,
+      "Meet": null,
+      "Link": "https://web.archive.org/web/20040128033758/http://www.runningmustangs.org/"
+    },
+    {
+      "Name": "Sloan Humphries",
+      "Distance": "45-0",
+      "Date": 2025
+    },
+    {
+      "Name": "Sloan Humphries",
+      "Distance": "45-5.5",
+      "Date": "2026-05-01",
+      "Meet": "Pine Richland Invitational",
+      "Link": "https://pa.milesplit.com/meets/733371-pine-richland-invitational-2026/results"
+    },
+    {
+      "Name": "Sloan Humphries",
+      "Distance": "46-2.5",
+      "Date": "2026-05-14",
+      "Meet": "WPIAL Finals",
+      "Link": "https://pa.milesplit.com/meets/763233-wpial-district-7-championships-slippery-rock-2026/results"
+    }
+  ],
+  "Pole Vault": [
+    {
+      "Name": "Randy Lucas",
+      "Distance": "12-6",
+      "Date": 1977,
+      "Meet": null,
+      "Link": "https://web.archive.org/web/20040128033758/http://www.runningmustangs.org/"
+    },
+    {
+      "Name": "Jon Grubs",
+      "Distance": "12-6",
+      "Date": 2004,
+      "Meet": null,
+      "Link": "https://web.archive.org/web/20041207201039/http://www.runningmustangs.org/results/resultsindex.htm"
+    },
+    {
+      "Name": "Zach Taylor",
+      "Distance": "14-0",
+      "Date": 2009
+    }
+  ],
+  "Shotput": [
+    {
+      "Name": "Bob Thirey",
+      "Distance": "58-7.5",
+      "Date": 1977,
+      "Meet": null,
+      "Link": "https://web.archive.org/web/20040128033758/http://www.runningmustangs.org/"
+    }
+  ],
+  "Discus": [
+    {
+      "Name": "Luke Linhart",
+      "Distance": "154-8",
+      "Date": 1991,
+      "Meet": null,
+      "Link": "https://web.archive.org/web/20040128033758/http://www.runningmustangs.org/"
+    }
+  ],
+  "Javelin": [
+    {
+      "Name": "Jared Kier",
+      "Distance": "171-11",
+      "Date": "2004-05-11",
+      "Meet": "WPIAL Qualifiers",
+      "Link": "https://pa.milesplit.com/meets/7540"
+    }
+  ]
+}

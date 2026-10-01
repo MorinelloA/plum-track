@@ -1,0 +1,219 @@
+{
+  "school": "Plum Senior High School",
+  "gender": "Girls",
+  "notes": "Hand times (HT) converted to FAT equivalent by adding 0.24. Records verified from pa.milesplit venue data (2024-2026 home meets only). Pre-2024 home meet results are not available in any online database.",
+  "records": [
+    {
+      "event": "100m",
+      "mark": "12.44",
+      "mark_type": "FAT",
+      "original_mark": "12.2",
+      "original_mark_type": "HT",
+      "athlete": "Ashley Amato",
+      "school": "Plum",
+      "date": 2016,
+      "record_broken_since_2016": false,
+      "note": "Gabrielle Layne (Plum) ran 12.79 FAT (12.55 HT equiv) at home in 2024 \u2014 does not break. Layne's school-record 12.25 FAT was set at WPIALs (Slippery Rock), not at Plum's stadium."
+    },
+    {
+      "event": "200m",
+      "mark": "25.54",
+      "mark_type": "FAT",
+      "original_mark": "25.3",
+      "original_mark_type": "HT",
+      "athlete": "Ashley Amato",
+      "school": "Plum",
+      "date": 2016,
+      "record_broken_since_2016": false,
+      "note": "Gabrielle Layne (Plum) ran 26.11 FAT (25.87 HT equiv) at home in 2024 \u2014 does not break."
+    },
+    {
+      "event": "400m",
+      "mark": "60.04",
+      "mark_type": "FAT",
+      "original_mark": "59.8",
+      "original_mark_type": "HT",
+      "athlete": "Ayianna Crawford",
+      "school": "Gateway",
+      "record_broken_since_2016": false
+    },
+    {
+      "event": "800m",
+      "mark": "2:21.24",
+      "mark_type": "FAT",
+      "original_mark": "2:21",
+      "original_mark_type": "HT",
+      "athlete": "Lauren Finikiotis",
+      "school": "Oakland Catholic",
+      "record_broken_since_2016": false
+    },
+    {
+      "event": "1600m",
+      "mark": "5:12.34",
+      "mark_type": "FAT",
+      "original_mark": "5:12.1",
+      "original_mark_type": "HT",
+      "athlete": "Lauren Finikiotis",
+      "school": "Oakland Catholic",
+      "record_broken_since_2016": false
+    },
+    {
+      "event": "3200m",
+      "mark": "11:02.24",
+      "mark_type": "FAT",
+      "original_mark": "11:02",
+      "original_mark_type": "HT",
+      "athlete": "H. Schupansky",
+      "school": "Oakland Catholic",
+      "record_broken_since_2016": false
+    },
+    {
+      "event": "100m Hurdles",
+      "mark": "14.94",
+      "mark_type": "FAT",
+      "original_mark": "14.7",
+      "original_mark_type": "HT",
+      "athlete": "Jayla Ellis",
+      "school": "Oakland Catholic",
+      "date": 2019,
+      "record_broken_since_2016": false
+    },
+    {
+      "event": "300m Hurdles",
+      "mark": "46.54",
+      "mark_type": "FAT",
+      "original_mark": "46.3",
+      "original_mark_type": "HT",
+      "athlete": "Jayla Ellis",
+      "school": "Oakland Catholic",
+      "date": 2019,
+      "record_broken_since_2016": false
+    },
+    {
+      "event": "4x100m Relay",
+      "mark": "50.79",
+      "mark_type": "FAT",
+      "original_mark": "50.7",
+      "original_mark_type": "HT",
+      "athlete": "Plum Senior",
+      "school": "Plum",
+      "record_broken_since_2016": true,
+      "date": "2024-04-22",
+      "previous_record_holder": "Woodland Hills",
+      "previous_record_school": "Woodland Hills",
+      "previous_mark": "50.94",
+      "previous_mark_type": "FAT",
+      "verify_url": "https://pa.milesplit.com/meets/609698-central-catholic-oakland-catholic-gateway-and-mckeesport-plum-2024/results/1033646/raw"
+    },
+    {
+      "event": "4x400m Relay",
+      "mark": "4:16.24",
+      "mark_type": "FAT",
+      "original_mark": "4:16",
+      "original_mark_type": "HT",
+      "athletes": [
+        "Sujansky",
+        "Taylor",
+        "Zielonka",
+        "Vandzura"
+      ],
+      "school": "Plum",
+      "date": 2001,
+      "record_broken_since_2016": false
+    },
+    {
+      "event": "4x800m Relay",
+      "mark": "10:15.24",
+      "mark_type": "FAT",
+      "original_mark": "10:15",
+      "original_mark_type": "HT",
+      "athletes": [
+        "Stitt",
+        "Youra",
+        "Vandzura",
+        "Twigg"
+      ],
+      "school": "Plum",
+      "date": 2002,
+      "record_broken_since_2016": false,
+      "note": "Plum ran 10:25.46 FAT at home on 3/31/26 \u2014 does not break"
+    },
+    {
+      "event": "Long Jump",
+      "mark": "17'10.5\"",
+      "mark_type": "field",
+      "athlete": "Jayla Ellis",
+      "school": "Oakland Catholic",
+      "date": 2019,
+      "record_broken_since_2016": false
+    },
+    {
+      "event": "Triple Jump",
+      "mark": "37'5\"",
+      "mark_type": "field",
+      "athlete": "Ana Benitez",
+      "school": "Plum",
+      "date": 2016,
+      "record_broken_since_2016": false
+    },
+    {
+      "event": "High Jump",
+      "mark": "5'6\"",
+      "mark_type": "field",
+      "athlete": "Jamie Kociela",
+      "school": "Franklin Regional",
+      "date": "2026-03-31",
+      "record_broken_since_2016": true,
+      "previous_record_holder": "Jackie Youra",
+      "previous_record_school": "Plum",
+      "previous_mark": "5'5\"",
+      "verify_url": "https://pa.milesplit.com/meets/743612-plum-v-franklin-regional-hs-2026/results/1269225/raw"
+    },
+    {
+      "event": "Pole Vault",
+      "mark": "10'6\"",
+      "mark_type": "field",
+      "athlete": "Arden Tomley",
+      "school": "Franklin Regional",
+      "date": "2026-03-31",
+      "record_broken_since_2016": true,
+      "previous_record_holder": "Becky Grace",
+      "previous_record_school": "Plum",
+      "previous_mark": "9'0\"",
+      "verify_url": "https://pa.milesplit.com/meets/743612-plum-v-franklin-regional-hs-2026/results/1269225/raw",
+      "note": "Also broken earlier by Katelynn Porter (Plum) 9'1\" on 3/24/26"
+    },
+    {
+      "event": "Shot Put",
+      "mark": "35'5\"",
+      "mark_type": "field",
+      "athlete": "Kirkling",
+      "school": "Penn Hills",
+      "record_broken_since_2016": false,
+      "note": "Best at Plum 2024-2026: Hayden Calhoun (Plum) 33'9\" \u2014 does not break"
+    },
+    {
+      "event": "Discus",
+      "mark": "114'0\"",
+      "mark_type": "field",
+      "athlete": "Laura Buzzard",
+      "school": "Plum",
+      "date": 1997,
+      "record_broken_since_2016": false,
+      "note": "Best at Plum 2024-2026: Erica Shamburg (Kiski) 101'1\" \u2014 does not break"
+    },
+    {
+      "event": "Javelin",
+      "mark": "117'11\"",
+      "mark_type": "field",
+      "athlete": "Maria Piraino",
+      "school": "Franklin Regional",
+      "date": "2026-03-31",
+      "record_broken_since_2016": true,
+      "previous_record_holder": "Laura Buzzard",
+      "previous_record_school": "Plum",
+      "previous_mark": "113'6\"",
+      "verify_url": "https://pa.milesplit.com/meets/743612-plum-v-franklin-regional-hs-2026/results/1269225/raw"
+    }
+  ]
+}

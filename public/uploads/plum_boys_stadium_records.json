@@ -1,0 +1,236 @@
+{
+  "school": "Plum Senior High School",
+  "gender": "Boys",
+  "records": [
+    {
+      "event": "100m",
+      "mark": "10.94",
+      "mark_type": "FAT",
+      "original_mark": "10.7",
+      "original_mark_type": "HT",
+      "athlete": "Pierre Carr",
+      "school": "Peabody",
+      "record_broken_since_2016": false
+    },
+    {
+      "event": "200m",
+      "mark": "22.54",
+      "mark_type": "FAT",
+      "original_mark": "22.3",
+      "original_mark_type": "HT",
+      "athlete": "Jim Urbano",
+      "school": "Plum",
+      "date": 1998,
+      "record_broken_since_2016": false
+    },
+    {
+      "event": "400m",
+      "mark": "50.64",
+      "mark_type": "FAT",
+      "original_mark": "50.4",
+      "original_mark_type": "HT",
+      "athlete": "Dave Henderson",
+      "school": "Central Catholic",
+      "record_broken_since_2016": false
+    },
+    {
+      "event": "800m",
+      "mark": "1:58.04",
+      "mark_type": "FAT",
+      "original_mark": "1:57.8",
+      "original_mark_type": "HT",
+      "athlete": "Bryce Rupp",
+      "school": "Plum",
+      "date": 2010,
+      "record_broken_since_2016": false
+    },
+    {
+      "event": "1600m",
+      "mark": "4:33.92",
+      "mark_type": "FAT",
+      "original_mark": null,
+      "original_mark_type": null,
+      "athlete": "Nathan Kociela",
+      "school": "Franklin Regional",
+      "record_broken_since_2016": true,
+      "date": "2024-03-27",
+      "previous_record_holder": "Richie Anderson",
+      "previous_record_school": "Plum",
+      "previous_mark": "4:34.24",
+      "previous_mark_type": "FAT",
+      "verify_url": "https://pa.milesplit.com/meets/600256-franklin-regional-plum-hs-tandf-meet-2024/results/1011881/raw"
+    },
+    {
+      "event": "3200m",
+      "mark": "9:39.34",
+      "mark_type": "FAT",
+      "original_mark": "9:39.1",
+      "original_mark_type": "HT",
+      "athlete": "Jake Seuss",
+      "school": "Plum",
+      "date": 2016,
+      "record_broken_since_2016": false
+    },
+    {
+      "event": "110m Hurdles",
+      "mark": "14.63",
+      "mark_type": "FAT",
+      "original_mark": "15.0",
+      "original_mark_type": "HT",
+      "athlete": "Owen Proskin",
+      "school": "Plum",
+      "date": "2026-04-22",
+      "record_broken_since_2016": true,
+      "previous_record_holder": "Montae Nicholson",
+      "previous_record_school": "Gateway",
+      "previous_mark": "15.24",
+      "previous_mark_type": "FAT",
+      "verify_url": "https://pa.milesplit.com/meets/752269-plum-v-pccocc-v-mckeesport-hs-2026/results/1286824/raw",
+      "note": "Also broken on 3/19/26 (Miller 14.99), 3/24/26 (Proskin 14.98), 3/31/26 (Proskin 14.75 / Cartwright 14.85)"
+    },
+    {
+      "event": "300m Hurdles",
+      "mark": "39.54",
+      "mark_type": "FAT",
+      "original_mark": "39.3",
+      "original_mark_type": "HT",
+      "athlete": "Anthony Morinello",
+      "school": "Plum",
+      "date": "2004",
+      "record_broken_since_2016": false,
+      "note": "Owen Proskin ran 39.76 FAT (39.52 HT equiv) on 4/22/26 \u2014 just misses"
+    },
+    {
+      "event": "4x100m Relay",
+      "mark": "43.45",
+      "mark_type": "FAT",
+      "original_mark": null,
+      "original_mark_type": null,
+      "athlete": "Plum Senior",
+      "school": "Plum",
+      "date": "2026-04-22",
+      "record_broken_since_2016": true,
+      "note": "No prior record on file; this is the first recorded mark at the venue",
+      "verify_url": "https://pa.milesplit.com/meets/752269-plum-v-pccocc-v-mckeesport-hs-2026/results/1286824/raw"
+    },
+    {
+      "event": "4x400m Relay",
+      "mark": "3:28.24",
+      "mark_type": "FAT",
+      "original_mark": "3:28",
+      "original_mark_type": "HT",
+      "athletes": [
+        "Leone",
+        "Juilian",
+        "Carter",
+        "Rumbaugh"
+      ],
+      "school": "Plum",
+      "date": 1991,
+      "record_broken_since_2016": false,
+      "note": "Plum ran 3:29.81 FAT (3:29.57 HT equiv) on 4/22/26 \u2014 does not break"
+    },
+    {
+      "event": "4x800m Relay",
+      "mark": "8:15.24",
+      "mark_type": "FAT",
+      "original_mark": "8:15",
+      "original_mark_type": "HT",
+      "athletes": [
+        "Bryce Rupp",
+        "Sam Griffiths",
+        "Matt Betts",
+        "Nate Andrew"
+      ],
+      "school": "Plum",
+      "date": 2010,
+      "record_broken_since_2016": false
+    },
+    {
+      "event": "Long Jump",
+      "mark": "23'0\"",
+      "mark_type": "field",
+      "athlete": "Dom Siciliano",
+      "school": "Plum",
+      "record_broken_since_2016": false
+    },
+    {
+      "event": "Triple Jump",
+      "mark": "44'9\"",
+      "mark_type": "field",
+      "athlete": "Bricen Gardner",
+      "school": "Penn Hills",
+      "date": 2010,
+      "record_broken_since_2016": false,
+      "note": "Sloan Humphries (Plum) hit 44'1\" at home on 3/31/26 \u2014 does not break. His season best of 46'2.5\" (at Slippery Rock) would break it by 17 inches"
+    },
+    {
+      "event": "High Jump",
+      "mark": "6'6\"",
+      "mark_type": "field",
+      "athlete": "Sean Cartwright",
+      "school": "Franklin Regional",
+      "date": "2026-03-31",
+      "record_broken_since_2016": true,
+      "previous_record_holder": "Jim Vensel",
+      "previous_record_school": "Plum",
+      "previous_mark": "6'4\"",
+      "verify_url": "https://pa.milesplit.com/meets/743612-plum-v-franklin-regional-hs-2026/results/1269224/raw"
+    },
+    {
+      "event": "Pole Vault",
+      "mark": "13'6\"",
+      "mark_type": "field",
+      "athletes": [
+        "Zach Taylor",
+        "Nathan Schramm"
+      ],
+      "schools": [
+        "Plum",
+        "Central Catholic"
+      ],
+      "record_broken_since_2016": false
+    },
+    {
+      "event": "Shot Put",
+      "mark": "55'0\"",
+      "mark_type": "field",
+      "athlete": "Dino Nadarevic",
+      "school": "Gateway",
+      "date": "2024-04-22",
+      "record_broken_since_2016": true,
+      "previous_record_holder": "Eric Castello",
+      "previous_record_school": "Plum",
+      "previous_mark": "50'8\"",
+      "verify_url": "https://pa.milesplit.com/meets/609698-central-catholic-oakland-catholic-gateway-and-mckeesport-plum-2024/results/1033646/raw"
+    },
+    {
+      "event": "Discus",
+      "mark": "157'7\"",
+      "mark_type": "field",
+      "athlete": "Dino Nadarevic",
+      "school": "Gateway",
+      "date": "2024-04-22",
+      "record_broken_since_2016": true,
+      "previous_record_holder": "Neil Gaus",
+      "previous_record_school": "Penn Hills",
+      "previous_mark": "146'0\"",
+      "verify_url": "https://pa.milesplit.com/meets/609698-central-catholic-oakland-catholic-gateway-and-mckeesport-plum-2024/results/1033646/raw",
+      "note": "Also broken by Nicolas Anderson (Kiski) 149'4\" on 3/19/26"
+    },
+    {
+      "event": "Javelin",
+      "mark": "163'7\"",
+      "mark_type": "field",
+      "athlete": "Joey Berger",
+      "school": "Plum",
+      "record_broken_since_2016": true,
+      "note": "Original record (195'0\", Tony Bonura) was old-style pre-1986 javelin spec \u2014 not comparable to modern spec. Joey Berger's 163'7\" is the best modern-era mark at the stadium.",
+      "date": "2026-04-22",
+      "previous_record_holder": "Tony Bonura",
+      "previous_record_school": "Plum",
+      "previous_mark": null,
+      "verify_url": "https://pa.milesplit.com/meets/752269-plum-v-pccocc-v-mckeesport-hs-2026/results/1286824/raw"
+    }
+  ]
+}

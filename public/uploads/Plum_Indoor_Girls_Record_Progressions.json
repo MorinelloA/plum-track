@@ -1,0 +1,432 @@
+{
+  "55": [
+    {
+      "Name": "Tamara Smith",
+      "Time": 7.54,
+      "Date": 2003,
+      "Meet": null,
+      "Converted": "Yes"
+    },
+    {
+      "Name": "Tiffany Tedesco",
+      "Time": 7.54,
+      "Date": 2006,
+      "Meet": null,
+      "Converted": "Yes"
+    },
+    {
+      "Name": "Bria Jay",
+      "Time": 7.35,
+      "Date": "2008-02-16",
+      "Meet": "TSTCA Indoor Championships",
+      "Link": "https://pa.milesplit.com/meets/31021",
+      "Converted": "No"
+    }
+  ],
+  "60": [
+    {
+      "Name": "Bria Jay",
+      "Time": 8,
+      "Date": "2008-03-01",
+      "Meet": "PTFCA Indoor State Championship",
+      "Link": "https://pa.milesplit.com/meets/23409",
+      "Converted": "No"
+    },
+    {
+      "Name": "Ashley Amato",
+      "Time": 7.94,
+      "Date": "2016-01-30",
+      "Meet": "TSTCA Indoor Meet #2",
+      "Link": "https://pa.milesplit.com/meets/223202",
+      "Converted": "No"
+    },
+    {
+      "Name": "Ashley Amato",
+      "Time": 7.94,
+      "Date": "2016-02-13",
+      "Meet": "TSTCA Indoor Meet #3",
+      "Link": "https://pa.milesplit.com/meets/223203",
+      "Converted": "No"
+    },
+    {
+      "Name": "Gabrielle Layne",
+      "Time": 7.93,
+      "Date": "2025-02-08",
+      "Meet": "SPIRE Scholastic Showcase",
+      "Link": "https://pa.milesplit.com/meets/632174",
+      "Converted": "No"
+    },
+    {
+      "Name": "Gabrielle Layne",
+      "Time": 7.81,
+      "Date": "2025-02-15",
+      "Meet": "YSU High School Meet #4",
+      "Link": "https://pa.milesplit.com/meets/637084",
+      "Converted": "No"
+    },
+    {
+      "Name": "Gabrielle Layne",
+      "Time": 7.81,
+      "Date": "2025-02-23",
+      "Meet": "Kent State HS Meet #5",
+      "Link": "https://pa.milesplit.com/meets/626029",
+      "Converted": "No"
+    }
+  ],
+  "200": [
+    {
+      "Name": "Heather Kosakowski",
+      "Time": 27.74,
+      "Date": 1995,
+      "Meet": null,
+      "Converted": "Yes"
+    },
+    {
+      "Name": "Tiffany Tedesco",
+      "Time": 27.11,
+      "Date": 2007,
+      "Meet": null,
+      "Converted": "No"
+    },
+    {
+      "Name": "Bria Jay",
+      "Time": 26.94,
+      "Date": 2008,
+      "Meet": null,
+      "Converted": "No"
+    },
+    {
+      "Name": "Bria Jay",
+      "Time": 26.7,
+      "Date": "2009-02-14",
+      "Meet": "TSTCA Indoor Championships",
+      "Link": "https://pa.milesplit.com/meets/44971",
+      "Converted": "No"
+    },
+    {
+      "Name": "Gabrielle Layne",
+      "Time": 26.59,
+      "Date": "2025-01-11",
+      "Meet": "TSTCA Meet #2",
+      "Link": "https://pa.milesplit.com/meets/648806",
+      "Converted": "No"
+    },
+    {
+      "Name": "Gabrielle Layne",
+      "Time": 25.21,
+      "Date": "2025-01-19",
+      "Meet": "Kent State HS Meet #3",
+      "Link": "https://pa.milesplit.com/meets/612226",
+      "Converted": "No"
+    },
+    {
+      "Name": "Gabrielle Layne",
+      "Time": 25.67,
+      "Date": "2025-02-01",
+      "Meet": "SPIRE Ohio Preview Meet",
+      "Link": "https://pa.milesplit.com/meets/632171",
+      "Converted": "No"
+    },
+    {
+      "Name": "Gabrielle Layne",
+      "Time": 25.43,
+      "Date": "2025-02-08",
+      "Meet": "SPIRE Scholastic Showcase Meet",
+      "Link": "https://pa.milesplit.com/meets/632174",
+      "Converted": "No"
+    },
+    {
+      "Name": "Gabrielle Layne",
+      "Time": 25.39,
+      "Date": "2025-02-15",
+      "Meet": "YSU High School Meet #4",
+      "Link": "https://pa.milesplit.com/meets/637084",
+      "Converted": "No"
+    },
+    {
+      "Name": "Gabrielle Layne",
+      "Time": 25.09,
+      "Date": "2025-02-23",
+      "Meet": "Kent State HS Meet #5",
+      "Link": "https://pa.milesplit.com/meets/626029",
+      "Converted": "No"
+    }
+  ],
+  "400": [
+    {
+      "Name": "Amber Haines",
+      "Time": 63.64,
+      "Date": 1995,
+      "Meet": null,
+      "Converted": "Yes"
+    },
+    {
+      "Name": "Brooke Taylor",
+      "Time": 63.64,
+      "Date": 2004,
+      "Meet": null,
+      "Converted": "Yes"
+    },
+    {
+      "Name": "Gabrielle Layne",
+      "Time": 62.72,
+      "Date": "2025-01-25",
+      "Meet": "TSTCA Meet #3",
+      "Link": "https://pa.milesplit.com/meets/651013",
+      "Converted": "No"
+    }
+  ],
+  "800": [
+    {
+      "Name": "Holly Haines",
+      "Time": "2:37.34",
+      "Date": 1995,
+      "Meet": null,
+      "Converted": "Yes"
+    },
+    {
+      "Name": "Kara Weichler",
+      "Time": "2:28.21",
+      "Date": 2008,
+      "Meet": null,
+      "Converted": "No"
+    },
+    {
+      "Name": "Angela Valotta",
+      "Time": "2:25.58",
+      "Date": "2020-02-08",
+      "Meet": "TSTCA Meet #5",
+      "Link": "https://pa.milesplit.com/meets/373670",
+      "Converted": "No"
+    },
+    {
+      "Name": "Angela Valotta",
+      "Time": "2:18.85",
+      "Date": "2020-02-22",
+      "Meet": "TSTCA Indoor Championships",
+      "Link": "https://pa.milesplit.com/meets/373679",
+      "Converted": "No"
+    }
+  ],
+  "1600": [
+    {
+      "Name": "Chrissy Miller",
+      "Time": "5:43.54",
+      "Date": 2001,
+      "Meet": null,
+      "Converted": "Yes"
+    },
+    {
+      "Name": "Kara Weichler",
+      "Time": "5:31.04",
+      "Date": 2007,
+      "Meet": null,
+      "Converted": "Yes"
+    }
+  ],
+  "1 Mile": [
+    {
+      "Name": "Kara Weichler",
+      "Time": "5:32.84",
+      "Date": 2007,
+      "Meet": null,
+      "Converted": "Yes"
+    },
+    {
+      "Name": "Angela Valotta",
+      "Time": "5:32.12",
+      "Date": "2020-02-08",
+      "Meet": "TSTCA Meet #5",
+      "Link": "https://pa.milesplit.com/meets/373670",
+      "Converted": "No"
+    }
+  ],
+  "3000": [
+    {
+      "Name": "Stephanie Tomaro",
+      "Time": "13:14.56",
+      "Date": "1-23-2010",
+      "Meet": "TSTCA Indoor Meet #5",
+      "Link": "https://pa.milesplit.com/meets/63079",
+      "Converted": "No"
+    }
+  ],
+  "3200": [
+    {
+      "Name": "Chrissy Miller",
+      "Time": "11:54.24",
+      "Date": 2001,
+      "Meet": null,
+      "Converted": "Yes"
+    }
+  ],
+  "55H": [
+    {
+      "Name": "Heather Kosakowski",
+      "Time": 9.64,
+      "Date": 1995,
+      "Meet": null,
+      "Converted": "Yes"
+    },
+    {
+      "Name": "Stef Rameriz",
+      "Time": 9.54,
+      "Date": 2007,
+      "Meet": null,
+      "Converted": "Yes"
+    },
+    {
+      "Name": "Stef Rameriz",
+      "Time": 9.12,
+      "Date": 2008,
+      "Meet": null,
+      "Converted": "No"
+    }
+  ],
+  "60H": [
+    {
+      "Name": "Ashley Amato",
+      "Time": 9.41,
+      "Date": "2016-01-30",
+      "Meet": "TSTCA Indoor Meet #2",
+      "Link": "https://pa.milesplit.com/meets/223202",
+      "Converted": "No"
+    },
+    {
+      "Name": "Ashley Amato",
+      "Time": 9.22,
+      "Date": "2016-01-30",
+      "Meet": "TSTCA Indoor Meet #2",
+      "Link": "https://pa.milesplit.com/meets/223202",
+      "Converted": "No"
+    }
+  ],
+  "800 Relay": [
+    {
+      "Name": "Holly Haines, A. Haines, Amy Williams, Heather Kosakowski",
+      "Time": "1:56.54",
+      "Date": 1995,
+      "Meet": null,
+      "Converted": "Yes"
+    },
+    {
+      "Name": "Steph Rameriz, Monet Odom, Kara Weichler, Bria Jay",
+      "Time": "1:53.39",
+      "Date": 2008,
+      "Meet": null,
+      "Converted": "No"
+    }
+  ],
+  "1600 Relay": [
+    {
+      "Name": "Holly Haines, A. Haines, Amy Williams, Heather Kosakowski",
+      "Time": "4:21.44",
+      "Date": 1995,
+      "Meet": null,
+      "Converted": "Yes"
+    }
+  ],
+  "3200 Relay": [
+    {
+      "Name": "Val Vandzura, Heather Kielonka, Brittany Taylor, Rachel Twigg",
+      "Time": "10:48.24",
+      "Date": 2003,
+      "Meet": null,
+      "Converted": "Yes"
+    }
+  ],
+  "DMR": [
+    {
+      "Name": null,
+      "Time": "15:06.00",
+      "Date": "2009-02-05",
+      "Meet": "TSTCA Indoor Meet #5",
+      "Link": "https://pa.milesplit.com/meets/44970",
+      "Converted": "No"
+    },
+    {
+      "Name": null,
+      "Time": "14:30.03",
+      "Date": "2020-02-15",
+      "Meet": "TSTCA Meet #6",
+      "Link": "https://pa.milesplit.com/meets/373672",
+      "Converted": "No"
+    }
+  ],
+  "LJ": [
+    {
+      "Name": "Cara Yannotti",
+      "Distance": "16' 6\"",
+      "Date": 2001
+    }
+  ],
+  "TJ": [
+    {
+      "Name": "Olivia Pernice",
+      "Distance": "30-09",
+      "Date": "2018-01-06",
+      "Meet": "Youngtown State Open #1",
+      "Link": "https://pa.milesplit.com/meets/298296"
+    },
+    {
+      "Name": "Mia Matolcsy",
+      "Distance": "30-10",
+      "Date": "2022-02-05",
+      "Meet": "Youngstown State Open #1",
+      "Link": "https://pa.milesplit.com/meets/453687"
+    }
+  ],
+  "HJ": [
+    {
+      "Name": "Jackie Youra",
+      "Distance": "5' 2\"",
+      "Date": "2006-01-06",
+      "Meet": "TSTCA Indoor Meet #1",
+      "Link": "https://pa.milesplit.com/meets/14756"
+    },
+    {
+      "Name": "Jackie Youra",
+      "Distance": "5' 2\"",
+      "Date": "2007-01-26",
+      "Meet": "TSTCA Indoor Meet #3",
+      "Link": "https://pa.milesplit.com/meets/21168"
+    },
+    {
+      "Name": "Jackie Youra",
+      "Distance": "5' 2\"",
+      "Date": "2007-02-08",
+      "Meet": "TSTCA Indoor Meet #4",
+      "Link": "https://pa.milesplit.com/meets/21443"
+    },
+    {
+      "Name": "Jackie Youra",
+      "Distance": "5' 4\"",
+      "Date": "2007-02-16",
+      "Meet": "TSTCA Indoor Championships",
+      "Link": "https://pa.milesplit.com/meets/21170"
+    }
+  ],
+  "PV": [
+    {
+      "Name": "Katelyn Porter",
+      "Distance": "7' 2\"",
+      "Date": "2026-02-08",
+      "Meet": "Kent State HS Meet #2",
+      "Link": "https://pa.milesplit.com/meets/690174"
+    },
+    {
+      "Name": "Katelyn Porter",
+      "Distance": "8' 4\"",
+      "Date": "2026-02-17",
+      "Meet": "Hempfield SP/PV/WT",
+      "Link": "https://pa.milesplit.com/meets/717658"
+    }
+  ],
+  "Shot Put": [
+    {
+      "Name": "Laura Buzzard",
+      "Distance": "36' 8\"",
+      "Date": 1998
+    }
+  ]
+}

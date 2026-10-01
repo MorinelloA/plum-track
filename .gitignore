@@ -1,0 +1,9 @@
+node_modules/
+dist/
+*.zip
+handoff-extracted/
+.claude/settings.local.json
+
+# Over GitHub's 100 MB file limit; deploy these to the server directly
+public/videos/Coach_I_Track.mp4
+public/videos/records/boys4x400-wpial2026.mp4

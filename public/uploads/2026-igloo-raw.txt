@@ -1,0 +1,2720 @@
+﻿<!DOCTYPE html>
+<html lang="en" xmlns:>
+<head>
+    <script src="https://cmp.osano.com/AzyWAQS5NWEEWkU9/eab0a836-8bac-45b1-8b3e-e92e57e669db/osano.js?language=en"></script>
+    <script src="https://www.flolive.tv/osano-flo.js" ></script>
+    <!-- Google Tag Manager -->
+    <script>(function (w, d, s, l, i) {
+            w[l] = w[l] || [];
+            w[l].push({
+                'gtm.start':
+                    new Date().getTime(), event: 'gtm.js'
+            });
+            var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : '';
+            j.async = true;
+            j.src =
+                'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+            f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-M962P37');</script>
+    <!-- End Google Tag Manager -->
+    <title>49th Annual Altoona Area Igloo Invitational 2026 - Complete Results (Raw)</title>
+
+    <!-- Meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <script>var _sf_startpt=(new Date()).getTime()</script>
+
+    <!-- Responsive -->
+    <meta name="application-name" content="PennTrackXC.com" />
+    <meta name="MobileOptimized" content="width" />
+    <meta name="HandheldFriendly" content="true" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <meta name="apple-touch-fullscreen" content="YES" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,minimal-ui" />
+    <meta name="format-detection" content="telephone=no;address=no;email=no" />
+
+    <!-- Schema.org -->
+        <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "SportsEvent",
+            "name": "49th Annual Altoona Area Igloo Invitational",
+            "description": "MileSplits official Complete Results raw results for the 2026 49th Annual Altoona Area Igloo Invitational, hosted by Altoona Area 06 in Altoona PA.",
+            "startDate": "2026-03-28",
+            "endDate": "2026-03-28",
+            "homeTeam": "Altoona Area 06",
+            "sport": "Outdoor Track & Field",
+            "location": {
+                "@type": "Place",
+                "name": "Mansion Park",
+                "address": {
+                  "@type": "PostalAddress",
+                  "addressLocality": "Altoona",
+                  "addressRegion": "PA"
+                }
+            },
+            "url": "https://pa.milesplit.com/meets/724637-49th-annual-altoona-area-igloo-invitational-2026/results/1267075/raw"
+        }
+    </script>
+
+    <!-- Icons -->
+    <link href="https://assets.sp.milesplit.com/images/milesplit-favicon.png" rel="apple-touch-icon" />
+    <link href="https://assets.sp.milesplit.com/images/milesplit-favicon.png" rel="shortcut icon" />
+    <link rel="img_src" href="https://assets.sp.milesplit.com/images/milesplit-favicon.png" />
+
+    <!-- Styling -->
+    <link href="https://css.sp.milesplit.com/drivefaze/reset.css?build=20260523063912" rel="stylesheet" />
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+    <link href="//fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet" />
+    <link href="//fonts.googleapis.com/css?family=Roboto:400,700,900" rel="stylesheet" />
+    <link rel="stylesheet" href="https://css.sp.milesplit.com/milesplit/recaptcha.css?build=20260523063912"/>
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <link href="https://css.sp.milesplit.com/drivefaze/default.css?build=20260523063912" rel="stylesheet" />
+    <link href="https://css.sp.milesplit.com/drivefaze/sites/pa.css?build=20260523063912" rel="stylesheet" />
+
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        dataLayer.push ({
+            'siteId'  : '39',
+            'tld'     :  'com'
+        });
+    </script>
+
+    
+    <!-- Framework -->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="https://www.recaptcha.net/recaptcha/enterprise.js?render={{ config('google:recaptcha') }}"></script>
+    <script src="https://js.sp.milesplit.com/drivefaze/prereq.js?build=20260523063912"></script>
+    <script src="https://js.sp.milesplit.com/drivefaze/core.js?build=20260523063912"></script>
+    <script src="https://js.sp.milesplit.com/drivefaze/api.js?build=20260523063912"></script>
+    <script src="https://js.sp.milesplit.com/3rdparty/twbs/3.3.7/bootstrap.min.js?build=20260523063912"></script>
+
+    
+    <script>
+        var ads = {
+            'ga': {
+                'send': {
+                    'hitType'         : 'event',
+                    'eventCategory'   : 'dfp',
+                    'eventAction'     : 'Initializing',
+                    'eventLabel'      : 'Hi',
+                    'eventValue'      : 'Hi',
+                    'hitCallBack'     : function() {
+                        _DF_.log('DFP Callback');
+                    }
+                }
+            },
+            'page': {
+                'subdomain' : 'pa',
+                'module'    : 'meets',
+                'moduleId'  : '724637',
+                'keywords'  : '',
+                'account'   : '0'
+            },
+            'rules': {
+                'id'                      : '',
+                'cached'                  : '',
+                'skin'                    : '',
+                    'interstitial'            : '',
+            'mobileInterstitial'      : '',
+            'leaderboard'             : ''
+            
+        }
+        }
+        window.adData = ads;
+        // Defer loading
+        $(function(){
+            Prereq
+                .require({ 'layout'     : 'https://js.sp.milesplit.com/drivefaze/layout.js?build=20260523063912' });
+                //.require({ 'api'        : 'https://js.sp.milesplit.com/drivefaze/api.js?build=20260523063912' })
+                //.require({ 'twbs'       : 'https://js.sp.milesplit.com/3rdparty/twbs/3.3.7/bootstrap.min.js?build=20260523063912' })
+            // Touch devices
+            if (!!('ontouchstart' in window)) {
+                Prereq.require(
+                    'https://js.sp.milesplit.com/3rdparty/doubletaptogo/d2g.js?build=20260523063912',
+                    function() {
+                        $('#navbar li:has(ul)').doubleTapToGo();
+                    }
+                );
+            }
+        });
+    </script>
+
+    <!-- Verification -->
+    <meta name="inmobi-site-verification" content="d3ac33f46ed8e33a0b3afa297531f596" />
+
+    <!-- SEO -->
+    <link rel="canonical" href="https://pa.milesplit.com/meets/724637-49th-annual-altoona-area-igloo-invitational-2026/results/1267075/raw" />
+                <meta name="description" content="MileSplits official Complete Results raw results for the 2026 49th Annual Altoona Area Igloo Invitational, hosted by Altoona Area 06 in Altoona PA." />
+                <meta name="keywords" content="49th Annual Altoona Area Igloo Invitational,Altoona,PA,USA" />
+        
+    <!-- Social/Sharing -->
+    <link rel="publisher" href="//plus.google.com/106335681194473166154" />
+
+    <!-- Facebook/OpenGraph -->
+    <meta property="fb:admins" content="506280686,508214191" />
+    <meta property="fb:app_id" content="261198561567" />
+    <meta property="fb:page_id" content="104136371855" />
+    <meta property="og:site_name" content="PennTrackXC.com" />
+    <meta property="og:type" content="article" />
+    <meta property="og:title" name="twitter:title" content="49th Annual Altoona Area Igloo Invitational 2026 - Complete Results (Raw)" />
+            <meta property="og:description" name="twitter:description" content="MileSplits official Complete Results raw results for the 2026 49th Annual Altoona Area Igloo Invitational, hosted by Altoona Area 06 in Altoona PA." />
+                <meta property="og:image" name="twitter:image:src" content="https://assets.sp.milesplit.com/meet_logos/724637?v=1768424189" />
+                    
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@milesplit">
+
+    <script src="https://js.sp.milesplit.com/drivefaze/pro/paywall.js?build=20260523063912"></script>
+
+    
+    
+<script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.7.7/handlebars.runtime.min.js" integrity="sha512-1JsLHOJ3aKKxY96SA64yDTGQXo46wjivsGj6LiZGQaz0V6cGpGjfFOm1fnH9WkNwf8FFaIU8jVrvAjSESKESww==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script type="text/javascript" src="https://js.sp.milesplit.com/3rdparty/moment/moment.2.26.0.min.js?build=20260523063912"></script>
+<link href="https://css.sp.milesplit.com/drivefaze/personalization/onboardingCTA.css?build=20260523063912" rel="stylesheet"/>
+<link href="https://css.sp.milesplit.com/drivefaze/personalization/sidebarWidget.css?build=20260523063912" rel="stylesheet"/>
+<script src="https://js.sp.milesplit.com/drivefaze/personalization/handlebarTemplates.js?build=20260523063912"></script>
+<script type="text/javascript" src="https://js.sp.milesplit.com/drivefaze/personalization/articlesWidget.js?build=20260523063912"></script>
+
+
+    <!-- Initialize site settings -->
+    <script type="text/javascript">
+        _DF_.init({
+            subDomain: 'pa',
+            rootDomain: 'milesplit.com',
+            userName: '',
+            userToken:'',
+            userID: '',
+            appName: 'MileSplit',
+            appHash: '0d98fa204282a2b3ff3c390a87c4a9e3',
+            siteId: '39',
+            accounts: JSON.parse('{\"domain\":\"https:\\/\\/accounts.milesplit.com\",\"apiDomain\":\"https:\\/\\/api30.milesplit.com\",\"signup\":\"\\/signup\",\"join\":\"\\/join\",\"login\":\"\\/login\",\"loginSuper\":\"\\/login\\/super\",\"forgot\":\"\\/login\\/forgot\",\"logout\":\"\\/logout\",\"register\":\"\\/register\",\"account\":\"\\/account\\/information\",\"editAccount\":\"\\/settings\\/edit\",\"subscription\":\"\\/account\\/subscriptions\"}')
+        });
+    </script>
+
+</head>
+<body class="drivefaze redesign2015 pa meets">
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-M962P37"
+                  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+<!-- Facebook -->
+<script>
+    window.fbAsyncInit = function() {
+        FB.init({
+            appId            : '261198561567',
+            autoLogAppEvents : false,
+            xfbml            : true,
+            version          : 'v3.0'
+        });
+    };
+</script>
+<script async defer src="https://connect.facebook.net/en_US/sdk.js"></script>
+<!-- End Facebook -->
+
+<!-- AJAX Loader -->
+<div id="loader">
+    <div class="loaderMsgContainer">
+        <div class="loaderMsg">
+            <span>
+                <i class="fa fa-spinner fa-spin"></i>
+                <span class="loaderText">Loading</span>
+            </span>
+        </div>
+    </div>
+</div>
+<!-- End AJAX Loader -->
+
+<div id="page">
+    <header role="banner" id="masthead">
+        <div>
+
+            <div id="logo">
+                <a class="header" href="/">
+                    <span class="title">PennTrackXC.com</span>
+                </a>
+            </div>
+
+            <nav role="navigation" id="navbar">
+                <div class="button">
+                    <i class="fa fa-bars"></i>
+                    <i class="fa fa-remove"></i>
+                </div>
+                <div class="menu">
+                    <ul>
+                                                <li class="upgrade-pill">
+                            <a href="/join">
+                                <button class="btn btn-primary btn-block btn-md">Upgrade</button>
+                            </a>
+                        </li>
+                                                <li class="results">
+                            <a href="/results">Results</a>
+                            <ul>
+                                <li class="resultLinkShoveLeft">
+                                    <a href="/results">Meet Results</a>
+                                </li>
+                                <li class="resultLinkShoveLeft">
+                                    <a href="http://milesplit.live/overall">Live Results</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="rankings">
+                            <a href="/rankings/leaders/high-school-boys/outdoor-track-and-field">Rankings</a>
+                            <ul>
+                                                                <li>
+                                    <a href="/rankings/flo50/?year=2026&category=track">COROS MileSplit50</a>
+                                </li>
+                                                                <li>
+                                    <a href="/rankings/leaders/high-school-boys/cross-country">XC Lists</a>
+                                </li>
+                                <li>
+                                    <a href="/rankings/leaders/high-school-boys/indoor-track-and-field">Indoor Lists</a>
+                                </li>
+                                <li>
+                                    <a href="/rankings/leaders/high-school-boys/outdoor-track-and-field">Outdoor Lists</a>
+                                </li>
+                                <li>
+                                    <a href="/virtual-meets">Virtual Meets</a>
+                                </li>
+                                <li>
+                                    <a href="/teamscores">XC Team Scores</a>
+                                </li>
+                                <li>
+                                    <a href="/athletes/compare">Compare Athletes</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="calendar">
+                            <a href="/calendar">Calendar</a>
+                        </li>
+                        <li id="navAthletes" class="athletes">
+                            <a href="/athletes">Athletes</a>
+                        </li>
+                                                <li class="teams">
+                            <a href="/teams">Teams</a>
+                        </li>
+                                                <li class="coverage">
+                            <a href="#">Coverage</a>
+                            <ul>
+                                <li>
+                                    <a href="/photos">Photos</a>
+                                </li>
+                                <li>
+                                    <a href="/videos/meets">Videos</a>
+                                </li>
+                                <li>
+                                    <a href="/articles">Articles Archive</a>
+                                </li>
+                                <li>
+                                    <a href="/signings">College Commitments</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="discussion">
+                            <a href="/training">Training</a>
+                        </li>
+                        <li class="registration">
+                            <a href="/meet-creation">Registration</a>
+                            <ul>
+                                <li>
+                                    <a href="/articles/213974">About</a>
+                                </li>
+                                <li>
+                                    <a href="/meet-creation">Setup Meet</a>
+                                </li>
+                                                                <li>
+                                    <a href="https://support.milesplit.com/">FAQ/Help</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="more">
+                            <a href="/more">More</a>
+                            <ul>
+                                <li>
+                                    <a href="https://www.boulderbibs.com/collections/milesplit" target="_blank" >Bibs</a>
+                                </li>
+                                                                <li>
+                                    <a href="/timing">Timing Companies</a>
+                                </li>
+                                                                <li>
+                                    <a href="/calc">Conversion Calculator</a>
+                                </li>
+                                <li>
+                                    <a href="/racetab">RaceTab</a>
+                                </li>
+                                <li class="network">
+                                    <a href="/network">MileSplit Network</a>
+                                </li>
+                                <li>
+
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+
+                        <nav id="navbarUpgradePill">
+                <div class="button">
+                    <center>
+                        <a href="/join">
+                            <button class="btn btn-primary btn-block btn-md">Upgrade</button>
+                        </a>
+                    </center>
+                </div>
+            </nav>
+            
+            <nav id="social">
+                <div class="button">
+                    <a href="#" class="facebook">
+                        <i class="fa fa-facebook-official"></i>
+                    </a>
+                    <a href="#" class="twitter">
+                        <i class="fa fa-twitter"></i>
+                    </a>
+                    <span>Follow Us</span>
+                </div>
+            </nav>
+
+            <nav id="search" role="search">
+                <div class="button">
+                    <a href="/search">
+                        <i class="fa fa-search" style="display:block"></i>
+                        <span>Search</span>
+                    </a>
+                </div>
+            </nav>
+
+            <nav id="account">
+                <div class="button">
+                    <a href="#account">
+                        <i class="fa fa-user"></i>
+                        <i class="fa fa-remove"></i>
+                                                <span>Login</span>
+                                            </a>
+                </div>
+                <div class="menu">
+                    
+                    <section>
+                        <header>
+                            <strong class="notLoggedIn">
+                                Not logged in
+                            </strong>
+                        </header>
+
+                        <ul>
+                            <li>
+                                <a href="/login?next=https%3A%2F%2Fpa.milesplit.com%2Fmeets%2F724637-49th-annual-altoona-area-igloo-invitational-2026%2Fresults%2F1267075%2Fraw&ref=navbar">
+                                    Login
+                                </a>
+                            </li>
+                            <li>
+                                <a href="/register?next=https%3A%2F%2Fpa.milesplit.com%2Fmeets%2F724637-49th-annual-altoona-area-igloo-invitational-2026%2Fresults%2F1267075%2Fraw&ref=navbar">
+                                    Sign Up
+                                </a>
+                            </li>
+                        </ul>
+
+                    </section>
+
+                                    </div>
+            </nav>
+
+        </div>
+    </header>
+    <div id="skin"></div>
+    <div class="leaderboard">
+        <div id="leaderboard_atf"></div>
+        <div id="leaderboard_promo"></div>
+        <div id="pushdown"></div>
+    </div>
+    <main role="main">
+
+        <div id="subheader">
+            
+
+    
+<script src="https://js.sp.milesplit.com/drivefaze/meets/meets.js?build=20260523063912"></script>
+<link href="https://css.sp.milesplit.com/drivefaze/dropdown.css?build=20260523063912" rel="stylesheet" />
+<link href="https://css.sp.milesplit.com/drivefaze/meets/default.css?build=20260523063912" rel="stylesheet" />
+
+<header class="meet">
+
+        <figure class="logo">
+        <a href="https://pa.milesplit.com/meets/724637-49th-annual-altoona-area-igloo-invitational-2026/info">
+                        <img src="https://assets.sp.milesplit.com/meet_logos/724637?v=1768424189" />
+                    </a>
+            </figure>
+    
+        <h1 class="meetName">
+            49th Annual Altoona Area Igloo Invitational 2026        </h1>
+
+
+    <div class="basicInfo">
+        <div class="date">
+            <time>
+                Mar 28, 2026            </time>
+                    </div>
+
+        <div class="venueName">
+            <a href="https://pa.milesplit.com/venues/2154/mansion-park">Mansion Park</a>
+        </div>
+
+        <div class="venueCity">
+            Altoona, PA        </div>
+
+    </div>
+
+    <div class="extendedInfo">
+
+                <div class="hostedBy">
+            <span>Hosted by</span>
+            <a href="https://pa.milesplit.com/teams/2957-altoona-area-06">
+                Altoona Area 06            </a>
+        </div>
+        
+        
+
+        
+        <div class="countdown">
+                                                </div>
+    </div>
+
+    <div class="registration">
+
+        
+        
+                    <div class="info">
+                                    <a href="/meets/724637/registration" class="button closed">
+                        Registration Closed - View Your Entries
+                    </a>
+                            </div>
+        
+        
+
+
+    </div>
+
+    <div class="dropdownMenus">
+
+        <div class="meetHistory">
+            <a href="#">Meet History</a>
+            <div class="dropdown">
+                                <div class="recordCategories">
+                    <strong>Records</strong>
+                    <ul class="categories">
+                        <li>
+                            <a href="#meet">Meet</a>
+                        </li>
+                        <li>
+                            <a href="#venue">Venue</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="meet records">
+                    <strong>Meet Records</strong>
+                    <ul>
+                        <li class="back">
+                            <a href="#back">Back</a>
+                        </li>
+                                                                        <li class="hs male meet">
+                            <a href="https://www.milesplit.com/rankings/leaders/high-school-boys/outdoor-track-and-field?year=all&meet=2707">
+                                High School Boys
+                            </a>
+                        </li>
+                        <li class="hs female meet">
+                            <a href="https://www.milesplit.com/rankings/leaders/high-school-girls/outdoor-track-and-field?year=all&meet=2707">
+                                High School Girls
+                            </a>
+                        </li>
+                                                                                            </ul>
+                </div>
+                                <div class="venue records">
+                    <strong>Venue Records</strong>
+                    <ul>
+                                                <li class="back">
+                            <a href="#back">Back</a>
+                        </li>
+                                                                                                <li class="hs male venue">
+                            <a href="https://www.milesplit.com/rankings/leaders/high-school-boys/outdoor-track-and-field?year=all&venue=2154">
+                                High School Boys
+                            </a>
+                        </li>
+                        <li class="hs female venue">
+                            <a href="https://www.milesplit.com/rankings/leaders/high-school-girls/outdoor-track-and-field?year=all&venue=2154">
+                                High School Girls
+                            </a>
+                        </li>
+                                                                                            </ul>
+                </div>
+                                <div class="pastMeets">
+                    <strong>Past Meets</strong>
+                                        <ul class="decades">
+                                                                                                <li>
+                            <a href="#2020">2020s</a>
+                        </li>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                <li>
+                            <a href="#2010">2010s</a>
+                        </li>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                <li>
+                            <a href="#2000">2000s</a>
+                        </li>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            </ul>
+                                        <ul class="meets">
+                                                <li class="back">
+                            <a href="#back">Back</a>
+                        </li>
+                                                                        <li data-decade="2020">
+                            <a href="https://pa.milesplit.com/meets/655545-48th-annual-altoona-area-igloo-invitational-2025">2025-03-29</a>
+                                                    </li>
+                                                <li data-decade="2020">
+                            <a href="https://pa.milesplit.com/meets/590234-47th-annual-altoona-area-igloo-invitational-2024">2024-04-06</a>
+                                                    </li>
+                                                <li data-decade="2020">
+                            <a href="https://pa.milesplit.com/meets/515456-46th-annual-altoona-area-igloo-invitational-2023">2023-04-01</a>
+                                                    </li>
+                                                <li data-decade="2020">
+                            <a href="https://pa.milesplit.com/meets/457887-45th-annual-altoona-area-igloo-invitational-2022">2022-04-02</a>
+                                                    </li>
+                                                <li data-decade="2020">
+                            <a href="https://pa.milesplit.com/meets/407823-44th-annual-altoona-area-igloo-invitational-2021">2021-03-27</a>
+                                                    </li>
+                                                <li data-decade="2020">
+                            <a href="https://pa.milesplit.com/meets/379773-44th-annual-altoona-area-igloo-invitational-canceled-2020">2020-03-28</a>
+                                                    </li>
+                                                <li data-decade="2010">
+                            <a href="https://pa.milesplit.com/meets/335225-43rd-annual-altoona-area-igloo-invitational-2019">2019-03-30</a>
+                                                    </li>
+                                                <li data-decade="2010">
+                            <a href="https://pa.milesplit.com/meets/294615-43rd-annual-altoona-igloo-invitational-canceled-2018">2018-04-07</a>
+                                                    </li>
+                                                <li data-decade="2010">
+                            <a href="https://pa.milesplit.com/meets/261353-42nd-annual-altoona-igloo-invitational-2017">2017-04-01</a>
+                                                    </li>
+                                                <li data-decade="2010">
+                            <a href="https://pa.milesplit.com/meets/226978-41st-annual-altoona-igloo-invitational-2016">2016-04-02</a>
+                                                    </li>
+                                                <li data-decade="2010">
+                            <a href="https://pa.milesplit.com/meets/195832-40th-annual-altoona-igloo-invitational-2015">2015-03-28</a>
+                                                    </li>
+                                                <li data-decade="2010">
+                            <a href="https://pa.milesplit.com/meets/160070-39th-annual-altoona-igloo-invitational-2014">2014-03-29</a>
+                                                    </li>
+                                                <li data-decade="2010">
+                            <a href="https://pa.milesplit.com/meets/132480-38th-annual-altoona-igloo-invitational-2013">2013-04-06</a>
+                                                    </li>
+                                                <li data-decade="2010">
+                            <a href="https://pa.milesplit.com/meets/109353-37th-annual-altoona-igloo-invitational-2012">2012-03-31</a>
+                                                    </li>
+                                                <li data-decade="2010">
+                            <a href="https://pa.milesplit.com/meets/84754-36th-annual-altoona-igloo-invitational-2011">2011-04-02</a>
+                                                    </li>
+                                                <li data-decade="2010">
+                            <a href="https://pa.milesplit.com/meets/67700-35th-annual-altoona-igloo-invitational-2010">2010-03-27</a>
+                                                    </li>
+                                                <li data-decade="2000">
+                            <a href="https://pa.milesplit.com/meets/32547-altoona-igloo-invitational-2008">2008-03-29</a>
+                                                    </li>
+                                                <li data-decade="2000">
+                            <a href="https://pa.milesplit.com/meets/20721-altoona-igloo-invitational-2007">2007-03-31</a>
+                                                    </li>
+                                                <li data-decade="2000">
+                            <a href="https://pa.milesplit.com/meets/15107-altoona-igloo-invitational-2006">2006-04-01</a>
+                                                    </li>
+                                                <li data-decade="2000">
+                            <a href="https://pa.milesplit.com/meets/9627-altoona-igloo-invitational-2005">2005-04-02</a>
+                                                    </li>
+                                                <li data-decade="2000">
+                            <a href="https://pa.milesplit.com/meets/6758-altoona-igloo-invitational-2004">2004-04-03</a>
+                                                    </li>
+                                                <li data-decade="2000">
+                            <a href="https://pa.milesplit.com/meets/7844-altoona-igloo-invitational-2003">2003-04-05</a>
+                                                    </li>
+                                                <li data-decade="2000">
+                            <a href="https://pa.milesplit.com/meets/121801-altoona-igloo-invitational-2001">2001-04-14</a>
+                                                    </li>
+                                            </ul>
+                </div>
+                            </div>
+        </div>
+
+        
+        
+    </div>
+
+    <nav class="meetHeaderNav">
+
+        <a href="https://pa.milesplit.com/meets/724637-49th-annual-altoona-area-igloo-invitational-2026/info">
+            Home
+        </a>
+
+        <a href="https://pa.milesplit.com/meets/724637-49th-annual-altoona-area-igloo-invitational-2026/results" class="selected">
+            Results
+        </a>
+
+        
+        
+                    <a href="https://pa.milesplit.com/meets/724637-49th-annual-altoona-area-igloo-invitational-2026/articles">
+                Articles
+            </a>
+        
+                    <a href="https://pa.milesplit.com/meets/724637-49th-annual-altoona-area-igloo-invitational-2026/teams">
+                Teams
+            </a>
+        
+        
+                    <a href="https://pa.milesplit.com/meets/724637-49th-annual-altoona-area-igloo-invitational-2026/entries">
+                Entries
+            </a>
+        
+        <div class="addthis_toolbox addthis_default_style addthis_24x24_style social">
+            <a class="addthis_button_facebook"></a>
+            <a class="addthis_button_twitter"></a>
+            <a class="addthis_button_pinterest_share"></a>
+            <a class="addthis_button_tumblr"></a>
+            <a class="addthis_button_google_plusone_share"></a>
+            <a class="addthis_button_compact"></a>
+        </div>
+
+        <script type="text/javascript">var addthis_config = {'data_track_addressbar':true,'data_ga_tracker':'UA-381648-1'};</script>
+        <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-51d30fae08c5dc5c"></script>
+    </nav>
+</header>
+
+<script type="text/javascript">
+    $(document).ready(function(){
+        var cur = new Date();
+        var close = new Date('2026-03-26 12:00:00');
+        var one_day = 1000 * 60 * 60 * 24;
+        var distance = close.getTime() - cur.getTime();
+        var daysLeft = distance/ one_day;
+        if(daysLeft > 1){
+            $('#countdownMain').text(`Registration Closes in ${ Math.floor(daysLeft) } days`)
+        } else {
+            $('#countdownMain').text('Time left to register');
+            var x = setInterval(function() {
+                var now = new Date();
+                var distance = close.getTime() - now.getTime();
+                var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+                var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+                var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+                $('#countdownClock').text(`${hours} Hours ${minutes} Minutes ${seconds} Seconds`)
+                if (distance < 0) {
+                    clearInterval(x);
+                    $('#countdownMain').text('')
+                    $('#countdownClock').text('')
+                }
+            }, 1000);
+        }
+    })
+</script>
+
+
+                    </div>
+
+        
+        <div id="content" class="content">
+            <div>
+                
+
+<article>
+
+    <header>
+        <h2>Complete Results</h2>
+        <form id="frmMeetResultsDetailFilter" autocomplete="off">
+                        <div class="field dropdown">
+                <label>View Mode</label>
+                <div class="input">
+                    <i class="fa fa-chevron-down"></i>
+                    <select id="ddResultsView">
+                        <option value="https://pa.milesplit.com/meets/724637-49th-annual-altoona-area-igloo-invitational-2026/results/1267075?type=formatted">
+                            Formatted
+                        </option>
+                        <option value="https://pa.milesplit.com/meets/724637-49th-annual-altoona-area-igloo-invitational-2026/results/1267075?type=raw" selected>
+                            Completed
+                        </option>
+                    </select>
+                </div>
+            </div>
+                                    <div class="field dropdown">
+                <label>More Results</label>
+                <div class="input">
+                    <i class="fa fa-chevron-down"></i>
+                    <select id="ddResultsPage">
+                        <option value="https://pa.milesplit.com/meets/724637-49th-annual-altoona-area-igloo-invitational-2026/results">All</option>
+                                                <option value="https://pa.milesplit.com/meets/724637-49th-annual-altoona-area-igloo-invitational-2026/results/1267075?type=formatted" selected>
+                            Complete Results                        </option>
+                                                <option value="https://pa.milesplit.com/meets/724637-49th-annual-altoona-area-igloo-invitational-2026/results/1271938?type=formatted" >
+                            Complete Results                        </option>
+                                                <option value="https://pa.milesplit.com/meets/724637-49th-annual-altoona-area-igloo-invitational-2026/results/1268639?type=formatted" >
+                            Results                        </option>
+                                            </select>
+                </div>
+            </div>
+                    </form>
+    </header>
+
+        <div id="meetResultsBody" >
+        <pre>Licensed to Mansion Park Stadium - Site License           HY-TEK's Meet Manager
+                    49th Annual Altoona Igloo Invitational                     
+                             Mansion Park Stadium                              
+                                    Results                                    
+ 
+Event 1  Girls 4x800 Meter Relay
+================================================================
+       Igloo: R 9:36.34  1983        Altoona Area, Altoona Area                
+    School                                               Finals 
+================================================================
+Finals
+  1 State College 06  'A'                               9:55.93  
+  2 Altoona Area 06  'A'                               10:02.21  
+  3 Somerset Area 05  'A'                              10:28.81  
+  4 Bellwood Antis 06  'A'                             10:34.30  
+  5 Kiski Area 07  'A'                                 10:34.40  
+  6 Bradford Area 09  'A'                              11:02.12  
+  7 Johnsonburg Area 09  'A'                           11:06.70  
+  8 Kiski Area 07  'B'                                x11:16.28  
+  9 Northern Cambria Girls Varsity  'A'                11:20.01  
+ 10 Hollidaysburg 06  'A'                              11:21.95  
+ 11 Portage Area 06  'A'                               11:42.07  
+ 12 Saint Marys Area 09  'A'                           11:44.54  
+ 13 Central Columbia 04  'A'                           11:46.65  
+ 14 Purchase Line 06  'A'                              12:15.22  
+ 15 Tyrone Area 06  'A'                                12:16.93  
+ 16 Bellwood Antis 06  'B'                            x12:46.42  
+ 17 Plum 07  'A'                                       13:25.44  
+ -- Fort LeBoeuf 10  'A'                                     NT  
+ -- Altoona Area 06  'B'                                     NT  
+ -- Northern Cambria 06  'B'                                 NT  
+ -- Northern Cambria 06  'A'                                 NT  
+ -- Kane Area 09  'A'                                        NT  
+ 
+Event 2  Boys 4x800 Meter Relay
+================================================================
+       Igloo: R 8:04.44  1999        Altoona Area, Altoona Area                
+    School                                               Finals 
+================================================================
+  1 Altoona Area 06  'A'                                8:43.01  
+  2 State College 06  'A'                               8:46.30  
+  3 Tyrone Area 06  'A'                                 9:01.17  
+  4 Bald Eagle Area  'A'                                9:10.67  
+  5 Bellwood Antis 06  'A'                              9:14.26  
+  6 Elk County Catholic 09  'A'                         9:15.35  
+  7 Penns Valley Area 06  'A'                           9:18.51  
+  8 Altoona Area 06  'B'                               x9:24.50  
+  9 Purchase Line 06  'A'                               9:30.74  
+ 10 Southern Fulton 05  'A'                             9:32.09  
+ 11 Bradford Area 09  'A'                               9:40.26  
+ 12 Plum 07  'A'                                        9:56.52  
+ 13 Bellwood Antis 06  'B'                            x10:09.88  
+ 14 Kane Area 09  'A'                                  10:10.48  
+ 15 Johnsonburg Area 09  'A'                           11:23.77  
+ -- Hollidaysburg 06  'A'                                    NT  
+ -- Saint Marys Area 09  'A'                                 NT  
+ -- Homer Center 06  'A'                                     NT  
+ -- Kiski Area 07  'A'                                       DQ  
+ 
+Event 3  Girls 100 Meter Hurdles
+===================================================================
+       Igloo: R 14.94  1988        Karen Adams, Altoona Area                   
+    Name                    Year School                 Prelims  H#
+===================================================================
+Preliminaries
+  1 Owulade, H                12 Altoona Area             15.88q  2 
+  2 Boggetta, B                9 Hollidaysbur             16.49q  5 
+  3 Craft, L                  10 State Colleg             16.84q  4 
+  4 Raish, E                   9 State Colleg             17.13q  3 
+  5 Stoltzfus, C              12 Bellwood Ant             17.22q  4 
+  6 Bryan, L                  12 Bald Eagle A             17.28q  6 
+  7 Macafee, M                12 Johnsonburg              17.42q  1 
+  8 Corignani, A              11 Bradford Are             17.69q  5 
+  9 Stankay, A                11 Kiski Area 0             17.76   2 
+ 10 Newton, P                 12 Elk County C             17.92   6 
+ 11 Embser, E                 10 State Colleg             18.01   3 
+ 12 Hubler, M                 12 Penns Valley             18.21   5 
+ 13 Pennington, K              9 Bellwood Ant             18.32   6 
+ 14 Benton, M                 12 Martinsburg              18.73   2 
+ 15 Alexander, A              11 Altoona Area             18.75   2 
+ 16 Funk, O                   11 Bradford Are             18.79   1 
+ 17 Lardieri, B                9 Altoona Area             19.33   1 
+ 18 Porter, A                 11 Plum 07                  19.37   3 
+ 19 Clinger, M                11 Coudersport              19.44   2 
+ 20 Diehl, M                   9 Martinsburg              19.46   2 
+ 21 Gillespie, P               9 Kane Area 09             19.66   1 
+ 22 McCrachen, E               9 Northern Cam             19.96   4 
+ 23 Sossong, J                 9 Portage Area             19.99   4 
+ 24 Smith, K                   9 Coudersport              20.04   6 
+ 25 Shirey, S                  9 Elk County C             20.05   4 
+ 26 Bartholomew, A            11 Central Colu             20.34   2 
+ 27 Kordish, C                11 Bishop Carro             20.45   5 
+ 28 Kline, L                  12 Juniata Vall             20.64   6 
+ 29 Bogar, S                   9 Central Colu             20.74   1 
+ 30 Dolney, L                 10 Northern Cam             20.93   5 
+ 31 DeArmitt, A                9 Bellwood Ant             21.23   1 
+ 32 Lightner, L               11 Martinsburg              21.24   1 
+ 33 Engle, W                  12 Purchase Lin             21.88   6 
+ 34 Barton, M                  9 Southern Ful             21.89   3 
+ 35 Lee, S                     9 Portage Area             21.94   1 
+ 36 Preston, C                 9 Penns Valley             22.08   4 
+ 37 Girard, O                 12 Portage Area             22.66   2 
+ 38 Darush, J                 10 Port Allegan             22.79   3 
+ 
+Event 3  Girls 100 Meter Hurdles
+================================================================
+       Igloo: R 14.94  1988        Karen Adams, Altoona Area                   
+    Name                    Year School                  Finals 
+================================================================
+Finals
+  1 Owulade, H                12 Altoona Area             15.56  
+  2 Raish, E                   9 State Colleg             16.49  
+  3 Bryan, L                  12 Bald Eagle A             16.50  
+  4 Craft, L                  10 State Colleg             16.79  
+  5 Macafee, M                12 Johnsonburg              17.09  
+  6 Corignani, A              11 Bradford Are             17.10  
+  7 Stoltzfus, C              12 Bellwood Ant             17.43  
+ 
+Event 4  Boys 110 Meter Hurdles
+===================================================================
+       Igloo: R 14.69  2022        Hayden Skinner, Fort Leboeuf                
+    Name                    Year School                 Prelims  H#
+===================================================================
+Preliminaries
+  1 Proskin, O                12 Plum 07                R 14.61q  5 
+  2 Miller, B                 11 Kiski Area 0             15.17q  4 
+  3 Nelson, C                 11 Bellwood Ant             15.42q  1 
+  4 Kohler, L                 12 Bradford Are             15.44q  3 
+  5 Stump, N                  11 Altoona Area             15.96q  1 
+  6 Schreier, R               10 Bellwood Ant             16.39q  1 
+  7 Ross, B                   10 Hollidaysbur             16.42q  1 
+  8 Suhoney, K                11 Tyrone Area              16.58q  2 
+  9 Kling, H                  10 Altoona Area             17.13   2 
+ 10 Mellott, G                12 Southern Ful             17.16   5 
+ 11 Brown, R                  12 State Colleg             17.27   3 
+ 12 Lehman, G                 12 Johnsonburg              17.67   4 
+ 13 Amell, I                  12 Port Allegan             17.75   5 
+ 14 Shawley, E                11 Bellwood Ant             17.81   4 
+ 15 Engle, N                   9 Purchase Lin             18.49   1 
+ 16 Horn, K                   12 Martinsburg              18.50   4 
+ 17 Connelly, T               11 Tyrone Area              18.52   2 
+ 18 Marks, C                  11 Martinsburg              18.64   5 
+ 19 Herzing, C                 9 Saint Marys              18.67   3 
+ 20 Young, L                  11 Kiski Area 0             19.46   1 
+ 20 McDonald, A               12 Bradford Are             19.46   3 
+ 22 Wareham, L                10 Martinsburg              19.93   4 
+ 23 Hubler, J                  9 Penns Valley             20.12   2 
+ 24 Sasse, C                   9 Portage Area             20.46   2 
+ 24 Reed, L                   10 Southern Ful             20.46   5 
+ 26 Krott, C                   9 Hollidaysbur             20.53   5 
+ 27 Mackey, N                 10 Bradford Are             20.55   2 
+ 28 Kowalczyk, B               9 Fort LeBoeuf             20.77   4 
+ 29 Asbury, B                  9 Southern Ful             21.72   3 
+ 30 Manns, B                  11 Coudersport              22.39   3 
+ 
+Event 4  Boys 110 Meter Hurdles
+================================================================
+       Igloo: R 14.69  2022        Hayden Skinner, Fort Leboeuf                
+    Name                    Year School                  Finals 
+================================================================
+Finals
+  1 Proskin, O                12 Plum 07                  14.30R 
+  2 Miller, B                 11 Kiski Area 0             14.54R 
+  3 Kohler, L                 12 Bradford Are             14.75  
+  4 Nelson, C                 11 Bellwood Ant             15.36  
+  5 Ross, B                   10 Hollidaysbur             15.70  
+  6 Schreier, R               10 Bellwood Ant             16.36  
+  7 Stump, N                  11 Altoona Area             16.65  
+  8 Suhoney, K                11 Tyrone Area              16.75  
+ 
+Event 5  Girls 100 Meter Dash
+===================================================================
+       Igloo: R 12.24  1991        Robinson, E Roosevelt (MD)                  
+    Name                    Year School                 Prelims  H#
+===================================================================
+Preliminaries
+  1 Eckenrode, K              10 Penn Cambria             12.51q  9 
+  2 O'Dea, S                  12 Altoona Area             12.67q  2 
+  3 Peachey, K                11 State Colleg             12.74q  6 
+  3 Sahlaney, J                9 Hollidaysbur             12.74q  7 
+  5 Sebring, J                12 DuBois Centr             12.78q  8 
+  6 Cherry, E                 10 Bellwood Ant             12.82q  5 
+  7 Chichester, S             11 Tyrone Area              13.06q  4 
+  7 Baron, B                  11 Altoona Area             13.06q  1 
+  9 Weaver, B                 12 Altoona Area             13.25   5 
+ 10 Woodring, R                9 Tyrone Area              13.26   7 
+ 10 Urbanowicz, A             12 Fort LeBoeuf             13.26  10 
+ 12 Rogers, B                 12 Kiski Area 0             13.39   8 
+ 13 Scheeler, M               11 State Colleg             13.41   9 
+ 14 Thomas, A                 11 State Colleg             13.43   2 
+ 15 Gates, J                   9 Central Colu             13.50   2 
+ 16 Whanger, E                 9 Plum 07                  13.52   3 
+ 17 Horell, A                  9 Hollidaysbur             13.56   4 
+ 18 Hostetter, K              11 Central Colu             13.64   1 
+ 18 Bednarski, K              11 Portage Area             13.64   3 
+ 20 Smay-Jefferson, K         10 Martinsburg              13.66   6 
+ 20 House, L                  10 Mount Union              13.66   4 
+ 22 Powers, A                 11 Bellwood Ant             13.67   9 
+ 23 Depetro, A                11 Northern Cam             13.75   2 
+ 24 Artman, J                 12 Kiski Area 0             13.86   6 
+ 25 Youngdahl, T              10 DuBois Centr             13.90  10 
+ 26 Booker, H                  9 Kiski Area 0             13.91   4 
+ 27 Farabaugh, D              12 Penn Cambria             13.97   8 
+ 28 Myher, B                  12 Portage Area             14.07   8 
+ 29 Port, C                    9 Kane Area 09             14.08   1 
+ 29 Johnson, K                10 Kane Area 09             14.08   6 
+ 31 Marsh, M                  12 Fort LeBoeuf             14.11   3 
+ 31 Bagby, L                  12 Portage Area             14.11  10 
+ 33 MacDonald, M               9 Elk County C             14.13  10 
+ 34 Paisley, R                11 DuBois Centr             14.19   3 
+ 35 Snyder, J                 10 Hollidaysbur             14.22   5 
+ 36 Ronan, R                  12 Penn Cambria             14.24   7 
+ 37 Hoover, L                  9 Martinsburg              14.33   5 
+ 38 Quimby, M                 11 Bald Eagle A             14.39   9 
+ 39 Vanalstine, T             11 Saint Marys              14.41   7 
+ 40 Stiles, I                 11 Port Allegan             14.46   9 
+ 41 Brown, T                  12 Coudersport              14.51   2 
+ 42 Anderson, A               11 Juniata Vall             14.52   8 
+ 43 McCombs, L                12 Purchase Lin             14.68   2 
+ 44 Kirsch, A                  9 Northern Cam             14.71   3 
+ 44 Vasil, L                  11 Northern Cam             14.71   4 
+ 46 Slusher, L                12 Huntingdon A             14.72   6 
+ 47 Gerashchenko, S           10 Kiski Prep               14.82   4 
+ 48 Husson, L                 10 Coudersport              15.02   1 
+ 49 Morgan, N                  9 Southern Ful             15.07  10 
+ 50 Miller, B                  9 Bishop Carro             15.24   2 
+ 51 Piccirillo, L             11 Elk County C             15.27   8 
+ 52 Schultz, A                 9 Southern Ful             15.28   3 
+ 53 Giordano, G                9 Plum 07                  15.46   7 
+ 54 Hardy, T                  12 Juniata Vall             15.48   3 
+ 55 Polaski, L                12 Johnsonburg              15.61   7 
+ 56 Bagrowski, E              10 Penns Valley             15.63   6 
+ 57 Bressler, B                9 Kane Area 09             15.75   4 
+ 58 Nesbitt, K                12 Saint Marys              15.88   8 
+ 59 Galilea Gonzalez, S       12 Bald Eagle A             16.27   1 
+ 60 Johnson, A                 9 Purchase Lin             16.41   4 
+ 61 Smith, K                   9 Bald Eagle A             16.47   3 
+ 62 Sorg, P                    9 Saint Marys              16.66   2 
+ 63 Merrick, N                 9 Bradford Are             16.68   6 
+ 64 Pearson, A                 9 Bradford Are             16.84   1 
+ 65 Squassi, F                12 Purchase Lin             17.15   5 
+ 
+Event 5  Girls 100 Meter Dash
+================================================================
+       Igloo: R 12.24  1991        Robinson, E Roosevelt (MD)                  
+    Name                    Year School                  Finals 
+================================================================
+Finals
+  1 Eckenrode, K              10 Penn Cambria             12.57  
+  2 Sahlaney, J                9 Hollidaysbur             12.65  
+  3 O'Dea, S                  12 Altoona Area             12.82  
+  4 Peachey, K                11 State Colleg             12.87  
+  5 Chichester, S             11 Tyrone Area              12.99  
+  6 Sebring, J                12 DuBois Centr             13.03  
+  7 Cherry, E                 10 Bellwood Ant             13.14  
+  8 Baron, B                  11 Altoona Area             13.31  
+ 
+Event 6  Boys 100 Meter Dash
+===================================================================
+       Igloo: R 10.83  2005        Brad Kanuch, Westmont Hilltop               
+       Igloo: R 10.83  2024        Isaac Yarnell, Holidaysburg                 
+    Name                    Year School                 Prelims  H#
+===================================================================
+Preliminaries
+  1 Wasiulewski, K            12 Fort LeBoeuf             11.14q  9 
+  1 Bassett, L                12 State Colleg             11.14q  8 
+  3 Byrd, J                   12 State Colleg             11.20q  7 
+  4 Frantz, M                 10 Purchase Lin             11.26q  6 
+  5 Toy, L                    12 Kiski Area 0             11.37q  1 
+  6 Etters, C                 12 Altoona Area             11.41q  2 
+  7 Jackson, E                12 Plum 07                  11.48q  1 
+  8 Verticelli, D             11 Altoona Area             11.54q  3 
+  9 Kline, C                  10 DuBois Centr             11.56   8 
+ 10 Izeko, J                  12 Kiski Prep               11.58   3 
+ 11 Signor, N                 12 Plum 07                  11.59   6 
+ 12 Simmons, T                11 Bradford Are             11.61   9 
+ 12 Farabaugh, G              12 Bishop Carro             11.61   3 
+ 14 Baleno, T                 11 Plum 07                  11.62   9 
+ 15 Cunningham, E             12 Bishop Carro             11.64   4 
+ 16 Destefano, A              12 Hollidaysbur             11.66   3 
+ 17 Nguyen, A                 11 Central Colu             11.68   8 
+ 18 Patel, N                  12 Penns Valley             11.87   2 
+ 19 Driskell, C               11 Coudersport              11.88   4 
+ 19 Goellner, T               12 Fort LeBoeuf             11.88   6 
+ 19 Dodson, J                 10 Huntingdon A             11.88   7 
+ 22 Walko, A                  12 Kiski Area 0             11.94   7 
+ 23 Moustafa, K               11 State Colleg             12.02   4 
+ 24 Renninger, D              12 Central Colu             12.06   1 
+ 25 Bartone, G                 9 Fort LeBoeuf             12.11   1 
+ 26 Zimmerman, J               9 Johnsonburg              12.15   8 
+ 27 Williams, C                9 Coudersport              12.16   3 
+ 28 Parks, J                  11 Tyrone Area              12.26   8 
+ 28 Hooper, T                 10 Mount Union              12.26   5 
+ 30 Cook, L                   12 Juniata Vall             12.40   7 
+ 31 Bookhammer, C             10 Martinsburg              12.44   3 
+ 32 Compton, J                12 Bishop Guilf             12.48   4 
+ 33 Gray, G                    9 Penn Cambria             12.50   4 
+ 34 Gibson, C                 12 Huntingdon A             12.51   2 
+ 35 Silfies, W                 9 Kane Area 09             12.55   2 
+ 36 Consentino, N             12 Central Colu             12.56   6 
+ 37 Ebersole, B               10 Southern Ful             12.59   1 
+ 38 Mickel, B                 10 Martinsburg              12.63   7 
+ 39 Taylor, B                 12 Bald Eagle A             12.64   9 
+ 40 Deleonardis, C             9 Tyrone Area              12.65   1 
+ 41 Lawson, T                 10 Bishop Guilf             12.72   6 
+ 42 Richardson, B             10 Mount Union              12.82   5 
+ 43 Marks, H                   9 Penns Valley             12.83   9 
+ 44 Kightlinger, J             9 Coudersport              12.87   8 
+ 45 Henry, C                  10 Homer Center             12.88   6 
+ 45 Kakolewski, S             10 Bradford Are             12.88   7 
+ 47 Gargon, J                  9 Bellwood Ant             13.14   2 
+ 48 Wheeler, B                 9 Bald Eagle A             13.15   8 
+ 48 Vaccarella, A             12 Johnsonburg              13.15   4 
+ 50 Paul, R                    9 Kane Area 09             13.28   9 
+ 51 Quimby, M                  9 Bald Eagle A             13.54   2 
+ 52 King, E                    9 Southern Ful             13.75   5 
+ 53 Chapman, L                 9 Kane Area 09             13.84   9 
+ 54 Rose, J                   11 Johnsonburg              14.02   6 
+ 55 Glunt, E                   9 Southern Ful             14.04   3 
+ -- Smearman, M                9 Bellwood Ant                FS   5 
+ -- Althouse, S               11 Penns Valley               DNF   6 
+ 
+Event 6  Boys 100 Meter Dash
+================================================================
+       Igloo: R 10.83  2005        Brad Kanuch, Westmont Hilltop               
+       Igloo: R 10.83  2024        Isaac Yarnell, Holidaysburg                 
+    Name                    Year School                  Finals 
+================================================================
+Finals
+  1 Wasiulewski, K            12 Fort LeBoeuf             11.00  
+  2 Byrd, J                   12 State Colleg             11.10  
+  3 Bassett, L                12 State Colleg             11.26  
+  4 Jackson, E                12 Plum 07                  11.28  
+  5 Toy, L                    12 Kiski Area 0             11.39  
+  6 Etters, C                 12 Altoona Area             11.48  
+  7 Frantz, M                 10 Purchase Lin             11.51  
+  8 Verticelli, D             11 Altoona Area             11.75  
+ 
+Event 7  Girls 1600 Meter Run
+===================================================================
+       Igloo: R 4:53.43  2012        Angel Piccirillo, Homer Center            
+    Name                    Year School                  Finals  H#
+===================================================================
+  1 Marteeny, L                9 Somerset Are           5:12.05   3 
+  2 Noce, A                   11 Altoona Area           5:14.47   3 
+  3 Fisher, E                 11 Somerset Are           5:25.92   3 
+  4 Smith, M                  11 Plum 07                5:31.05   3 
+  5 Swisher, A                11 State Colleg           5:31.97   3 
+  6 Carney, A                 10 Hollidaysbur           5:32.01   3 
+  7 Torres, M                 12 Plum 07                5:33.84   3 
+  8 Luke, E                   11 Kiski Prep             5:35.32   1 
+  9 Diano, A                   9 Plum 07                5:43.27   3 
+ 10 Hutchinson, S             10 State Colleg           5:43.61   3 
+ 11 Luke, L                   11 Altoona Area           5:43.83   3 
+ 12 Jackson, D                12 State Colleg           5:46.05   3 
+ 13 Pennington, B             11 Bellwood Ant           5:48.44   3 
+ 14 Hines, A                   9 Bishop Carro           5:59.21   1 
+ 15 Dixson, C                 10 Bald Eagle A           6:02.19   3 
+ 16 Assalone, K               10 Saint Marys            6:02.77   2 
+ 17 Savino, E                  9 Tyrone Area            6:06.77   2 
+ 18 Shick, H                  11 DuBois Centr           6:07.83   3 
+ 19 White, J                  10 Portage Area           6:12.37   1 
+ 20 Fiore, S                  10 Bishop Guilf           6:12.76   2 
+ 21 Wymer, L                  12 Kane Area 09           6:13.04   2 
+ 22 Hammond, P                11 Bellwood Ant           6:13.67   2 
+ 23 Przybycien, L              9 Fort LeBoeuf           6:15.50   1 
+ 24 Hileman, A                 9 Bishop Guilf           6:16.42   2 
+ 25 Gausman, A                 9 Johnsonburg            6:17.50   2 
+ 26 Zenobia, E                 9 Hollidaysbur           6:17.83   2 
+ 27 Eveleth, H                11 Bald Eagle A           6:18.05   3 
+ 28 Wagner, A                  9 Bellwood Ant           6:21.16   2 
+ 29 Beck, B                   11 Saint Marys            6:22.01   2 
+ 30 Harkins, A                11 Altoona Area           6:22.60   2 
+ 31 Pilon, A                   9 Bradford Are           6:22.64   2 
+ 32 Pauly, A                   9 Kiski Area 0           6:24.71   3 
+ 33 Keister, I                11 DuBois Centr           6:25.76   3 
+ 34 Troutman, H                9 Tyrone Area            6:26.13   2 
+ 35 O'gorman, D              9 Hollidaysbur           6:29.91   1 
+ 36 Steffan, E                11 Bald Eagle A           6:31.93   1 
+ 37 Vinelli, M                12 Bradford Are           6:32.23   2 
+ 38 Long, M                   11 Martinsburg            6:32.28   3 
+ 39 Price, J                   9 Penns Valley           6:33.47   1 
+ 40 Fowkes, A                 11 Kiski Area 0           6:36.69   3 
+ 41 Haney, L                  11 Portage Area           6:39.05   2 
+ 42 Griesbaum, K               9 Kane Area 09           6:42.26   1 
+ 43 Treacy, M                 10 Central Colu           6:42.92   1 
+ 44 Vroman, M                 10 Fort LeBoeuf           6:44.47   2 
+ 45 Buhler, E                  9 Elk County C           6:46.39   1 
+ 46 Monahon, C                10 Central Colu           6:48.60   1 
+ 47 Myers, K                  11 Portage Area           6:49.31   1 
+ 48 Bouquin, J                12 Bradford Are           6:51.00   2 
+ 49 Honn, N                   12 Huntingdon A           6:51.54   1 
+ 50 Hallinan, L                9 Penn Cambria           6:58.15   1 
+ 51 Dornisch, L                9 Elk County C           7:02.89   1 
+ 52 Eckels, V                 10 Saint Marys            7:07.06   1 
+ 53 Chen, J                   12 Coudersport            7:08.30   1 
+ 54 Smith, B                  11 Purchase Lin           7:11.33   1 
+ 55 Ritz, E                    9 Southern Ful           7:25.24   1 
+ 56 Lieb, A                    9 Northern Cam           7:37.93   1 
+ 
+Event 8  Boys 1600 Meter Run
+===================================================================
+       Igloo: R 4:16.24  2024        Carter Smith, Mifflin County              
+    Name                    Year School                  Finals  H#
+===================================================================
+  1 Fritzsche, K              11 State Colleg           4:24.56   3 
+  2 Glass, B                  12 Fort LeBoeuf           4:28.66   3 
+  3 Walker, D                 10 State Colleg           4:31.73   3 
+  4 Viglione, O               12 State Colleg           4:32.20   3 
+  5 Plazio, S                 12 Kiski Area 0           4:32.68   3 
+  6 Chestney, S               10 Hollidaysbur           4:38.64   3 
+  7 Hartman, B                11 Martinsburg            4:47.22   3 
+  8 Knobloch, N                9 Bishop Carro           4:47.30   1 
+  9 Sciullo, B                11 Plum 07                4:50.35   3 
+ 10 Sloppy, J                 10 Saint Marys            4:52.11   3 
+ 11 Magnusson, A              12 Johnsonburg            4:52.45   3 
+ 12 Kavouras, M               12 Kiski Prep             4:52.50   3 
+ 13 Tessena, K                11 Bradford Are           4:53.63   3 
+ 14 Bowers, L                 10 Fort LeBoeuf           4:55.07   2 
+ 15 Frazer, B                 11 Homer Center           4:57.29   3 
+ 16 Honn, B                   11 Huntingdon A           4:57.54   3 
+ 16 Davis, B                   9 Tyrone Area            4:57.54   3 
+ 18 Lieb, S                   11 Altoona Area           4:58.99   3 
+ 19 Krogh, O                  10 Kiski Area 0           4:59.03   2 
+ 20 Kanish, N                 11 Hollidaysbur           4:59.93   2 
+ 21 Erickson, N               12 Tyrone Area            5:02.02   2 
+ 22 Phillips, J               12 Bishop Carro           5:05.06   1 
+ 23 Moore, C                  10 Central Colu           5:06.38   2 
+ 24 Padilla, M                 9 Martinsburg            5:06.65   1 
+ 25 Despot, C                  9 Altoona Area           5:06.94   2 
+ 26 Torres, A                 10 Plum 07                5:08.19   2 
+ 27 Hollenbach, B             12 Bellwood Ant           5:10.88   2 
+ 28 Dunkle, T                 11 Altoona Area           5:11.39   2 
+ 29 Fatzinger, M              12 Bellwood Ant           5:11.41   3 
+ 30 Westover, N               11 Portage Area           5:17.00   2 
+ 31 Wagner, A                 12 Bald Eagle A           5:17.40   3 
+ 32 Tavel, A                  11 Purchase Lin           5:19.45   2 
+ 33 Gentile, L                12 Portage Area           5:19.66   2 
+ 34 Schreiber, J              12 Johnsonburg            5:20.96   3 
+ 35 Seesholtz, E              10 Central Colu           5:21.09   2 
+ 36 Watt, I                   12 Hollidaysbur           5:23.48   2 
+ 37 Weyrauch, J               10 Central Colu           5:24.25   2 
+ 38 Westover, A               12 Portage Area           5:24.54   2 
+ 39 Frontino, N               10 Bradford Are           5:26.90   2 
+ 40 Ricupero, V                9 Penn Cambria           5:27.22   2 
+ 41 Mayer, W                  11 Penns Valley           5:28.15   2 
+ 42 King, E                    9 Southern Ful           5:32.44   1 
+ 43 Darnell, G                 9 Plum 07                5:32.93   1 
+ 44 Mazzaferro, D              9 Saint Marys            5:35.56   1 
+ 45 Brimmer, A                11 Coudersport            5:36.95   2 
+ 46 McLean, J                 11 DuBois Centr           5:39.10   1 
+ 47 Weyman, J                  9 Penns Valley           5:40.01   1 
+ 48 Porter, L                 10 Kiski Prep             5:46.63   1 
+ 49 Lucas, B                   9 Homer Center           5:46.65   1 
+ 50 Bell, E                    9 Bradford Are           5:50.46   1 
+ 51 Avilez, A                 11 Coudersport            5:52.74   1 
+ 52 Moate, R                   9 Johnsonburg            5:53.27   1 
+ 53 Banfield, S                9 DuBois Centr           5:56.12   1 
+ 54 Fisher, M                 10 Bald Eagle A           5:57.78   1 
+ 55 Thompson, L               12 Kiski Prep             5:58.56   1 
+ 
+Event 9  Girls 4x100 Meter Relay
+===================================================================
+       Igloo: R 48.94  1991        E Roosevelt, E Roosevelt (MD)               
+    School                                               Finals  H#
+===================================================================
+  1 Altoona Area 06  'A'                                  49.56   3 
+  2 State College 06  'A'                                 50.06   3 
+  3 Tyrone Area 06  'A'                                   51.35   3 
+  4 Central Columbia 04  'A'                              52.10   3 
+  5 Penn Cambria 06  'A'                                  52.18   3 
+  6 Bellwood Antis 06  'A'                                52.24   2 
+  7 Hollidaysburg 06  'A'                                 53.00   2 
+  8 Kiski Area 07  'A'                                    53.05   3 
+  9 Portage Area 06  'A'                                  53.75   3 
+ 10 DuBois Central Catholic 09  'A'                       54.49   1 
+ 11 Port Allegany  'A'                                    54.84   3 
+ 12 Elk County Catholic 09  'A'                           55.57   2 
+ 13 Plum 07  'A'                                          55.60   2 
+ 14 Coudersport  'A'                                      56.56   2 
+ 15 Johnsonburg Area 09  'A'                              57.29   1 
+ 16 Southern Fulton 05  'A'                               58.31   1 
+ 17 Kane Area 09  'A'                                     58.44   2 
+ -- Northern Cambria 06  'A'                                 DQ   2 
+ 
+Event 10  Boys 4x100 Meter Relay
+===================================================================
+       Igloo: R 41.95  2025        State College, State College                
+    School                                               Finals  H#
+===================================================================
+  1 Altoona Area 06  'A'                                  44.28   3 
+  2 Plum 07  'A'                                          44.50   3 
+  3 Bradford Area 09  'A'                                 44.84   3 
+  4 Bellwood Antis 06  'A'                                45.18   3 
+  5 Kiski Area 07  'A'                                    45.22   3 
+  6 Fort LeBoeuf 10  'A'                                  45.60   3 
+  7 Tyrone Area 06  'A'                                   46.15   2 
+  8 Altoona Area 06  'B'                                 x47.70   2 
+  9 Central Columbia 04  'A'                              47.88   2 
+ 10 Kane Area 09  'A'                                     50.17   2 
+ 11 Southern Fulton 05  'A'                               51.00   1 
+ 12 Bald Eagle Area  'A'                                  51.04   2 
+ -- State College 06  'A'                                    DQ   3 
+ 
+Event 11  Girls 400 Meter Dash
+===================================================================
+       Igloo: R 56.24  1986        Lea Walker, Williamsport                    
+    Name                    Year School                  Finals  H#
+===================================================================
+  1 Ulery, S                   9 Hollidaysbur             61.41   7 
+  2 Sebring, J                12 DuBois Centr             61.72   6 
+  3 Depetro, E                12 Northern Cam             62.14   7 
+  4 Myers, O                   9 State Colleg             62.25   7 
+  5 Gergely, L                10 Penn Cambria             62.88   7 
+  6 Wilson, J                 12 State Colleg             64.47   7 
+  7 Williams, O               11 State Colleg             64.96   6 
+  8 Lehmeier, I               12 Port Allegan             65.02   7 
+  9 Hiller, M                 12 Southern Ful             65.58   6 
+ 10 Paisley, R                11 DuBois Centr             65.74   6 
+ 11 Bartley, B                11 Martinsburg              66.47   6 
+ 12 Stauffer, A                9 Elk County C             66.58   4 
+ 13 Ober, H                   10 Fort LeBoeuf             67.16   5 
+ 14 Flick, B                  11 Tyrone Area              67.25   5 
+ 15 Bartley, I                10 Altoona Area             67.73   7 
+ 15 Bianconi, I               10 Bishop Guilf             67.73   6 
+ 17 Brewer, M                  9 Fort LeBoeuf             67.83   4 
+ 18 Kensinger, B              12 Martinsburg              67.88   4 
+ 19 Berberich, K              11 Kiski Area 0             68.99   6 
+ 20 Murredu, R                 9 Coudersport              69.05   1 
+ 21 McNeil, D                  9 Kiski Area 0             69.06   5 
+ 22 Sorg, A                    9 Central Colu             69.96   5 
+ 23 Benedict, A               10 Bradford Are             69.97   5 
+ 24 Slater, M                  9 Homer Center             70.42   3 
+ 25 Luse, S                   10 Penns Valley             71.01   3 
+ 26 Harsh, L                   9 Portage Area             72.19   2 
+ 27 Young, M                   9 Martinsburg              72.89   3 
+ 28 Krug, K                    9 Saint Marys              72.96   4 
+ 29 Davis, A                   9 Tyrone Area              73.57   3 
+ 30 Beck, B                   11 Saint Marys              76.02   3 
+ 31 Cobb, E                    9 Bradford Are             76.12   5 
+ 32 Farabaugh, A              10 Penn Cambria             76.19   2 
+ 33 Kellander, A               9 Bald Eagle A             76.95   1 
+ 34 Sunderland, L             11 Juniata Vall             77.88   3 
+ 35 Polaski, L                12 Johnsonburg              78.12   2 
+ 36 Kane, A                   12 Plum 07                1:20.64   2 
+ 37 Smith, S                  10 Southern Ful           1:21.04   2 
+ 38 West, M                   12 Plum 07                1:23.71   2 
+ 39 Sorzano-Lee, A            11 Plum 07                1:27.78   2 
+ 40 Eckels, V                 10 Saint Marys            1:28.59   1 
+ 41 Nussbaum, S                9 Johnsonburg            1:28.71   2 
+ 
+Event 12  Boys 400 Meter Dash
+===================================================================
+       Igloo: R 48.43  2010        Brady Gehret, Altoona Area                  
+    Name                    Year School                  Finals  H#
+===================================================================
+  1 Holmes, K                 11 Plum 07                  51.44   8 
+  2 Pattison, J               12 Kiski Area 0             51.56   8 
+  3 Papcun, J                 11 Portage Area             52.83   8 
+  4 Hughes, R                 11 Huntingdon A             53.30   8 
+  5 Yarnell, A                12 State Colleg             53.54   7 
+  6 Cobaugh, R                12 Homer Center             53.67   8 
+  7 Jolin, D                  10 State Colleg             53.83   7 
+  8 Speelman, E               11 Somerset Are             53.88   7 
+  9 Stoltzfus, O              10 Bellwood Ant             53.91   7 
+ 10 Marasco, D                12 Bradford Are             54.07   8 
+ 11 Bowers, B                 12 Fort LeBoeuf             54.08   6 
+ 12 Blake, M                  12 Central Colu             54.26   8 
+ 13 Matolcsy, E               11 Plum 07                  54.46   8 
+ 14 Walters, D                11 Fort LeBoeuf             54.51   7 
+ 15 Burrell, N                11 Plum 07                  54.83   7 
+ 16 Walters, C                12 Juniata Vall             55.31   5 
+ 17 Schreiner, J              10 Fort LeBoeuf             55.43   6 
+ 18 Krimmel, A                10 Bishop Guilf             56.17   6 
+ 19 Singer, J                 10 Bishop Guilf             56.83   5 
+ 20 Scott, C                  10 Mount Union              56.90   7 
+ 21 Grove, K                  11 Huntingdon A             57.15   5 
+ 22 McGeary, J                 9 Altoona Area             57.31   6 
+ 23 Brown, N                  10 Kiski Prep               57.37   5 
+ 24 Wagner, B                 12 Bald Eagle A             57.66   6 
+ 25 Kidd, T                   11 State Colleg             57.69   5 
+ 26 Bush, C                   10 Altoona Area             57.84   6 
+ 27 Drake, C                  11 Bradford Are             57.99   4 
+ 28 Brown, O                   9 Martinsburg              58.01   3 
+ 29 Smearman, N               11 Bellwood Ant             58.16   5 
+ 30 McNelis, B                10 Bellwood Ant             58.43   4 
+ 31 King, J                    9 Johnsonburg              58.84   5 
+ 32 Kephart, S                11 Purchase Lin             58.90   4 
+ 33 Goodman, E                11 Tyrone Area              58.97   4 
+ 34 Golden, A                 11 Penns Valley             59.14   3 
+ 35 Hogue, J                  10 Bradford Are             59.37   5 
+ 36 Corley, A                  9 Martinsburg              60.17   3 
+ 37 Yeaney, J                  9 Bald Eagle A             60.42   4 
+ 38 Ellis, D                  11 Coudersport              60.89   2 
+ 39 Compton, J                12 Bishop Guilf             61.07   2 
+ 40 Hoover, B                 10 Tyrone Area              61.25   3 
+ 41 Krug, K                   12 Hollidaysbur             61.55   3 
+ 42 Cassidy, J                10 Hollidaysbur             61.66   4 
+ 43 Barkey, A                 10 Purchase Lin             61.71   2 
+ 44 Hardy, G                  10 Southern Ful             61.79   1 
+ 45 Toncich, C                10 Elk County C             62.94   3 
+ 46 McCabe, J                  9 Portage Area             63.25   2 
+ 47 Wilt, J                   11 Southern Ful             63.34   1 
+ 48 King, E                    9 Southern Ful             63.95   1 
+ 49 Quimby, M                  9 Bald Eagle A             64.76   2 
+ 50 Walters, M                10 Juniata Vall             65.34   1 
+ 51 Neefe, H                   9 Coudersport              65.41   2 
+ 52 Detweiler, D               9 Johnsonburg            1:24.16   2 
+ 
+Event 13  Girls 300 Meter Hurdles
+===================================================================
+       Igloo: R 46.23  2013        Elyse Skerpon, Sayre Area                   
+    Name                    Year School                  Finals  H#
+===================================================================
+  1 Craft, L                  10 State Colleg             48.41   6 
+  2 Himmelwright, A           12 Altoona Area             48.94   1 
+  3 Lehmeier, L               12 Port Allegan             49.54   5 
+  3 Owulade, H                12 Altoona Area             49.54   6 
+  5 Alexander, A              11 Altoona Area             49.77   1 
+  6 Corignani, A              11 Bradford Are             49.91   6 
+  7 Port, C                    9 Kane Area 09             51.02   5 
+  8 Lehman, C                 12 Tyrone Area              51.18   6 
+  9 Dunn, K                   12 Martinsburg              52.39   5 
+ 10 Stoltzfus, C              12 Bellwood Ant             52.66   6 
+ 11 Caskey, M                 10 Saint Marys              52.72   6 
+ 12 White, J                  10 Portage Area             53.11   5 
+ 13 Aninmis, S                11 State Colleg             53.79   4 
+ 14 Macafee, M                12 Johnsonburg              54.09   5 
+ 15 Dussinger, G               9 Central Colu             54.23   4 
+ 16 Pennington, K              9 Bellwood Ant             54.41   5 
+ 17 Funk, O                   11 Bradford Are             55.92   5 
+ 18 Clinger, M                11 Coudersport              55.95   4 
+ 19 Embser, E                 10 State Colleg             56.31   6 
+ 20 Meyer, A                  11 Elk County C             56.42   4 
+ 21 Shirey, S                  9 Elk County C             56.68   2 
+ 22 Long, A                   11 Martinsburg              57.41   4 
+ 23 Hines, A                   9 Bishop Carro             57.50   1 
+ 24 Porter, A                 11 Plum 07                  57.88   3 
+ 25 Gurosik, A                 9 Elk County C             57.95   1 
+ 26 Dolney, L                 10 Northern Cam             58.19   2 
+ 27 Bartholomew, A            11 Central Colu             58.21   3 
+ 28 Benton, M                 12 Martinsburg              59.45   4 
+ 29 Smith, C                   9 Juniata Vall             59.60   2 
+ 30 Lee, S                     9 Portage Area             59.91   2 
+ 31 Kline, L                  12 Juniata Vall             60.21   4 
+ 32 Gardner, K                10 Tyrone Area              60.26   3 
+ 33 Wannett, P                10 Purchase Lin             60.45   3 
+ 34 DeArmitt, A                9 Bellwood Ant             61.98   2 
+ 35 Layton, K                  9 Southern Ful             62.07   2 
+ 36 McChrachen, E              9 Northern Cam             62.13   3 
+ 37 Pisarcik, G               12 DuBois Centr             62.97   3 
+ 38 Engle, W                  12 Purchase Lin             64.99   3 
+ 39 Barton, M                  9 Southern Ful             66.42   1 
+ 40 Girard, O                 12 Portage Area             72.23   1 
+ 
+Event 14  Boys 300 Meter Hurdles
+===================================================================
+       Igloo: R 39.52  2009        Jared Long, United                          
+    Name                    Year School                  Finals  H#
+===================================================================
+  1 Proskin, O                12 Plum 07                  39.74   5 
+  2 Kohler, L                 12 Bradford Are             40.54   5 
+  3 Miller, B                 11 Kiski Area 0             40.70   5 
+  4 Stump, N                  11 Altoona Area             42.26   4 
+  5 Kling, H                  10 Altoona Area             43.09   5 
+  6 Nelson, C                 11 Bellwood Ant             43.64   5 
+  7 Blose, X                  11 Fort LeBoeuf             44.05   4 
+  8 Brown, R                  12 State Colleg             44.36   4 
+  8 Irons, D                  11 Tyrone Area              44.36   4 
+ 10 Herzing, C                 9 Saint Marys              44.47   3 
+ 11 Mellott, G                12 Southern Ful             45.06   5 
+ 12 Schreier, R               10 Bellwood Ant             45.08   4 
+ 13 Shawley, E                11 Bellwood Ant             45.11   4 
+ 14 Taylor, B                 12 Bald Eagle A             45.87   5 
+ 15 Manns, B                  11 Coudersport              46.00   4 
+ 16 Fennessey, J              10 Altoona Area             46.05   3 
+ 17 Krott, C                   9 Hollidaysbur             48.08   3 
+ 18 Wallis, F                 11 Penn Cambria             48.64   2 
+ 19 Daugherty, N              10 Homer Center             48.94   3 
+ 20 McDonald, A               12 Bradford Are             49.46   2 
+ 21 Matthews, T               10 Martinsburg              49.56   2 
+ 22 McCormack, B               9 Kane Area 09             49.81   2 
+ 23 Kowalczyk, B               9 Fort LeBoeuf             50.15   1 
+ 24 Hubler, J                  9 Penns Valley             50.47   3 
+ 25 Mackey, N                 10 Bradford Are             51.32   2 
+ 26 Kuban, K                  11 Plum 07                  51.64   2 
+ 27 Yakymac, E                12 Mount Union              52.92   1 
+ 28 Deleonardis, C             9 Tyrone Area              53.16   2 
+ 29 Sasse, C                   9 Portage Area             55.07   1 
+ 30 Boland, E                  9 Portage Area             57.00   1 
+ 
+Event 15  Girls 800 Meter Run
+===================================================================
+       Igloo: R 2:13.91  2013        Kennedy Weisner, Elk County               
+    Name                    Year School                  Finals  H#
+===================================================================
+  1 Younkin, E                10 State Colleg           2:22.43   3 
+  2 Marteeny, L                9 Somerset Are           2:25.44   3 
+  3 Adams, B                  11 Altoona Area           2:29.81   3 
+  4 Smith, M                  11 Plum 07                2:32.03   3 
+  5 Campbell, K               12 State Colleg           2:32.73   3 
+  6 McCrum, E                 12 Juniata Vall           2:33.84   3 
+  7 Horgas, A                 11 State Colleg           2:35.40   3 
+  8 Lehmeier, I               12 Port Allegan           2:35.51   3 
+  9 Snare, E                  12 Altoona Area           2:36.28   3 
+ 10 Diano, A                   9 Plum 07                2:36.55   1 
+ 11 Yasurek, N                12 Kane Area 09           2:38.88   3 
+ 12 Ober, H                   10 Fort LeBoeuf           2:39.43   3 
+ 13 Kraft, J                  11 Bellwood Ant           2:39.45   3 
+ 14 Savino, E                  9 Tyrone Area            2:40.68   2 
+ 15 Assalone, K               10 Saint Marys            2:45.04   2 
+ 16 Couse, K                  10 Kane Area 09           2:45.78   2 
+ 17 Lanzel, A                  9 Elk County C           2:46.13   3 
+ 18 McKenzie, S               11 Kiski Area 0           2:46.48   3 
+ 19 Brewer, M                  9 Fort LeBoeuf           2:46.75   2 
+ 20 Burkett, C                12 Portage Area           2:49.17   2 
+ 21 Keister, I                11 DuBois Centr           2:49.36   3 
+ 22 Eveleth, H                11 Bald Eagle A           2:51.10   3 
+ 23 Hileman, A                 9 Bishop Guilf           2:54.20   2 
+ 24 Murdock, B                10 Purchase Lin           2:54.87   2 
+ 25 Ciaramella, C             10 DuBois Centr           2:56.40   2 
+ 26 Plummer, S                10 Penn Cambria           2:56.81   2 
+ 27 Davis, A                   9 Tyrone Area            2:58.50   2 
+ 28 Heaton, L                  9 Hollidaysbur           2:58.56   2 
+ 29 Davis, C                  10 Northern Cam           2:59.18   2 
+ 30 Burkett, A                 9 Portage Area           2:59.26   1 
+ 31 Diaz, C                   12 Hollidaysbur           3:00.07   2 
+ 32 Haney, L                  11 Portage Area           3:00.48   1 
+ 33 Benson, A                 10 Bradford Are           3:00.88   2 
+ 34 Buhler, E                  9 Elk County C           3:01.29   2 
+ 35 Krug, K                    9 Saint Marys            3:01.50   2 
+ 36 Griesbaum, K               9 Kane Area 09           3:01.97   1 
+ 37 Azzato, M                  9 Saint Marys            3:03.89   2 
+ 38 Powers, M                 11 Bellwood Ant           3:05.20   1 
+ 39 Keith, S                  11 Martinsburg            3:06.03   1 
+ 40 Pennell, K                 9 Bradford Are           3:06.39   1 
+ 41 Monahon, C                10 Central Colu           3:07.04   1 
+ 42 Hoopengardner, M          10 Southern Ful           3:07.69   1 
+ 43 Dornisch, L                9 Elk County C           3:08.19   1 
+ 44 Treacy, M                 10 Central Colu           3:09.04   1 
+ 45 Polaski, L                12 Johnsonburg            3:13.16   1 
+ 46 Wilcox, H                  9 DuBois Centr           3:13.71   1 
+ 47 Brooks, A                 12 Bald Eagle A           3:19.59   1 
+ 48 Smith, B                  11 Purchase Lin           3:21.83   1 
+ 49 Snowberger, M             11 Bellwood Ant           3:28.33   1 
+ 50 Lieb, A                    9 Northern Cam           3:32.49   1 
+ 
+Event 16  Boys 800 Meter Run
+===================================================================
+       Igloo: R 1:55.85  2010        Wade Endress, Altoona Area                
+    Name                    Year School                  Finals  H#
+===================================================================
+  1 Fritzsche, K              11 State Colleg           1:58.62   3 
+  2 Glass, B                  12 Fort LeBoeuf           1:59.63   3 
+  3 Tessena, K                11 Bradford Are           2:02.51   3 
+  4 Morningstar, M            12 State Colleg           2:03.30   3 
+  5 Chestney, A               12 Hollidaysbur           2:04.45   3 
+  6 Bennett, A                11 Saint Marys            2:05.66   3 
+  7 Chestney, S               10 Hollidaysbur           2:08.13   3 
+  8 Cerminara, D              10 Kiski Area 0           2:09.53   3 
+  9 Frederick, X              11 Altoona Area           2:10.43   2 
+ 10 Knobloch, N                9 Bishop Carro           2:10.98   1 
+ 11 Sciullo, B                11 Plum 07                2:11.53   3 
+ 12 Williams, F               11 Elk County C           2:12.37   3 
+ 13 Viglione, O               12 State Colleg           2:13.07   3 
+ 14 Magnusson, A              12 Johnsonburg            2:13.28   3 
+ 15 Bowers, L                 10 Fort LeBoeuf           2:14.89   2 
+ 16 McClintock, T             11 Plum 07                2:15.00   2 
+ 17 Sloppy, J                 10 Saint Marys            2:15.07   3 
+ 18 Singer, J                 10 Bishop Guilf           2:15.12   3 
+ 19 Dechow, O                 12 Bald Eagle A           2:15.28   3 
+ 20 Little, L                 11 Purchase Lin           2:15.46   3 
+ 21 Kauffman, J               12 Purchase Lin           2:15.54   2 
+ 22 Banyay, G                 11 Penns Valley           2:15.87   2 
+ 23 Cowan, H                   9 Bald Eagle A           2:16.02   2 
+ 24 Moore, C                  10 Central Colu           2:16.14   2 
+ 25 Fatzinger, M              12 Bellwood Ant           2:16.37   3 
+ 26 Ah Loe, V                 10 Southern Ful           2:17.15   3 
+ 27 Wrye, L                    9 Tyrone Area            2:17.73   2 
+ 28 Oakman, P                 10 Southern Ful           2:17.74   2 
+ 29 McKee, B                  10 Altoona Area           2:18.99   1 
+ 30 Falk, K                   10 Fort LeBoeuf           2:20.65   1 
+ 31 Bardell, C                10 Bellwood Ant           2:22.12   1 
+ 32 Wirt, A                   10 Homer Center           2:22.52   1 
+ 33 Johnson, T                12 Bradford Are           2:22.89   2 
+ 34 Bish, L                   10 Elk County C           2:23.87   1 
+ 35 Roland, E                 12 Penns Valley           2:23.90   2 
+ 36 Diehl, L                   9 Altoona Area           2:24.70   1 
+ 37 Coffey, C                 10 Tyrone Area            2:25.22   1 
+ 38 Seesholtz, E              10 Central Colu           2:25.58   2 
+ 39 Ayala, J                  12 Kane Area 09           2:25.59   1 
+ 40 Westover, N               11 Portage Area           2:25.89   2 
+ 41 Dion, S                   12 Southern Ful           2:27.41   1 
+ 42 Powell, C                 12 Plum 07                2:28.19   1 
+ 43 Walters, M                10 Juniata Vall           2:28.49   2 
+ 44 Weyrauch, J               10 Central Colu           2:28.85   1 
+ 45 Yakymac, E                12 Mount Union            2:29.17   2 
+ 46 Burke, C                   9 Kane Area 09           2:31.48   1 
+ 47 Brimmer, A                11 Coudersport            2:32.53   1 
+ 48 Carney, A                 11 Bishop Guilf           2:33.68   1 
+ 49 Cannella, B               11 Kane Area 09           2:39.12   1 
+ -- White, G                   9 Portage Area                NT   1 
+ -- Wolfe, K                  12 Elk County C                NT   2 
+ -- Wehler, J                 10 Saint Marys                 NT   2 
+ -- Westover, A               12 Portage Area                NT   1 
+ -- Hollenbach, B             12 Bellwood Ant                NT   2 
+ -- Heuston, J                11 Martinsburg                 NT   3 
+ -- James, O                  11 Mount Union                 NT   1 
+ -- Gamble, L                 11 Kiski Area 0                NT   1 
+ -- Brumbaugh, A              12 Tyrone Area                 NT   2 
+ -- Guadalupe, C              12 Kiski Prep                  NT   1 
+ -- Moate, R                   9 Johnsonburg                 NT   1 
+ -- McLean, J                 11 DuBois Centr                NT   1 
+ -- Tryninewski, I            11 Hollidaysbur                NT   2 
+ -- Lucas, B                   9 Homer Center                NT   1 
+ -- Kavouras, M               12 Kiski Prep                  NT   3 
+ -- Macer, L                  11 Johnsonburg                 NT   1 
+ 
+Event 17  Girls 200 Meter Dash
+===================================================================
+       Igloo: R 25.04  1991        Robinson, E Roosevelt (MD)                  
+    Name                    Year School                  Finals  H#
+===================================================================
+  1 Kocher, S                 11 State Colleg             25.99  10 
+  2 Chichester, S             11 Tyrone Area              26.60  10 
+  3 Sahlaney, J                9 Hollidaysbur             26.62  10 
+  4 Peachey, K                11 State Colleg             26.64  10 
+  5 Urbanowicz, A             12 Fort LeBoeuf             27.00  10 
+  6 Eckenrode, K              10 Penn Cambria             27.25  10 
+  7 Sebring, J                12 DuBois Centr             27.55  10 
+  8 Ramsey, N                 12 Tyrone Area              27.71   9 
+  9 Hostetter, K              11 Central Colu             27.91   9 
+ 10 Youngdahl, T              10 DuBois Centr             27.96   7 
+ 11 Bednarski, K              11 Portage Area             27.98   8 
+ 12 Murredu, R                 9 Coudersport              28.55   6 
+ 12 Powers, A                 11 Bellwood Ant             28.55   8 
+ 14 Romig, E                  12 Penns Valley             28.62   9 
+ 15 Smay-Jefferson, K         10 Martinsburg              28.72   8 
+ 16 House, L                  10 Mount Union              28.73   8 
+ 17 Stauffer, A                9 Elk County C             28.80   6 
+ 18 Flick, B                  11 Tyrone Area              28.88   7 
+ 19 Horell, A                  9 Hollidaysbur             29.04   7 
+ 20 Young, A                   9 DuBois Centr             29.34   1 
+ 21 Depetro, A                11 Northern Cam             29.57   7 
+ 22 Johnson, J                10 Penns Valley             29.67   7 
+ 23 Johnson, K                10 Kane Area 09             29.88   5 
+ 24 Schrack, E                 9 State Colleg             29.95   6 
+ 25 Mahalko, S                10 Penn Cambria             30.05   9 
+ 26 Zoppetti, J               10 Central Colu             30.11   7 
+ 27 Arabia, S                  9 Kiski Area 0             30.21   9 
+ 28 MacDonald, M               9 Elk County C             30.25   6 
+ 29 Brown, T                  12 Coudersport              30.40   4 
+ 30 Bonicky, J                11 Plum 07                  30.41   5 
+ 31 Quimby, M                 11 Bald Eagle A             30.57   5 
+ 32 Devine, M                 11 Plum 07                  30.59   6 
+ 33 Fry, S                    10 Northern Cam             30.62   4 
+ 34 Boast, Z                   9 Portage Area             30.72   8 
+ 35 McCombs, L                12 Purchase Lin             30.79   6 
+ 36 Weisner, L                 9 Elk County C             30.84   4 
+ 37 Long, A                   11 Martinsburg              30.89   4 
+ 37 Hassler, S                11 Bellwood Ant             30.89   4 
+ 39 Kovac, A                  11 Bellwood Ant             31.08   5 
+ 40 Bagby, L                  12 Portage Area             31.13   8 
+ 41 Wendel, M                 10 Saint Marys              31.30   3 
+ 42 Vasil, L                  11 Northern Cam             31.45   3 
+ 43 Gerashchenko, S           10 Kiski Prep               31.80   1 
+ 44 Darush, J                 10 Port Allegan             31.92   5 
+ 45 Smith, K                   9 Coudersport              32.09   3 
+ 46 Miller, B                  9 Bishop Carro             32.11   1 
+ 47 Morgan, N                  9 Southern Ful             32.29   4 
+ 48 Marsh, M                  12 Fort LeBoeuf             32.36   6 
+ 49 Hardy, T                  12 Juniata Vall             32.49   5 
+ 50 Smith, C                   9 Juniata Vall             32.56   5 
+ 51 Kellander, A               9 Bald Eagle A             32.80   3 
+ 52 Johnson, A                 9 Purchase Lin             34.31   2 
+ 53 Merrick, N                 9 Bradford Are             34.54   3 
+ 54 Sorg, P                    9 Saint Marys              35.00   2 
+ 55 Schreiber, T               9 Saint Marys              35.03   2 
+ 56 Dellaquila, G             11 Johnsonburg              35.04   3 
+ 57 Bressler, B                9 Kane Area 09             35.97   3 
+ 58 Squassi, F                12 Purchase Lin             36.27   2 
+ 59 Smay, K                   11 Martinsburg              47.52   3 
+ -- Pelchy, A                 10 Port Allegan                NT   7 
+ 
+Event 18  Boys 200 Meter Dash
+===================================================================
+       Igloo: R 21.21  2024        Jesse Myers, State College                  
+    Name                    Year School                  Finals  H#
+===================================================================
+  1 Wasiulewski, K            12 Fort LeBoeuf             22.67   9 
+  2 Pattison, J               12 Kiski Area 0             23.47   9 
+  3 Kline, C                  10 DuBois Centr             23.51   9 
+  4 Irons, D                  11 Tyrone Area              23.58   9 
+  5 Frantz, M                 10 Purchase Lin             23.95   6 
+  6 Smearman, M                9 Bellwood Ant             23.98   8 
+  7 Baleno, T                 11 Plum 07                  24.05   7 
+  8 Lustig, H                 12 State Colleg             24.11   9 
+  9 Stoltzfus, O              10 Bellwood Ant             24.17   7 
+ 10 Cobaugh, R                12 Homer Center             24.19   9 
+ 11 Walko, A                  12 Kiski Area 0             24.36   7 
+ 12 Hughes, R                 11 Huntingdon A             24.48   8 
+ 13 Driskell, C               11 Coudersport              24.50   6 
+ 14 Nguyen, A                 11 Central Colu             24.56   6 
+ 15 Goellner, T               12 Fort LeBoeuf             24.62   1 
+ 16 Dodson, J                 10 Huntingdon A             24.71   8 
+ 16 Burrell, N                11 Plum 07                  24.71   8 
+ 18 Scott, C                  10 Mount Union              24.77   8 
+ 19 Vent, I                   10 Hollidaysbur             24.84   6 
+ 20 Signor, N                 12 Plum 07                  25.05   7 
+ 21 Grove, K                  11 Huntingdon A             25.35   4 
+ 22 Izeko, J                  12 Kiski Prep               25.38   5 
+ 23 Ebersole, B               10 Southern Ful             25.61   1 
+ 24 Parks, J                  11 Tyrone Area              25.63   5 
+ 24 Kalp, J                    9 State Colleg             25.63   6 
+ 26 Kakolewski, S             10 Bradford Are             25.66   3 
+ 27 Alptekinoglu, S           12 State Colleg             25.70   5 
+ 28 Shawley, E                11 Bellwood Ant             25.71   6 
+ 29 Hooper, T                 10 Mount Union              25.72   7 
+ 30 Bence, H                  11 Homer Center             25.73   5 
+ 31 Keck, W                   11 Central Colu             25.84   4 
+ 32 Herzing, C                 9 Saint Marys              25.88   5 
+ 32 Taylor, S                 10 Bald Eagle A             25.88   5 
+ 34 Wagner, B                 12 Bald Eagle A             25.90   4 
+ 35 Bennett, A                11 Saint Marys              25.98   8 
+ 36 Golden, A                 11 Penns Valley             26.21   3 
+ 37 Nelson, R                  9 Bradford Are             26.26   4 
+ 38 Ellis, D                  11 Coudersport              26.61   2 
+ 39 Ricupero, R                9 Penn Cambria             26.91   2 
+ 40 Kightlinger, J             9 Coudersport              26.98   2 
+ 41 Marks, H                   9 Penns Valley             27.01   3 
+ 42 Kephart, S                11 Purchase Lin             27.04   3 
+ 43 Rostan, J                 10 Kane Area 09             27.16   5 
+ 44 Chapman, L                 9 Kane Area 09             27.44   4 
+ 45 Glunt, E                   9 Southern Ful             30.47   2 
+ 46 Szymanski, M              10 Bald Eagle A             30.62   2 
+ -- Fisanick, S               12 Bishop Carro                FS   1 
+ 
+Event 19  Girls 3200 Meter Run
+===================================================================
+       Igloo: R 10:47.13  2007        Carly Seymour, Central Cambria           
+    Name                    Year School                  Finals  H#
+===================================================================
+  1 Berkhimer, L              12 Martinsburg           11:43.77   2 
+  2 Madison, J                10 Southern Ful          11:51.12   1 
+  3 Bigger, J                 12 State Colleg          11:57.60   2 
+  4 Etters, E                  9 Altoona Area          11:59.00   2 
+  5 Roberts, M                10 Kiski Area 0          12:02.06   2 
+  6 Torres, M                 12 Plum 07               12:04.98   2 
+  7 Sheaffer, L               12 State Colleg          12:08.20   2 
+  8 Luke, E                   11 Kiski Prep            12:10.24   1 
+  9 Frank, C                  10 State Colleg          12:10.25   2 
+ 10 Lott, K                   12 Kiski Area 0          12:18.48   2 
+ 11 Smith, L                  12 Penns Valley          12:24.88   2 
+ 12 Warren, B                 10 Purchase Lin          12:39.49   1 
+ 13 Przybycien, L              9 Fort LeBoeuf          12:52.23   2 
+ 14 Shick, H                  11 DuBois Centr          12:57.35   2 
+ 15 Hines, A                   9 Bishop Carro          13:03.08   1 
+ 16 Carney, R                 12 Hollidaysbur          13:08.20   2 
+ 17 Dixson, C                 10 Bald Eagle A          13:19.39   2 
+ 18 Wymer, L                  12 Kane Area 09          13:28.93   1 
+ 19 Bulcher, T                 9 Elk County C          13:50.63   1 
+ 20 Wagner, A                  9 Bellwood Ant          14:06.38   1 
+ 21 Gausman, A                 9 Johnsonburg           14:07.96   1 
+ 22 Troutman, H                9 Tyrone Area           14:26.89   1 
+ 23 Steffan, E                11 Bald Eagle A          14:31.33   1 
+ 24 McNelis, L                12 Bellwood Ant          14:40.64   1 
+ 25 Myers, K                  11 Portage Area          14:54.47   1 
+ 26 Ciaramella, C             10 DuBois Centr          14:55.23   1 
+ 27 Kraft, S                   9 Bellwood Ant          15:00.41   1 
+ 28 Baleno, S                  9 Plum 07               15:10.24   1 
+ 29 Brown, K                  10 Penns Valley          15:15.91   1 
+ 30 Chen, J                   12 Coudersport           15:18.73   1 
+ 31 Ritz, E                    9 Southern Ful          17:11.83   1 
+ 
+Event 20  Boys 3200 Meter Run
+===================================================================
+       Igloo: R 9:15.17  2004        David Mock, Westmont Hil                  
+    Name                    Year School                  Finals  H#
+===================================================================
+  1 Manfred, R                11 Hollidaysbur           9:49.86   2 
+  2 Walker, D                 10 State Colleg           9:57.16   2 
+  3 Ruffing, T                10 State Colleg           9:57.31   2 
+  4 Alexander, B              12 State Colleg          10:33.78   2 
+  5 Price, T                  12 Penns Valley          10:43.45   2 
+  6 Glover, A                 11 Altoona Area          10:45.18   2 
+  7 Davis, B                   9 Tyrone Area           10:45.68   2 
+  8 Young, J                  10 Kiski Area 0          10:53.74   2 
+  9 Hendrickson, D            12 Elk County C          11:02.71   2 
+ 10 Henry, G                  10 Saint Marys           11:02.96   2 
+ 11 Phillips, J               12 Bishop Carro          11:12.86   2 
+ 12 Morrow, P                 11 Plum 07               11:18.44   1 
+ 13 Riley, J                   9 Hollidaysbur          11:20.01   2 
+ 14 Erickson, N               12 Tyrone Area           11:20.88   2 
+ 15 Rhodes, X                 10 Bishop Guilf          11:22.25   1 
+ 16 Erich, E                   9 Saint Marys           11:22.47   1 
+ 17 Hollenbach, B             12 Bellwood Ant          11:24.89   2 
+ 18 Tavel, A                  11 Purchase Lin          11:24.92   1 
+ 19 Gentile, L                12 Portage Area          11:25.26   1 
+ 20 Halerz, D                 11 Bellwood Ant          11:27.03   1 
+ 21 Brasher, G                10 Tyrone Area           11:27.25   2 
+ 22 Gabler, G                  9 Saint Marys           11:32.41   1 
+ 23 Dechow, O                 12 Bald Eagle A          11:36.93   2 
+ 24 Consuegra, T              10 Plum 07               11:37.74   1 
+ 25 Makarevich, T             12 Plum 07               11:41.09   1 
+ 26 Falk, K                   10 Fort LeBoeuf          11:44.95   1 
+ 27 Bulcher, J                10 Elk County C          11:45.37   1 
+ 28 Bell, E                    9 Bradford Are          11:47.21   1 
+ 29 Ricupero, V                9 Penn Cambria          11:49.57   1 
+ 30 VanEgdom, C               11 Altoona Area          11:52.52   2 
+ 31 Ginther, I                12 Johnsonburg           11:54.28   2 
+ 32 Walker, B                  9 Kiski Area 0          12:00.61   1 
+ 33 Frontino, X               10 Bradford Are          12:08.06   1 
+ 34 Weyman, J                  9 Penns Valley          12:10.27   1 
+ 35 Bulcher, T                11 Elk County C          12:18.46   1 
+ 36 Bennet, I                 12 Bishop Carro          12:18.80   1 
+ 37 Hawk, M                   12 Bradford Are          12:23.20   1 
+ 38 Avilez, A                 11 Coudersport           12:23.57   1 
+ 39 Porter, L                 10 Kiski Prep            12:41.87   1 
+ 40 Bennett, W                10 Kiski Prep            12:44.83   1 
+ 41 Banfield, S                9 DuBois Centr          13:17.15   1 
+ 42 Gurekovich, L             12 Bellwood Ant          13:18.46   1 
+ 
+Event 21  Girls 4x400 Meter Relay
+===================================================================
+       Igloo: R 4:04.94  1986        Williamsport, Williamsport                
+    School                                               Finals  H#
+===================================================================
+  1 Altoona Area 06  'A'                                4:05.87   4 
+  2 State College 06  'A'                               4:12.32   4 
+  3 Altoona Area 06  'B'                               x4:19.81   4 
+  4 Bradford Area 09  'A'                               4:26.26   4 
+  5 DuBois Central Catholic 09  'A'                     4:29.95   2 
+  6 Martinsburg Central 06  'A'                         4:31.62   3 
+  7 Northern Cambria Girls Varsity  'A'                 4:36.48   1 
+  7 Kane Area 09  'A'                                   4:36.48   3 
+  9 Kiski Area 07  'A'                                  4:38.51   3 
+ 10 Elk County Catholic 09  'A'                         4:40.39   3 
+ 11 Southern Fulton 05  'A'                             4:40.72   1 
+ 12 Bellwood Antis 06  'A'                              4:43.71   4 
+ 13 Portage Area 06  'A'                                4:48.56   3 
+ 14 Bellwood Antis 06  'B'                             x5:03.49   3 
+ 15 Purchase Line 06  'A'                               5:04.10   2 
+ 16 Plum 07  'A'                                        5:19.63   3 
+ 
+Event 22  Boys 4x400 Meter Relay
+===================================================================
+       Igloo: R 3:21.43  2009        Altoona Area, Altoona Area                
+    School                                               Finals  H#
+===================================================================
+  1 Kiski Area 07  'A'                                  3:32.11   4 
+  2 Altoona Area 06  'A'                                3:32.99   4 
+  3 Fort LeBoeuf 10  'A'                                3:35.50   3 
+  4 Plum 07  'A'                                        3:36.90   4 
+  5 State College 06  'A'                               3:37.98   4 
+  6 Bradford Area 09  'A'                               3:39.98   4 
+  7 Bellwood Antis 06  'A'                              3:44.64   3 
+  8 Purchase Line 06  'A'                               3:49.08   2 
+  9 Altoona Area 06  'B'                               x3:51.17   4 
+ 10 Bellwood Antis 06  'B'                             x3:51.49   3 
+ 11 Portage Area 06  'A'                                3:52.20   3 
+ 12 Elk County Catholic 09  'A'                         3:53.47   2 
+ 13 Southern Fulton 05  'A'                             3:53.76   1 
+ 14 Altoona Area 06  'C'                               x3:55.85   3 
+ 15 Bradford Area 09  'B'                              x3:57.67   2 
+ 16 Kane Area 09  'A'                                   4:00.23   2 
+ 17 Bald Eagle Area  'A'                                4:04.92   2 
+ 18 Kiski Area 07  'B'                                 x4:13.24   2 
+ 
+Event 23  Girls Long Jump
+================================================================
+       Igloo: R 18-11.75  2022        Shannon Mullin, State College            
+    Name                    Year School                  Finals 
+================================================================
+  1 Cherry, E                 10 Bellwood Ant          17-03.25  
+  2 Sahlaney, J                9 Hollidaysbur          17-00.50  
+  3 Owulade, H                12 Altoona Area          17-00.25  
+  4 Long, J                   11 Altoona Area          16-10.50  
+  5 Lear, T                   10 Altoona Area          15-11.00  
+  6 Powers, A                 11 Bellwood Ant          15-10.75  
+  7 Thomas, A                 11 State Colleg          15-10.75  
+  8 Ramsey, N                 12 Tyrone Area           15-04.75  
+  9 Swindlehurst, H           11 Fort LeBoeuf          14-10.50  
+ 10 Sossong, J                 9 Portage Area          14-06.75  
+ 11 Kowalczyk, N              12 Fort LeBoeuf          14-06.00  
+ 12 Slater, M                  9 Homer Center          14-05.50  
+ 13 Woomer, L                 10 Tyrone Area           14-04.75  
+ 14 Vanalstine, T             11 Saint Marys           14-04.50  
+ 15 Naberezny, M              12 State Colleg          14-03.50  
+ 16 Chestney, L               12 Hollidaysbur          14-03.00  
+ 17 Hiller, M                 12 Southern Ful          14-03.00  
+ 18 Pilon, A                   9 Bradford Are          14-02.75  
+ 19 Nesbit, A                 11 Martinsburg           14-02.25  
+ 20 Husson, L                 10 Coudersport           14-00.00  
+ 21 Desort, L                 10 Hollidaysbur          14-00.00  
+ 22 LaRouche, E               12 Central Colu          13-09.75  
+ 23 Parrilla, C                9 Martinsburg           13-08.25  
+ 24 Porter, A                 11 Plum 07               13-05.50  
+ 25 Bagrowski, E              10 Penns Valley          13-03.50  
+ 26 Nesbitt, K                12 Saint Marys           13-03.25  
+ 27 Weisner, L                 9 Elk County C          13-00.00  
+ 28 Porter, k                 12 Plum 07               12-05.50  
+ 29 Carter, A                  9 Bradford Are          12-04.00  
+ 30 McCombs, L                12 Purchase Lin          12-03.50  
+ 31 Burtner, C                10 DuBois Centr          12-02.50  
+ 32 Barry, S                  10 Central Colu          12-02.25  
+ 33 Whittaker, L               9 Huntingdon A          12-00.25  
+ 34 Loupe, H                  12 Bellwood Ant          11-10.00  
+ 35 Fairbanks, K              12 Homer Center          11-09.50  
+ 36 Noel, J                   10 Portage Area          11-05.75  
+ 37 Engle, W                  12 Purchase Lin          11-00.00  
+ 38 Allison, B                12 Elk County C          10-08.50  
+ 39 Teno, M                   12 Portage Area          10-07.75  
+ 40 Washburn, N               11 Johnsonburg           10-06.00  
+ 41 Ferguson, A               11 Plum 07                9-08.25  
+ 42 Hoopengardner, M          10 Southern Ful           9-06.00  
+ -- Cunningham, S              9 Bishop Carro                ND  
+ -- Fox, S                    10 Coudersport                 ND  
+ -- Straub, K                 11 Elk County C                ND  
+ 
+Event 24  Boys Long Jump
+================================================================
+       Igloo: R 23-08.50  2022        Jake Adams, Altoona Area                 
+    Name                    Year School                  Finals 
+================================================================
+  1 Wasiulewski, K            12 Fort LeBoeuf          21-09.75  
+  2 Cunningham, E             12 Bishop Carro          21-08.75  
+  3 Bassett, L                12 State Colleg          21-05.25  
+  4 Walters, D                12 Hollidaysbur          20-10.50  
+  5 Marasco, D                12 Bradford Are          20-06.00  
+  6 Lilly, B                  12 Penn Cambria          20-05.00  
+  7 Sherk, F                  12 Bradford Are          20-04.50  
+  8 Lane, C                   10 Huntingdon A          20-02.50  
+  9 Jackson, M                10 Altoona Area          20-01.75  
+ 10 Drayer, E                 10 Plum 07               19-10.75  
+ 11 Proskin, O                12 Plum 07               19-10.00  
+ 12 Litzinger, B              11 Bellwood Ant          19-03.00  
+ 13 Simbeck, C                11 Elk County C          19-03.00  
+ 14 Humphries, S              12 Plum 07               19-02.75  
+ 15 Blose, X                  11 Fort LeBoeuf          19-01.50  
+ 16 Cobaugh, G                10 Homer Center          19-01.50  
+ 17 Hoffmaster, I             12 Juniata Vall          18-10.75  
+ 18 Brazile, B                11 Altoona Area          18-10.50  
+ 19 Amell, I                  12 Port Allegan          18-08.75  
+ 20 McCormack, N              11 Kane Area 09          18-08.25  
+ 21 Terwilliger, M            12 Bradford Are          18-07.50  
+ 22 Carthen, K                11 Huntingdon A          18-05.75  
+ 23 Weitzel, D                12 State Colleg          18-04.50  
+ 24 Hall, K                    9 Altoona Area          18-04.50  
+ 25 Renninger, D              12 Central Colu          18-04.25  
+ 26 Gibbon, A                 11 Kiski Area 0          18-04.00  
+ 27 Izeko, J                  12 Kiski Prep            17-06.75  
+ 28 Crabb, J                  11 Central Colu          17-06.75  
+ 29 King, J                    9 Johnsonburg           17-04.50  
+ 30 Shannon, B                11 Kiski Prep            17-00.50  
+ 31 Zimmerman, J               9 Johnsonburg           17-00.50  
+ 32 Marsh, D                   9 Fort LeBoeuf          17-00.50  
+ 33 Wareham, L                10 Martinsburg           16-11.50  
+ 34 Vacanti, L                12 Kiski Area 0          16-10.25  
+ 35 Vaccarella, A             12 Johnsonburg           16-10.00  
+ 36 Schott, A                 12 Port Allegan          16-09.25  
+ 37 Richardson, B             10 Mount Union           16-08.50  
+ 38 Beach, B                  11 Martinsburg           16-07.25  
+ 39 Oakman, P                 10 Southern Ful          16-07.00  
+ 40 Mickel, B                 10 Martinsburg           16-06.75  
+ 41 Mellott, G                12 Southern Ful          16-06.50  
+ 42 Snare, K                  12 Huntingdon A          16-03.00  
+ 43 Paul, R                    9 Kane Area 09          15-08.50  
+ 44 Hoffman, C                11 Saint Marys           15-06.25  
+ 45 Mariner, N                10 State Colleg          15-04.75  
+ 46 Patterson, M              10 Bellwood Ant          15-03.25  
+ 47 Deleonardis, C             9 Tyrone Area           15-00.25  
+ 48 Hoover, B                 10 Tyrone Area           14-10.50  
+ 49 Gargon, J                  9 Bellwood Ant          14-05.75  
+ 50 Hultman, C                12 Kane Area 09          12-08.75  
+ -- Field, A                  12 Saint Marys                 ND  
+ 
+Event 25  Girls Triple Jump
+================================================================
+       Igloo: R 38-00.75  2022        Shannon Mullin, State College Ar         
+    Name                    Year School                  Finals 
+================================================================
+  1 Cherry, E                 10 Bellwood Ant          38-03.25R 
+  2 Owulade, H                12 Altoona Area          37-02.00  
+  3 Long, J                   11 Altoona Area          36-09.25  
+  4 Potts, R                   9 Altoona Area          34-10.75  
+  5 Thomas, A                 11 State Colleg          33-09.50  
+  6 Kowalczyk, N              12 Fort LeBoeuf          33-03.25  
+  7 Bednarski, K              11 Portage Area          33-00.75  
+  8 Geibel, M                 11 Kane Area 09          32-07.25  
+  9 Swindlehurst, H           11 Fort LeBoeuf          32-04.75  
+ 10 Corignani, A              11 Bradford Are          32-00.50  
+ 11 Ramsey, N                 12 Tyrone Area           31-11.25  
+ 12 Woomer, L                 10 Tyrone Area           31-09.00  
+ 13 Weisner, L                 9 Elk County C          31-07.75  
+ 14 LaRouche, E               12 Central Colu          31-07.25  
+ 15 Mumau, M                  10 Purchase Lin          31-07.25  
+ 16 Sossong, J                 9 Portage Area          31-06.75  
+ 17 Newton, P                 12 Elk County C          31-01.50  
+ 18 Fox, S                    10 Coudersport           30-04.25  
+ 19 Cunningham, S              9 Bishop Carro          30-04.00  
+ 20 Pluebell, A               11 Bellwood Ant          30-03.25  
+ 21 McCrachen, E               9 Northern Cam          29-11.25  
+ 22 Desort, L                 10 Hollidaysbur          29-08.00  
+ 23 Chestney, L               12 Hollidaysbur          29-07.25  
+ 24 Wilkes, Z                 12 Plum 07               29-02.75  
+ 25 Byler, J                  10 Martinsburg           29-02.50  
+ 26 Lightner, L               11 Martinsburg           28-11.00  
+ 27 Whittaker, L               9 Huntingdon A          28-09.25  
+ 28 Noel, J                   10 Portage Area          28-07.75  
+ 29 Hassler, S                11 Bellwood Ant          28-06.50  
+ 30 Ferguson, A               11 Plum 07               28-06.00  
+ 31 Carter, A                  9 Bradford Are          28-06.00  
+ 32 Barry, S                  10 Central Colu          28-05.50  
+ 33 Piccirillo, L             11 Elk County C          28-04.00  
+ 34 Parrilla, C                9 Martinsburg           28-03.50  
+ 35 Ginther, M                 9 Johnsonburg           28-03.00  
+ 36 Anderson, A               11 Juniata Vall          28-02.50  
+ 37 Giordano, G                9 Plum 07               28-01.50  
+ 38 Bilthuis, B               10 Hollidaysbur          28-01.00  
+ 39 Engle, W                  12 Purchase Lin          26-06.50  
+ 40 Nesbitt, K                12 Saint Marys           26-05.75  
+ -- LeMaster, A               11 Penn Cambria                ND  
+ -- Washburn, N               11 Johnsonburg                 ND  
+ -- Hurvitz, L                10 State Colleg                ND  
+ -- McChrachen, E              9 Northern Cam                ND  
+ -- Fairbanks, K              12 Homer Center                ND  
+ -- Rogers, B                 12 Kiski Area 0                ND  
+ -- Naberezny, M              12 State Colleg                ND  
+ -- Reiter, T                  9 Johnsonburg                 ND  
+ 
+Event 26  Boys Triple Jump
+================================================================
+       Igloo: R 47-05.50  2010        Jarred Gambrell, Athens Area             
+    Name                    Year School                  Finals 
+================================================================
+  1 Humphries, S              12 Plum 07               45-04.25  
+  2 DeLattre, C               12 Hollidaysbur          45-03.50  
+  3 Sherk, F                  12 Bradford Are          45-03.00  
+  4 Jackson, M                10 Altoona Area          45-01.25  
+  5 Lilly, B                  12 Penn Cambria          44-09.00  
+  6 Cunningham, E             12 Bishop Carro          44-03.75  
+  7 Drayer, E                 10 Plum 07               43-03.00  
+  8 Litzinger, B              11 Bellwood Ant          41-10.75  
+  9 Hall, K                    9 Altoona Area          41-09.50  
+ 10 Schott, A                 12 Port Allegan          39-03.00  
+ 11 Terwilliger, M            12 Bradford Are          38-08.25  
+ 12 Scott, P                   9 Martinsburg           38-06.25  
+ 13 Gibbon, A                 11 Kiski Area 0          38-04.75  
+ 14 Simbeck, C                11 Elk County C          38-04.50  
+ 15 Mickel, B                 10 Martinsburg           38-03.50  
+ 16 Beach, B                  11 Martinsburg           38-02.50  
+ 17 Gray, G                    9 Penn Cambria          37-10.50  
+ 18 Weitzel, D                12 State Colleg          37-07.75  
+ 19 Carthen, K                11 Huntingdon A          37-05.00  
+ 20 Snare, K                  12 Huntingdon A          37-04.50  
+ 21 Brunner, J                 9 Johnsonburg           37-04.00  
+ 22 Chisolm, M                12 Altoona Area          37-01.00  
+ 23 King, J                    9 Johnsonburg           37-00.25  
+ 24 Crabb, J                  11 Central Colu          36-07.50  
+ 25 Delattre, J                9 Hollidaysbur          36-05.25  
+ 26 Manns, B                  11 Coudersport           36-03.75  
+ 27 Ah Loe, V                 10 Southern Ful          36-00.25  
+ 28 Patterson, M              10 Bellwood Ant          35-07.50  
+ 29 Lippincott, T             11 State Colleg          35-03.75  
+ 30 Allen, T                  11 Central Colu          34-08.50  
+ 31 Nelson, R                  9 Bradford Are          34-07.25  
+ 32 Bard, J                   10 Southern Ful          34-01.25  
+ 33 Bence, H                  11 Homer Center          33-05.50  
+ 34 Engle, N                   9 Purchase Lin          33-02.50  
+ 35 Brasher, G                10 Tyrone Area           33-00.00  
+ 
+Event 27  Girls High Jump
+================================================================
+       Igloo: R  5-08  2016        Erika Voyzey, Tyrone                        
+    Name                    Year School                  Finals 
+================================================================
+  1 Devito, G                 12 Kiski Area 0           5-04.00  
+  2 Hudson, B                 10 Altoona Area           5-02.00  
+  3 Lear, T                   10 Altoona Area           5-00.00  
+  4 Straub, K                 11 Elk County C           5-00.00  
+  5 Williams, H               10 Hollidaysbur           4-10.00  
+  6 Woomer, L                 10 Tyrone Area            4-10.00  
+  7 Hubler, M                 12 Penns Valley           4-10.00  
+  8 Shultz, P                 12 Central Colu           4-10.00  
+  9 Pilon, E                  11 Bradford Are           4-08.00  
+  9 Weisner, L                 9 Elk County C           4-08.00  
+  9 Bryan, L                  12 Bald Eagle A           4-08.00  
+ 12 Myher, B                  12 Portage Area           4-08.00  
+ 13 Basenbeck, A              12 Hollidaysbur           4-06.00  
+ 13 Gillespie, P               9 Kane Area 09           4-06.00  
+ 15 Jones, L                  11 Johnsonburg            4-06.00  
+ 16 Carter, A                  9 Bradford Are           4-06.00  
+ 16 Fox, S                    10 Coudersport            4-06.00  
+ 16 Connolly, L                9 Altoona Area           4-06.00  
+ 19 Slater, M                  9 Homer Center           4-06.00  
+ 20 Cunningham, S              9 Bishop Carro           4-06.00  
+ 21 Kellander, A               9 Bald Eagle A           4-04.00  
+ 22 LeMaster, A               11 Penn Cambria           4-04.00  
+ 23 Ginther, M                 9 Johnsonburg            4-04.00  
+ 24 Teno, M                   12 Portage Area           4-04.00  
+ 25 Noel, B                   10 Bishop Guilf           4-02.00  
+ 26 Pluebell, A               11 Bellwood Ant           4-02.00  
+ 27 Erdman, M                 10 Huntingdon A           4-02.00  
+ 28 Zimmerman, G              12 Johnsonburg            4-02.00  
+ 29 Byler, J                  10 Martinsburg            4-02.00  
+ 30 Kyper, K                  11 Huntingdon A           4-00.00  
+ 30 LaRouche, E               12 Central Colu           4-00.00  
+ 30 Barry, S                  10 Central Colu           4-00.00  
+ 33 Weaver, R                  9 Penns Valley           4-00.00  
+ -- Girard, O                 12 Portage Area                NH  
+ -- Cobb, E                    9 Bradford Are                NH  
+ -- Wilkes, Z                 12 Plum 07                     NH  
+ -- Parrilla, C                9 Martinsburg                 NH  
+ -- Younkin, J                12 State Colleg                NH  
+ -- Kirsch, A                  9 Northern Cam                NH  
+ -- Laird, H                  11 Bellwood Ant                NH  
+ -- Hoopengardner, M          10 Southern Ful                NH  
+ -- Porter, A                 11 Plum 07                     NH  
+ 
+Event 28  Boys High Jump
+================================================================
+       Igloo: R  6-08  1992        Jamir Washington, Altoona Area              
+       Igloo: R  6-08  2002        Tyler Fedeli, Altoona Area                  
+    Name                    Year School                  Finals 
+================================================================
+  1 Proskin, O                12 Plum 07                6-04.00  
+  2 Krimmel, A                10 Bishop Guilf           6-02.00  
+  3 Carthen, K                11 Huntingdon A           6-02.00  
+  4 Patel, N                  12 Penns Valley           6-00.00  
+  5 Simmons, T                11 Bradford Are           5-10.00  
+  6 McCormack, N              11 Kane Area 09           5-08.00  
+  7 Cobaugh, G                10 Homer Center           5-08.00  
+  8 Lindberg, A                9 Johnsonburg            5-08.00  
+  9 Horn, K                   12 Martinsburg            5-08.00  
+ 10 Sherk, F                  12 Bradford Are           5-06.00  
+ 10 Simbeck, C                11 Elk County C           5-06.00  
+ 10 Terwilliger, M            12 Bradford Are           5-06.00  
+ 10 Engle, N                   9 Purchase Lin           5-06.00  
+ 14 Williams, C                9 Coudersport            5-06.00  
+ 15 Burke, A                  10 Bishop Guilf           5-06.00  
+ 16 Norris, E                 12 Huntingdon A           5-04.00  
+ 17 Morris, C                 11 Huntingdon A           5-04.00  
+ 18 Burrell, R                 9 Plum 07                5-04.00  
+ 19 Lecrone, J                12 Juniata Vall           5-04.00  
+ 20 Schreier, R               10 Bellwood Ant           5-04.00  
+ 21 Beach, B                  11 Martinsburg            5-04.00  
+ 22 Bard, J                   10 Southern Ful           5-02.00  
+ 22 Girard, S                 11 Portage Area           5-02.00  
+ 24 Delattre, J                9 Hollidaysbur           5-02.00  
+ 25 Krott, C                   9 Hollidaysbur           5-02.00  
+ 26 Eilenberger, H             9 Altoona Area           5-00.00  
+ 27 Kessinger, R               9 State Colleg           5-00.00  
+ 27 Brazile, B                11 Altoona Area           5-00.00  
+ 27 Hoover, B                 10 Tyrone Area            5-00.00  
+ 27 Litzinger, B              11 Bellwood Ant           5-00.00  
+ 31 Walker, B                 12 Portage Area           5-00.00  
+ -- Brasher, G                10 Tyrone Area                 NH  
+ -- Mariner, N                10 State Colleg                NH  
+ -- Michalowski, J            10 Johnsonburg                 NH  
+ 
+Event 29  Girls Pole Vault
+================================================================
+       Igloo: R 12-04  2014        Hannah Mulhern, Altoona Area                
+    Name                    Year School                  Finals 
+================================================================
+  1 Buonaccorsi, G            12 Huntingdon A          10-00.00  
+  2 Raish, E                   9 State Colleg           9-06.00  
+  3 Bower, S                  12 Altoona Area           9-00.00  
+  4 Rishel, O                 11 Bellwood Ant           9-00.00  
+  5 Hetrick, S                11 Fort LeBoeuf           8-06.00  
+  6 Bowser, R                 12 Johnsonburg            8-06.00  
+  7 Shultz, P                 12 Central Colu           8-00.00  
+  8 Loupe, H                  12 Bellwood Ant           8-00.00  
+  9 Muth, T                   11 Hollidaysbur           8-00.00  
+ 10 Mazurowski, E             10 Huntingdon A           8-00.00  
+ 11 Warren, A                 12 Tyrone Area            7-06.00  
+ 12 Adams, E                  11 Altoona Area           7-06.00  
+ 12 Wagner, A                 11 Bellwood Ant           7-06.00  
+ 14 Billetdeaux, C            12 Altoona Area           7-06.00  
+ 15 Taylor, A                  9 Bald Eagle A           6-06.00  
+ 15 Noel, J                   10 Portage Area           6-06.00  
+ 17 Rohrer, L                 10 Coudersport            6-06.00  
+ -- Porter, k                 12 Plum 07                     NH  
+ -- Ferguson, A               11 Plum 07                     NH  
+ -- Rostan, M                 12 Kane Area 09                NH  
+ -- Sisak, C                  10 Homer Center                NH  
+ 
+Event 30  Boys Pole Vault
+================================================================
+       Igloo: R 16-02  2012        Patrick Anderson, Kane                      
+    Name                    Year School                  Finals 
+================================================================
+  1 Blose, X                  11 Fort LeBoeuf          13-00.00  
+  2 Aiello, E                 12 Bradford Are          13-00.00  
+  3 Lutz, C                   12 Altoona Area          12-06.00  
+  4 Bowers, B                 12 Fort LeBoeuf          12-00.00  
+  5 Treese, J                  9 Altoona Area          12-00.00  
+  6 Stevenson-Peck, S         12 State Colleg          12-00.00  
+  7 Stein, A                  12 Fort LeBoeuf          11-06.00  
+  7 Rogers, R                 12 Kiski Area 0          11-06.00  
+  9 Crabb, J                  11 Central Colu          11-00.00  
+  9 Hostler, B                12 Bellwood Ant          11-00.00  
+ 11 Wolfe, N                  11 Altoona Area          10-06.00  
+ 12 Uberti, K                 10 Bald Eagle A          10-06.00  
+ 13 Smith, S                  10 State Colleg          10-06.00  
+ 14 Patterson, M              10 Bellwood Ant          10-00.00  
+ 14 Girard, S                 11 Portage Area          10-00.00  
+ 16 Hoffman, D                10 Johnsonburg            9-06.00  
+ 17 Gibson, C                 12 Huntingdon A           9-00.00  
+ 17 Henry, C                  10 Homer Center           9-00.00  
+ 19 Bankert, J                12 Huntingdon A           9-00.00  
+ -- Williams, C                9 Coudersport                 NH  
+ -- Headley, K                11 Kiski Area 0                NH  
+ -- Kuban, K                  11 Plum 07                     NH  
+ -- Daugherty, G              10 Bradford Are                NH  
+ -- Matolcsy, E               11 Plum 07                     NH  
+ -- Lehman, G                  9 Johnsonburg                 NH  
+ 
+Event 31  Girls Shot Put
+================================================================
+       Igloo: R 44-04  2023        Justley Sharp, Homer Center                 
+    Name                    Year School                  Finals 
+================================================================
+  1 Noel, K                   12 Altoona Area          37-00.00  
+  2 McRoberts, A              12 Canton Area           35-08.00  
+  3 Lipski, A                 11 State Colleg          35-06.50  
+  4 Tate, L                   12 State Colleg          34-01.00  
+  5 Myers, L                  11 Johnsonburg           33-07.00  
+  6 Zimmer, R                 11 Fort LeBoeuf          33-05.50  
+  7 Sherry, J                  9 Coudersport           32-08.50  
+  8 Calhoun, H                12 Plum 07               32-03.50  
+  9 Dicken, J                 11 Tyrone Area           32-02.00  
+ 10 Brick, L                  12 Hollidaysbur          31-11.00  
+ 11 Voyda, M                  11 Homer Center          31-00.00  
+ 12 Schlichter, A             10 Central Colu          29-10.50  
+ 13 Collins, I                12 Saint Marys           29-01.00  
+ 14 Taneyhill, E              11 Bellwood Ant          28-09.25  
+ 15 Fortin, J                 12 Fort LeBoeuf          28-09.00  
+ 16 Harris, J                 11 State Colleg          28-07.00  
+ 17 Walters, K                10 Huntingdon A          28-05.50  
+ 18 Miko, C                   12 Portage Area          28-03.00  
+ 19 Dixon, I                  10 Elk County C          27-08.00  
+ 20 Dreckman, K               11 Central Colu          27-05.00  
+ 21 Yost, A                   12 Altoona Area          27-04.00  
+ 22 Reichard, M               10 Central Colu          27-03.75  
+ 23 Boose, L                  11 Altoona Area          27-03.75  
+ 24 Brown, M                  12 Kane Area 09          27-02.00  
+ 25 Wahlers, D                10 Coudersport           26-10.00  
+ 26 Thompson, A                9 Bald Eagle A          26-09.00  
+ 27 Bires, B                  10 Kiski Area 0          26-08.50  
+ 28 Petrof, B                 10 Kane Area 09          26-06.00  
+ 29 Weaver, V                  9 Tyrone Area           26-02.00  
+ 30 Pooley, J                  9 Bishop Guilf          25-09.50  
+ 31 Lama, S                   11 Bradford Are          25-09.00  
+ 32 Volders, E                12 Tyrone Area           25-09.00  
+ 33 Sharpless, S               9 Huntingdon A          25-05.00  
+ 34 Schreiber, W               9 Johnsonburg           25-02.00  
+ 35 Gahr, M                    9 Elk County C          24-07.00  
+ 36 Ingham, C                  9 Altoona Area          24-01.50  
+ 37 Davignon, S               12 Huntingdon A          23-08.50  
+ 38 Thompson, V               12 Martinsburg           23-05.25  
+ 39 Diaz, K                   11 Martinsburg           23-04.50  
+ 40 Gow, E                    10 DuBois Centr          23-04.00  
+ 41 Holloway, C               12 Southern Hun          23-02.00  
+ 42 Hvarda, E                  9 Johnsonburg           22-10.50  
+ 43 Costello, S                9 Homer Center          22-09.50  
+ 44 Fry, L                     9 Bald Eagle A          22-09.00  
+ 45 Fetterolf, C              12 Penns Valley          22-04.75  
+ 46 Hoover, A                 11 Northern Cam          22-01.00  
+ 47 Harker, M                 11 Bishop Carro          22-00.50  
+ 48 McNeal, N                 12 Plum 07               21-11.50  
+ 49 Farabaugh, I              12 Saint Marys           21-11.50  
+ 50 Smith, H                  10 Southern Ful          21-08.25  
+ 51 Stewart, A                 9 Purchase Lin          21-03.50  
+ 52 Kyle, L                   12 Martinsburg           21-02.00  
+ 53 Kovac, A                  11 Bellwood Ant          21-01.00  
+ 54 McCoy, L                   9 Purchase Lin          20-09.50  
+ 55 Benedict, B               10 Bradford Are          19-10.00  
+ 56 Smith, B                   9 Purchase Lin          18-08.50  
+ 57 Suplizio, V                9 DuBois Centr          18-02.50  
+ 58 Foltz, E                  12 Penns Valley          18-01.00  
+ 59 Ammerman, H                9 Bald Eagle A          16-06.00  
+ -- Cunningham, H             10 Bellwood Ant                ND  
+ 
+Event 32  Boys Shot Put
+================================================================
+       Igloo: R 58-05  2019        Nickolas Hyde, Somerset Are                 
+    Name                    Year School                  Finals 
+================================================================
+  1 Friedman, M               12 Fort LeBoeuf          57-10.00  
+  2 Erdman, L                 12 Huntingdon A          51-10.50  
+  3 Clemons, C                11 State Colleg          49-03.00  
+  4 Tarbox, E                 12 Port Allegan          48-09.75  
+  5 Anderson, N               10 Kiski Area 0          48-09.00  
+  6 Solbakken, L              12 State Colleg          48-00.00  
+  7 Lewis, B                  12 Penns Manor           45-10.50  
+  8 Nelson, M                 12 Plum 07               44-10.00  
+  9 Sheeley, T                11 Saint Marys           44-09.75  
+ 10 Anderson, B               12 Kiski Area 0          43-04.00  
+ 11 Bodner, S                 11 State Colleg          43-01.00  
+ 12 Colyer, M                 11 Altoona Area          41-05.00  
+ 13 Montue, T                 11 Plum 07               41-05.00  
+ 14 Trexler, W                12 Homer Center          41-05.00  
+ 15 Kirsch, N                 12 Hollidaysbur          41-04.00  
+ 16 Miller, L                 11 Johnsonburg           41-00.50  
+ 17 Phillips, K               12 Bradford Are          41-00.00  
+ 18 Lake, H                   12 Southern Hun          40-08.00  
+ 19 Zimmerman, B              12 Hollidaysbur          40-06.00  
+ 20 Norris, T                 11 Juniata Vall          40-03.00  
+ 21 Suhoney, K                11 Tyrone Area           40-03.00  
+ 22 Unger, K                  10 Central Colu          39-10.00  
+ 23 Blake, D                  11 Central Colu          39-09.00  
+ 24 Powell, E                  9 Coudersport           39-09.00  
+ 25 Quick, J                  12 Bellwood Ant          39-00.00  
+ 26 Shedlock, A               12 Penn Cambria          38-05.00  
+ 27 Bumnberger, J             10 Hollidaysbur          37-11.00  
+ 28 Davenport, L              12 Bradford Are          37-03.50  
+ 29 Ferree, G                 12 Bald Eagle A          37-00.00  
+ 30 Stolz, C                  11 Fort LeBoeuf          36-11.50  
+ 31 Bellinger, J              10 Martinsburg           36-08.25  
+ 32 Hescox, B                 11 Bellwood Ant          36-06.00  
+ 33 Focht, Q                  12 Bellwood Ant          36-00.00  
+ 34 Flick, S                  11 Bald Eagle A          35-07.00  
+ 35 Bjick, J                  12 Kiski Prep            35-03.00  
+ 36 Zurenko, L                11 Purchase Lin          35-00.50  
+ 37 Good, B                   12 Purchase Lin          35-00.00  
+ 38 Miko, B                   12 Portage Area          34-06.00  
+ 39 Barnes, T                 10 Martinsburg           34-05.50  
+ 40 Snare, R                  10 Huntingdon A          34-03.50  
+ 41 Seibert, B                12 Southern Hun          34-02.00  
+ 42 Lehman, M                 10 Kane Area 09          34-00.50  
+ 43 Poorman, Q                11 Huntingdon A          33-10.00  
+ 44 Robb, O                   12 Penns Valley          33-05.00  
+ 45 Schlichter, L             12 Central Colu          33-05.00  
+ 46 Brennan, S                12 Elk County C          33-01.75  
+ 47 Shrubb, T                 12 Kane Area 09          32-10.00  
+ 48 Silva, Z                  10 Tyrone Area           32-07.00  
+ 49 Townsend, H               11 Penns Valley          32-03.00  
+ 50 Baronner, T               11 Altoona Area          32-02.50  
+ 51 Singer, J                 12 Elk County C          31-10.00  
+ 52 Grazulis, F               12 Plum 07               31-10.00  
+ 53 Auman, R                  12 Elk County C          31-06.50  
+ 54 Thompkins, K              12 Altoona Area          31-06.00  
+ 55 Horning, J                11 Penn Cambria          31-01.00  
+ 56 Madison, M                12 Mount Union           31-01.00  
+ 57 Stanton, J                12 Tyrone Area           31-00.00  
+ 58 Chasles, E                11 Kiski Prep            30-01.00  
+ 59 Ruffner, G                12 Homer Center          30-01.00  
+ 60 Helsley-Adams, S           9 Homer Center          30-00.50  
+ 61 Martin, R                 12 Penns Valley          29-10.75  
+ 62 Wheeler, B                 9 Bald Eagle A          29-10.00  
+ 63 Caldwell, D                9 Coudersport           29-07.00  
+ 64 Wallis, F                 11 Penn Cambria          29-04.25  
+ 65 Williams, J                9 Kane Area 09          28-10.00  
+ 66 Davis, Z                  10 Purchase Lin          27-09.50  
+ 67 Magnusson, J              12 Johnsonburg           27-02.25  
+ 68 Shen, Z                   11 Kiski Prep            24-00.00  
+ 69 Macchi, C                  9 DuBois Centr          18-00.50  
+ -- Field, A                  12 Saint Marys                 ND  
+ 
+Event 33  Girls Discus Throw
+================================================================
+       Igloo: R 148-05  2023        Justley Sharp, Homer Center                
+    Name                    Year School                  Finals 
+================================================================
+  1 Lipski, A                 11 State Colleg            138-03  
+  2 Noel, K                   12 Altoona Area            137-04  
+  3 Taneyhill, E              11 Bellwood Ant            136-10  
+  4 McRoberts, A              12 Canton Area             128-11  
+  5 Tate, L                   12 State Colleg            122-05  
+  6 Rossi, A                  10 Fort LeBoeuf            108-06  
+  7 Collins, I                12 Saint Marys             103-10  
+  8 Dicken, J                 11 Tyrone Area              97-06  
+  9 Myers, L                  11 Johnsonburg              92-02  
+ 10 Petrof, B                 10 Kane Area 09             91-11  
+ 11 Kyper, K                  11 Huntingdon A             91-06  
+ 12 Bizzak, B                 12 Kane Area 09             91-02  
+ 13 Voyda, M                  11 Homer Center             90-09  
+ 14 Dreckman, K               11 Central Colu             90-09  
+ 15 Holloway, C               12 Southern Hun             89-08  
+ 16 Schlichter, A             10 Central Colu             88-00  
+ 17 Brick, L                  12 Hollidaysbur             86-00  
+ 18 Dixon, I                  10 Elk County C             84-11  
+ 20 Mumau, M                  10 Purchase Lin             84-00  
+ 21 Volders, E                12 Tyrone Area              82-11  
+ 22 Lama, S                   11 Bradford Are             80-10  
+ 23 Palilla, K                11 Altoona Area             80-02  
+ 24 Smith, H                  10 Southern Ful             79-08  
+ 25 Rhodes, A                 10 Martinsburg              78-04  
+ 26 Calhoun, H                12 Plum 07                  78-03  
+ 27 Sherry, J                  9 Coudersport              70-08  
+ 28 Dey, E                     9 Bellwood Ant             70-07  
+ 29 Gahr, M                    9 Elk County C             68-04  
+ 30 Morgan, J                 11 DuBois Centr             68-00  
+ 31 Kunes, A                  11 Saint Marys              67-09  
+ 32 Harker, M                 11 Bishop Carro             66-08  
+ 33 Bires, B                  10 Kiski Area 0             63-09  
+ 34 Feroce, A                 12 Kiski Area 0             62-05  
+ 35 Gow, E                    10 DuBois Centr             62-02  
+ 36 Thompson, A                9 Bald Eagle A             62-00  
+ 36 Fortin, J                 12 Fort LeBoeuf             62-00  
+ 38 Walters, K                10 Huntingdon A             61-08  
+ 39 Pooley, J                  9 Bishop Guilf             61-06  
+ 40 McCabe, K                 10 Johnsonburg              59-06  
+ 41 Stewart, A                 9 Purchase Lin             56-08  
+ 42 Fetterolf, C              12 Penns Valley             54-05  
+ 43 Benedict, B               10 Bradford Are             48-10  
+ 44 Showers, C                11 Penns Valley             44-07  
+ 45 McNeal, N                 12 Plum 07                  44-00  
+ 45 Fry, L                     9 Bald Eagle A             44-00  
+ -- Wahlers, D                10 Coudersport               FOUL  
+ -- Winings, C                10 Northern Cam              FOUL  
+ -- Diaz, K                   11 Martinsburg               FOUL  
+ -- Ingham, C                  9 Altoona Area            X84-10  
+ 
+Event 34  Boys Discus Throw
+================================================================
+       Igloo: R 178-07  2016        Tom Bojalad, Saint Marys                   
+    Name                    Year School                  Finals 
+================================================================
+  1 Anderson, N               10 Kiski Area 0            160-04  
+  2 Tarbox, E                 12 Port Allegan            154-04  
+  3 Lewis, B                  12 Penns Manor             147-08  
+  4 Quick, J                  12 Bellwood Ant            146-04  
+  5 Solbakken, L              12 State Colleg            146-04  
+  6 Sheeley, T                11 Saint Marys             144-06  
+  7 Montue, T                 11 Plum 07                 143-06  
+  8 Lake, H                   12 Southern Hun            131-03  
+  9 Bellinger, J              10 Martinsburg             127-10  
+ 10 Crider, L                 10 Kiski Area 0            124-05  
+ 11 Caldwell, D                9 Coudersport             118-11  
+ 11 Zimmerman, B              12 Hollidaysbur            118-11  
+ 13 Davenport, L              12 Bradford Are            117-05  
+ 14 Erdman, L                 12 Huntingdon A            115-09  
+ 15 Whitlow, J                11 Bradford Are            115-07  
+ 16 Stolz, C                  11 Fort LeBoeuf            113-03  
+ 17 Horning, J                11 Penn Cambria            113-00  
+ 18 Flick, S                  11 Bald Eagle A            108-09  
+ 19 Aue, J                    10 Kiski Prep              106-09  
+ 20 Colyer, M                 11 Altoona Area            105-10  
+ 21 Schlichter, L             12 Central Colu            105-10  
+ 22 Nelson, M                 12 Plum 07                 105-05  
+ 22 Barnes, T                 10 Martinsburg             105-05  
+ 24 Silva, Z                  10 Tyrone Area             105-04  
+ 25 Norris, T                 11 Juniata Vall            105-01  
+ 26 Friedman, M               12 Fort LeBoeuf            101-04  
+ 27 Miller, L                 11 Johnsonburg              99-11  
+ 28 Seibert, B                12 Southern Hun             99-05  
+ 29 Gehlman, C                12 Tyrone Area              99-00  
+ 30 Good, B                   12 Purchase Lin             98-08  
+ 31 Townsend, H               11 Penns Valley             97-05  
+ 32 Shippert, W                9 State Colleg             96-07  
+ 34 Brennan, S                12 Elk County C             94-07  
+ 35 Baronner, T               11 Altoona Area             93-10  
+ 36 Davis, Z                  10 Purchase Lin             92-08  
+ 37 Robb, O                   12 Penns Valley             91-04  
+ 38 Blake, D                  11 Central Colu             88-04  
+ 39 Lindberg, A                9 Johnsonburg              86-06  
+ 40 Hollingshead, J           10 Kane Area 09             85-06  
+ 41 Cook, A                   11 Mount Union              83-07  
+ 42 Helsley-Adams, S           9 Homer Center             82-11  
+ 43 Powell, E                  9 Coudersport              82-09  
+ 44 Burroughs, C              12 Bellwood Ant             77-03  
+ 45 Ely, C                     9 Kane Area 09             69-11  
+ 46 Piccirillo, A             11 DuBois Centr             61-11  
+ -- Ferree, G                 12 Bald Eagle A                ND  
+ -- Trexler, W                12 Homer Center                ND  
+ -- Rivello, A                12 Huntingdon A                ND  
+ -- Kirsch, N                 12 Hollidaysbur                ND  
+ -- Toncich, C                10 Elk County C                ND  
+ -- Sweet, H                  12 DuBois Centr                ND  
+ -- Port, P                    9 Altoona Area            X96-00  
+ 
+Event 35  Boys Javelin Throw
+================================================================
+       Igloo: R 204-02  2016        Ethan Dabbs, Richland                      
+    Name                    Year School                  Finals 
+================================================================
+  1 Rippy, L                  11 Saint Marys             175-08  
+  2 Lewis, B                  12 Penns Manor             168-10  
+  3 Lilly, B                  12 Penn Cambria            167-01  
+  4 Rebovich, D               12 Purchase Lin            159-06  
+  5 Giordano, A               11 Bradford Are            152-10  
+  6 Artman, L                 10 Kiski Area 0            150-02  
+  7 Smith, S                  10 State Colleg            149-03  
+  8 Brewington, C             10 Central Colu            147-09  
+  9 Shippert, W                9 State Colleg            146-10  
+ 10 Emigh, A                  12 Tyrone Area             144-01  
+ 11 Farabaugh, G              12 Bishop Carro            143-04  
+ 12 Ferree, G                 12 Bald Eagle A            141-10  
+ 13 Norris, T                 11 Juniata Vall            138-05  
+ 14 Wendel, P                  9 Saint Marys             137-02  
+ 15 Fisanick, S               12 Bishop Carro            136-06  
+ 16 Gibbon, P                 11 Kiski Area 0            132-03  
+ 17 Whitlow, J                11 Bradford Are            130-10  
+ 18 Geer, M                   11 Kane Area 09            129-07  
+ 19 Vogt, I                   12 Elk County C            128-11  
+ 20 Zurenko, L                11 Purchase Lin            128-11  
+ 21 Button, A                  9 Coudersport             128-03  
+ 22 Sloff, C                  12 Elk County C            125-08  
+ 23 Gehlman, C                12 Tyrone Area             124-09  
+ 24 McCrystal, C              12 Hollidaysbur            124-06  
+ 25 Keer, C                   11 Altoona Area            123-03  
+ 26 Moore, E                   9 Bellwood Ant            123-00  
+ 27 McCall, C                 11 Huntingdon A            122-06  
+ 28 Rivello, A                12 Huntingdon A            121-04  
+ 29 Schreiber, J              12 Johnsonburg             121-03  
+ 30 Robb, O                   12 Penns Valley            120-07  
+ 31 Port, P                    9 Altoona Area            114-02  
+ 32 Padilla, C                11 Martinsburg             114-00  
+ 33 Flood, D                  11 Southern Hun            113-07  
+ 34 Hanzlik, E                12 Plum 07                 112-09  
+ 35 Brunner, J                 9 Johnsonburg             112-02  
+ 36 Ruffner, G                12 Homer Center            112-02  
+ 37 Girard, S                 11 Portage Area            110-10  
+ 38 Helsley-Adams, S           9 Homer Center            110-02  
+ 39 Rodland, L                12 Bellwood Ant            108-11  
+ 40 Yogus, C                   9 Hollidaysbur            108-06  
+ 41 Verkleeren, A             10 Plum 07                 102-06  
+ 42 Szymanski, M              10 Bald Eagle A            101-06  
+ 43 Cook, A                   11 Mount Union              87-01  
+ 45 Piccirillo, A             11 DuBois Centr             68-06  
+ -- Witherspoon, E               Altoona Area            X78-03  
+ 
+Event 36  Girls Javelin Throw
+================================================================
+       Igloo: R 157-03  2007        Karlee McQuillen, Westmont                 
+    Name                    Year School                  Finals 
+================================================================
+  1 Yost, A                   12 Altoona Area            133-00  
+  2 Kelly, M                  12 Altoona Area            115-03  
+  3 Erwin, A                  10 Southern Hun            111-11  
+  4 Mumau, M                  10 Purchase Lin            107-05  
+  5 Petrof, B                 10 Kane Area 09            104-02  
+  6 Messina, A                11 Northern Cam            103-02  
+  7 Irvin, J                  11 Portage Area            101-07  
+  8 Muriceak, G               11 Hollidaysbur             99-00  
+  9 Horcicak, B               12 Kiski Area 0             97-06  
+ 10 Bryan, L                  12 Bald Eagle A             95-11  
+ 11 Morgan, J                 11 DuBois Centr             95-03  
+ 12 Walters, K                10 Huntingdon A             92-09  
+ 13 Naylor, G                 10 Tyrone Area              92-08  
+ 14 Shupenko, M                9 State Colleg             92-06  
+ 15 Huber, L                   9 Central Colu             91-06  
+ 16 LaPaglia, K               12 Fort LeBoeuf             91-00  
+ 17 McCabe, K                 10 Johnsonburg              90-06  
+ 18 Krick, S                  11 Central Colu             90-03  
+ 19 Newlin, O                 11 Tyrone Area              87-07  
+ 20 Taneyhill, E              11 Bellwood Ant             87-03  
+ 21 Sharpless, S               9 Huntingdon A             86-08  
+ 22 Fairbanks, K              12 Homer Center             86-04  
+ 23 Rossi, A                  10 Fort LeBoeuf             84-05  
+ 24 Gahr, M                    9 Elk County C             80-01  
+ 25 Vanalstine, T             11 Saint Marys              77-02  
+ 26 McCabe, B                  9 Johnsonburg              77-01  
+ 27 Dixon, I                  10 Elk County C             74-02  
+ 28 Kunes, A                  11 Saint Marys              73-09  
+ 29 Stewart, M                10 Hollidaysbur             71-10  
+ 30 Stear, L                  12 Kane Area 09             69-05  
+ 31 Diaz, K                   11 Martinsburg              69-04  
+ 32 Fieni, E                  10 Bellwood Ant             68-04  
+ 32 Hoover, A                 11 Northern Cam             68-04  
+ 34 Pooley, J                  9 Bishop Guilf             66-10  
+ 35 Tucker, K                 10 DuBois Centr             64-10  
+ 36 Bires, B                  10 Kiski Area 0             63-07  
+ 37 Goff, L                   10 Martinsburg              62-06  
+ 38 McCoy, L                   9 Purchase Lin             57-11  
+ 39 Smith, H                  10 Southern Ful             55-02  
+ 40 Taylor, A                  9 Bald Eagle A             45-03  
+ 41 Benedict, B               10 Bradford Are             44-08  
+ 42 Ferguson, S               12 Plum 07                  42-01  
+ 43 Foltz, E                  12 Penns Valley             40-03  
+ 44 Foster, R                  9 Bradford Are             33-06  
+ -- Wright, A                 11 Coudersport               FOUL</pre>
+
+
+
+    </div>
+
+
+</article>
+
+
+            </div>
+        </div>
+
+        <aside id="side" role="complementary">
+            <div>
+                
+
+
+
+<a href="/join?ref=meet-724637-tab-results&next=https%3A%2F%2Fpa.milesplit.com%2Fmeets%2F724637-49th-annual-altoona-area-igloo-invitational-2026%2Fresults%2F1267075%2Fraw&" class="joinPro">
+    <div>
+        <header>
+            MileSplit PRO
+        </header>
+        <p>
+            To get the full depth of our meet coverage, become PRO!
+        </p>
+        <div class="button callToAction">
+            Join Now
+        </div>
+    </div>
+</a>
+
+
+
+<div id="rectangle_btf_mobile"  class="mobileAd" data-name="rectangle btf mobile"></div>
+<div id="rectangle_atf" class="rectangleSideAd"></div>
+
+<div id="rectangle_btf" class="rectangleSideAd"></div>
+
+
+            </div>
+        </aside>
+
+    </main>
+
+    <div id="interstitial"></div>
+    <!--div class="leaderboard btf" id="leaderboard_btf" data-name="leaderboard btf"></div-->
+
+    <footer id="footer" role="contentinfo">
+        <div>
+            <p class="copyright">
+                &copy; 2026 <a href="/support/copyright">Copyright</a>
+                <a href="https://www.flosports.tv" target="_blank">FloSports, Inc.</a>
+            </p>
+                        <p class="editor">
+                MileSplit Pennsylvania Editor:
+                Jackson Polin, <a href="mailto:"></a>
+            </p>
+                        <p class="links">
+                <a href="https://support.milesplit.com">Contact Us</a>
+                <a href="https://www.flosports.tv/privacy-policy/">Privacy Policy</a>
+                <a href="https://www.flosports.tv/terms-of-service/">Terms of Use</a>
+                <a href="#" id="cookiePref" onclick="">Cookie Preferences / Do Not Sell or Share My Personal Information</a>
+            </p>
+            <p class="speed" data-cacheKey="{meet:724637}:/meets/724637-49th-annual-altoona-area-igloo-invitational-2026/results/1267075/raw:::pa" data-environment="Production">
+                Generated by 10.1.2.46                fresh                in 300 milliseconds
+            </p>
+        </div>
+    </footer>
+
+</div>
+
+
+<script type="text/javascript">
+    var disableCopy = 1;
+    /* Disable copy
+    $(document).on("keydown", function(e) {
+        if (disableCopy && e.keyCode == 67 && (e.ctrlKey || e.metaKey)) {
+            e.preventDefault();
+            return false;
+        }
+    });
+    // Disable context menu
+    window.oncontextmenu = function () {
+        if (disableCopy) {
+            return false;
+        }
+    };*/
+    // set clipboard data with plain text (no tabs or newlines)
+    if (disableCopy) {
+        document.addEventListener('copy', function(e) {
+            e.preventDefault();
+            // table html is converted to tabs and newlines
+            var text = window.getSelection()
+                .toString();
+            // remove all tabs and newlines with spaces
+            while (text.match(/\t|[ ]{2,}/)) {
+                text = text.replace(/\t|[ ]{2,}/, ' ');
+            }
+            // set clipboard data with plain text
+            e.clipboardData.setData('text/plain', text);
+        });
+    }
+</script>
+
+
+
+
+<script src="https://js.sp.milesplit.com/drivefaze/common-ms05.js?build=20260523063912"></script>
+
+<script type="text/javascript">
+    segmentNavTopLevelCategories    = $('#navbar .menu > ul > li > a');
+    segmentNavSubCategories         = $('#navbar .menu > ul > li > ul > li > a');
+    segmentNavTopLevelCategories.on('click', function(e){
+        segmentNavTrack('Go To ' + $(this).text());
+    });
+    segmentNavSubCategories.on('click', function(e){
+        segmentNavTrack('SubNav ' + $(this).text());
+    });
+    var segmentNavTrack = function(event_fired) {
+        segment.track({
+            event_fired: event_fired,
+            url: window.location.href
+        }, {
+            integrations: {
+                'All': true,
+                'Google Analytics': false,
+                'Facebook Pixel': false,
+                'Meta Pixel': false
+            }
+        });
+    }
+</script>
+<script type="text/javascript">
+    $(document).ready(function () {
+        $(document).on("click", '#cookiePref', function (e) {
+            e.preventDefault();
+            Osano.cm.showDrawer('osano-cm-dom-info-dialog-open')
+        })
+    })
+</script>
+
+<script type="text/javascript">
+</script>
+
+
+
+<script type="text/javascript">
+    var disableCopy = 1;
+    /* Disable copy
+    $(document).on("keydown", function(e) {
+        if (disableCopy && e.keyCode == 67 && (e.ctrlKey || e.metaKey)) {
+            e.preventDefault();
+            return false;
+        }
+    });
+    // Disable context menu
+    window.oncontextmenu = function () {
+        if (disableCopy) {
+            return false;
+        }
+    };*/
+    // set clipboard data with plain text (no tabs or newlines)
+    if (disableCopy) {
+        document.addEventListener('copy', function(e) {
+            e.preventDefault();
+            // table html is converted to tabs and newlines
+            var text = window.getSelection()
+                .toString();
+            // remove all tabs and newlines with spaces
+            while (text.match(/\t|[ ]{2,}/)) {
+                text = text.replace(/\t|[ ]{2,}/, ' ');
+            }
+            // set clipboard data with plain text
+            e.clipboardData.setData('text/plain', text);
+        });
+    }
+</script>
+
+
+
+
+</body>
+</html>
+
+

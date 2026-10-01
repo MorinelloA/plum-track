@@ -1,0 +1,529 @@
+{
+  "55": [
+    {
+      "Name": "Tracy Wilburn",
+      "Time": 6.64,
+      "Date": "2004-01-31",
+      "Meet": "TSTCA Indoor Meet #3",
+      "Link": "https://pa.milesplit.com/meets/5615",
+      "Converted": "Yes"
+    },
+    {
+      "Name": "Tracy Wilburn",
+      "Time": 6.64,
+      "Date": "2004-02-21",
+      "Meet": "TSTCA Indoor Championships",
+      "Link": "https://pa.milesplit.com/meets/5617",
+      "Converted": "Yes"
+    }
+  ],
+  "60": [
+    {
+      "Name": "Jeff Robinson",
+      "Time": 7.24,
+      "Date": "2008-01-10",
+      "Meet": "TSTCA Indoor Meet #2",
+      "Link": "https://pa.milesplit.com/meets/31017",
+      "Converted": "Yes"
+    }
+  ],
+  "200": [
+    {
+      "Name": "Greg Bacon",
+      "Time": 23.44,
+      "Date": 2000,
+      "Meet": null,
+      "Converted": "Yes"
+    }
+  ],
+  "400": [
+    {
+      "Name": "Jim Urbano",
+      "Time": 52.34,
+      "Date": 1997,
+      "Meet": null,
+      "Converted": "Yes"
+    },
+    {
+      "Name": "Kent Holmes",
+      "Time": 52.16,
+      "Date": "2026-01-10",
+      "Meet": "YSU High School Meet #1",
+      "Link": "https://pa.milesplit.com/meets/712267",
+      "Converted": "No"
+    },
+    {
+      "Name": "Owen Proskin",
+      "Time": 51.78,
+      "Date": "2026-02-22",
+      "Meet": "Kent State Last Chance #3",
+      "Link": "https://pa.milesplit.com/meets/690155",
+      "Converted": "No"
+    }
+  ],
+  "800": [
+    {
+      "Name": "Chris DeRiggi",
+      "Time": "2:06.2",
+      "Date": 2004
+    },
+    {
+      "Name": "Nate Andrew",
+      "Time": "2:05.70",
+      "Date": "2009-02-05",
+      "Meet": "TSTCA Indoor Meet #5",
+      "Link": "https://pa.milesplit.com/meets/44970",
+      "Converted": "No"
+    },
+    {
+      "Name": "Nate Andrew",
+      "Time": "2:05.41",
+      "Date": "2009-02-14",
+      "Meet": "TSTCA Indoor Championships",
+      "Link": "https://pa.milesplit.com/meets/44971",
+      "Converted": "No"
+    },
+    {
+      "Name": "Bryce Rupp",
+      "Time": "2:03.91",
+      "Date": "2010-01-23",
+      "Meet": "TSTCA Indoor Meet #5",
+      "Link": "https://pa.milesplit.com/meets/63079",
+      "Converted": "No"
+    }
+  ],
+  "1600": [
+    {
+      "Name": "Cameron Christeson",
+      "Time": "4:38.24",
+      "Date": 2003,
+      "Meet": null,
+      "Converted": "Yes"
+    },
+    {
+      "Name": "Connor Pivirotto",
+      "Time": "4:28.43",
+      "Date": "2023-01-14",
+      "Meet": "SPIRE Scholastic Invitational",
+      "Link": "https://pa.milesplit.com/meets/507180",
+      "Converted": "No"
+    }
+  ],
+  "1 Mile": [
+    {
+      "Name": "Denny Lydon",
+      "Time": "4:54.10",
+      "Date": "2010-01-21",
+      "Meet": "TSTCA Indoor Meet #4",
+      "Link": "https://pa.milesplit.com/meets/63078",
+      "Converted": "No"
+    },
+    {
+      "Name": "Jake Susalla",
+      "Time": "4:37.93",
+      "Date": "2015-01-24",
+      "Meet": "TSTCA Indoor Meet #1",
+      "Link": "https://pa.milesplit.com/meets/191097",
+      "Converted": "No"
+    },
+    {
+      "Name": "Connor Pivirotto",
+      "Time": "4:29.64",
+      "Date": "2023-02-18",
+      "Meet": "TSTCA Indoor Championship",
+      "Link": "https://pa.milesplit.com/meets/509942",
+      "Converted": "No"
+    }
+  ],
+  "3000": [
+    {
+      "Name": "Ben Miller",
+      "Time": "10:18.24",
+      "Date": 2000,
+      "Meet": null,
+      "Converted": "Yes"
+    },
+    {
+      "Name": "Denny Lydon",
+      "Time": "10:08.24",
+      "Date": 2008,
+      "Meet": null,
+      "Converted": "Yes"
+    },
+    {
+      "Name": "Denny Lydon",
+      "Time": "9:18.89",
+      "Date": "2010-01-23",
+      "Meet": "TSTCA Indoor Meet #5",
+      "Link": "https://pa.milesplit.com/meets/63079",
+      "Converted": "No"
+    },
+    {
+      "Name": "Jake Susalla",
+      "Time": "9:08.01",
+      "Date": "2015-01-31",
+      "Meet": "TSTCA Indoor Meet #2",
+      "Link": "https://pa.milesplit.com/meets/191100",
+      "Converted": "No"
+    },
+    {
+      "Name": "Jake Susalla",
+      "Time": "9:04.35",
+      "Date": "2015-02-14",
+      "Meet": "TSTCA Indoor Meet #3",
+      "Link": "https://pa.milesplit.com/meets/191101",
+      "Converted": "No"
+    },
+    {
+      "Name": "Jake Susalla",
+      "Time": "8:57.07",
+      "Date": "2015-02-21",
+      "Meet": "TSTCA Indoor Championships",
+      "Link": "https://pa.milesplit.com/meets/191098",
+      "Converted": "No"
+    },
+    {
+      "Name": "Jake Susalla",
+      "Time": "8:56.35",
+      "Date": "2015-03-01",
+      "Meet": "PTFCA Indoor State Championships",
+      "Link": "https://pa.milesplit.com/meets/182361",
+      "Converted": "No"
+    }
+  ],
+  "3200": [
+    {
+      "Name": "Eddie Amori",
+      "Time": "9:59.76",
+      "Date": "2013-01-18",
+      "Meet": "Slippery Rock HS Invitational",
+      "Link": "https://pa.milesplit.com/meets/104767-slippery-rock-hs-invitational-2013",
+      "Converted": "No"
+    }
+  ],
+  "55H": [
+    {
+      "Name": "BJ Zeller",
+      "Time": 7.74,
+      "Date": 1998,
+      "Meet": null,
+      "Converted": "No"
+    },
+    {
+      "Name": "Dave Kalatshoff",
+      "Time": 7.11,
+      "Date": 2008,
+      "Meet": null,
+      "Converted": "No"
+    }
+  ],
+  "60H": [
+    {
+      "Name": "Dave Kalatshoff",
+      "Time": 8.54,
+      "Date": "2008-02-08",
+      "Meet": "TSTCA Indoor Meet #5",
+      "Link": "https://pa.milesplit.com/meets/31020",
+      "Converted": "Yes"
+    },
+    {
+      "Name": "Dave Kalatshoff",
+      "Time": 8.45,
+      "Date": "2008-03-01",
+      "Meet": "PTFCA Indoor State Championship",
+      "Link": "https://pa.milesplit.com/meets/23409",
+      "Converted": "No"
+    },
+    {
+      "Name": "Owen Proskin",
+      "Time": 8.39,
+      "Date": "2025-02-15",
+      "Meet": "YSU High School Meet #4",
+      "Link": "https://pa.milesplit.com/meets/637084",
+      "Notes": null,
+      "Converted": "No"
+    },
+    {
+      "Name": "Owen Proskin",
+      "Time": 8.35,
+      "Date": "2025-02-15",
+      "Meet": "YSU High School Meet #4",
+      "Link": "https://pa.milesplit.com/meets/637084",
+      "Converted": "No"
+    },
+    {
+      "Name": "Owne Proskin",
+      "Time": 8.21,
+      "Date": "2025-03-02",
+      "Meet": "PTFCA Indoor State Championship",
+      "Link": "https://pa.milesplit.com/meets/648657",
+      "Converted": "No"
+    },
+    {
+      "Name": "Owen Proskin",
+      "Time": 8.09,
+      "Date": "2026-03-01",
+      "Meet": "PTFCA Indoor State Championship",
+      "Link": "https://pa.milesplit.com/meets/721167",
+      "Converted": "No"
+    },
+    {
+      "Name": "Owen Proskin",
+      "Time": 8.08,
+      "Date": "2026-03-01",
+      "Meet": "PTFCA Indoor State Championship",
+      "Link": "https://pa.milesplit.com/meets/721167",
+      "Converted": "No"
+    }
+  ],
+  "800 Relay": [
+    {
+      "Name": "Jim Urbano, B.J. Zeller, Dave Olczak, Greg Bacon",
+      "Time": "1:36.24",
+      "Date": 1998,
+      "Meet": null,
+      "Converted": "Yes"
+    }
+  ],
+  "1600 Relay": [
+    {
+      "Name": "Scott Umberger, Ryan Fulmer, Matt Laylock, Josh Miller",
+      "Time": "3:40.14",
+      "Date": 1996,
+      "Meet": null,
+      "Converted": "Yes"
+    }
+  ],
+  "3200 Relay": [
+    {
+      "Name": "Jay Cassidy, Tim Wharton, Don Campbell, Cam Christeson",
+      "Time": "8:58.00",
+      "Date": 2001,
+      "Meet": null,
+      "Converted": "No"
+    },
+    {
+      "Name": "Bryce Rupp, Matt Betts, Richie Addison, Nate Andrews",
+      "Time": "8:55.17",
+      "Date": "2009-01-24",
+      "Meet": "TSTCA Indoor Meet #3",
+      "Link": "https://pa.milesplit.com/meets/44966",
+      "Converted": "No"
+    },
+    {
+      "Name": "Bryce Rupp, Matt Betts, Richie Addison, Nate Andrews",
+      "Time": "8:39.34",
+      "Date": "2009-02-14",
+      "Meet": "TSTCA Indoor Championships",
+      "Link": "https://pa.milesplit.com/meets/44971",
+      "Converted": "No"
+    }
+  ],
+  "DMR": [
+    {
+      "Name": null,
+      "Time": "11:46.06",
+      "Date": "2009-01-24",
+      "Meet": "TSTCA Indoor Meet #3",
+      "Link": "https://pa.milesplit.com/meets/44966",
+      "Converted": "No"
+    },
+    {
+      "Name": null,
+      "Time": "11:23.06",
+      "Date": "2009-02-14",
+      "Meet": "TSTCA Indoor Championships",
+      "Link": "https://pa.milesplit.com/meets/44971",
+      "Converted": "No"
+    },
+    {
+      "Name": "Richie Addison, Matt Betts, Bryce Rupp, Steve Galdo",
+      "Time": "11:22.00",
+      "Date": 2010,
+      "Meet": null,
+      "Converted": "No"
+    }
+  ],
+  "LJ": [
+    {
+      "Name": "John Sabedra",
+      "Distance": "18-11",
+      "Date": 2000
+    },
+    {
+      "Name": "Justin James",
+      "Distance": "21-0.75",
+      "Date": 2007
+    },
+    {
+      "Name": "Owen Proskin",
+      "Distance": "21-6.75",
+      "Date": "2025-03-13",
+      "Meet": "Nike Indoor Nationals",
+      "Link": "https://pa.milesplit.com/meets/629088"
+    }
+  ],
+  "TJ": [
+    {
+      "Name": "Jason Offord",
+      "Distance": "36-5",
+      "Date": 2001
+    },
+    {
+      "Name": "Mike Hemmerle",
+      "Distance": "41-6",
+      "Date": 2007
+    },
+    {
+      "Name": "Joel Tarzaho",
+      "Distance": "41-10.25",
+      "Date": "2020-01-18",
+      "Meet": "Youngstown State Open",
+      "Link": "https://pa.milesplit.com/meets/376052"
+    },
+    {
+      "Name": "Joel Tarzaho",
+      "Distance": "42-8.5",
+      "Date": "2020-02-15",
+      "Meet": "TSTCA Meet #6",
+      "Link": "https://pa.milesplit.com/meets/373672"
+    },
+    {
+      "Name": "Joel Tarzaho",
+      "Distance": "43-1",
+      "Date": "2020-02-22",
+      "Meet": "TSTCA Indoor Championships",
+      "Link": "https://pa.milesplit.com/meets/373679"
+    }
+  ],
+  "HJ": [
+    {
+      "Name": "Shawn Tomany",
+      "Distance": "5-6",
+      "Date": 1996
+    },
+    {
+      "Name": "Jim Vensel",
+      "Distance": "6-2",
+      "Date": 2007
+    },
+    {
+      "Name": "Owen Proskin",
+      "Distance": "6-2",
+      "Date": "2024-12-08",
+      "Meet": "Kent State HS Meet #1",
+      "Link": "https://pa.milesplit.com/meets/625462"
+    },
+    {
+      "Name": "Owen Proskin",
+      "Distance": "6-4.75",
+      "Date": "2025-03-13",
+      "Meet": "Nike Indoor Nationals",
+      "Link": "https://pa.milesplit.com/meets/629088"
+    },
+    {
+      "Name": "Owen Proskin",
+      "Distance": "6-5",
+      "Date": "2026-02-22",
+      "Meet": "Kent State HS Meet #3",
+      "Link": "https://pa.milesplit.com/meets/690155"
+    },
+    {
+      "Name": "Owen Proskin",
+      "Distance": "6-7",
+      "Date": "2026-03-01",
+      "Meet": "PTFCA Indoor State Championship",
+      "Link": "https://pa.milesplit.com/meets/721167"
+    }
+  ],
+  "PV": [
+    {
+      "Name": "Caleb Kearney",
+      "Distance": "8-0",
+      "Date": "2024-02-10",
+      "Meet": "Youngstown State High School Meet #3",
+      "Link": "https://pa.milesplit.com/meets/581384"
+    },
+    {
+      "Name": "Owen Proskin",
+      "Distance": "13-4",
+      "Date": "2026-02-17",
+      "Meet": "Hempfield SP/PV/WT",
+      "Link": "https://pa.milesplit.com/meets/717658"
+    }
+  ],
+  "Shot Put": [
+    {
+      "Name": "Nick Oto",
+      "Distance": "48-9.5",
+      "Date": 1996
+    },
+    {
+      "Name": "Logan Parker",
+      "Distance": "52-6.5",
+      "Date": "2020-01-10",
+      "Meet": "SRU High School Invitational",
+      "Link": "https://pa.milesplit.com/meets/366085"
+    },
+    {
+      "Name": "Logan Parker",
+      "Distance": "53-6",
+      "Date": "2020-01-30",
+      "Meet": "Hempfield Spartans SP/PV/WT Competition",
+      "Link": "https://pa.milesplit.com/meets/372856"
+    },
+    {
+      "Name": "Logan Parker",
+      "Distance": "54-7.5",
+      "Date": "2020-02-11",
+      "Meet": "Hempfield Spartans SP/PV/WT Competition",
+      "Link": "https://pa.milesplit.com/meets/372858"
+    },
+    {
+      "Name": "Logan Parker",
+      "Distance": "55-9.25",
+      "Date": "2020-02-22",
+      "Meet": "TSTCA Indoor Championships",
+      "Link": "https://pa.milesplit.com/meets/373679"
+    }
+  ],
+  "Weight Throw": [
+    {
+      "Name": "Logan Parker",
+      "Distance": "36-6",
+      "Date": "2020-01-30",
+      "Meet": "Hempfield Spartan SP/PV/WT Competition",
+      "Link": "https://pa.milesplit.com/meets/372856"
+    },
+    {
+      "Name": "Logan Parker",
+      "Distance": "46-10",
+      "Date": "2020-02-11",
+      "Meet": "Hempfield Spartan SP/PV/WT Competition",
+      "Link": "https://pa.milesplit.com/meets/372858"
+    }
+  ],
+  "Pentathalon": [
+    {
+      "Name": "Owen Proskin",
+      "Points": 3284,
+      "Date": "2024-03-15",
+      "Meet": "adidas Track Nationals",
+      "Link": "https://pa.milesplit.com/meets/562393"
+    },
+    {
+      "Name": "Owen Proskin",
+      "Points": 3724,
+      "Date": "2025-03-13",
+      "Meet": "Nike Indoor Nationals",
+      "Link": "https://pa.milesplit.com/meets/629088"
+    },
+    {
+      "Name": "Owen Proskin",
+      "Points": 3816,
+      "Date": "2026-03-12",
+      "Meet": "Nike Indoor Nationals",
+      "Link": "https://ny.milesplit.com/meets/717615-nike-indoor-nationals-2026/results/1259024/raw"
+    }
+  ]
+}
