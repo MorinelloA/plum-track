@@ -4207,9 +4207,47 @@ button { font-family: inherit; cursor: pointer; }
 .coachi-video .cv-player {
   display: block;
   width: 100%;
+  height: auto;
+  min-height: 200px;
   aspect-ratio: 16 / 9;
-  object-fit: contain;
+  border: 0;
   background: var(--plum-darker);
+}
+
+.coachi-tree {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 24px;
+  padding: 24px;
+  background: var(--white);
+  border: 1px solid var(--line);
+  border-bottom: 3px solid var(--gold);
+}
+.coachi-tree h2 { font-size: 28px; }
+.coachi-tree p { margin-bottom: 0; }
+.coachi-tree-photos {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 10px;
+}
+.coachi-tree-photos a {
+  display: block;
+  background: var(--paper-2);
+  border: 1px solid var(--line);
+}
+.coachi-tree-photos a:focus-visible {
+  outline: 3px solid var(--plum);
+  outline-offset: 3px;
+}
+.coachi-tree-photos img {
+  display: block;
+  width: 100%;
+  height: 220px;
+  object-fit: contain;
+}
+@media (max-width: 700px) {
+  .coachi-tree { grid-template-columns: 1fr; gap: 18px; padding: 20px; }
+  .coachi-tree-photos img { height: 200px; }
 }
 
 .coachi-thanks h2 { color: var(--plum); }

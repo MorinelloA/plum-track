@@ -576,18 +576,14 @@ export function CoachIPage() {
         <section className="coachi-video" aria-labelledby="coachi-video-title">
           <div className="cv-eb">VIDEO TRIBUTE</div>
           <h2 id="coachi-video-title">Remembering Coach I</h2>
-          <video
+          <iframe
             className="cv-player"
-            controls
-            playsInline
-            preload="metadata"
-            poster={rootAsset("videos/coach-i-poster.jpg")}
-            aria-label="Video tribute to Coach I"
-          >
-            <source src={rootAsset("videos/Coach_I_Track.mp4")} type="video/mp4" />
-            Your browser does not support this video.{' '}
-            <a href={rootAsset("videos/Coach_I_Track.mp4")}>Watch the tribute</a>.
-          </video>
+            src="https://www.youtube.com/embed/sbVVh4Ivh18?playsinline=1&rel=0"
+            title="Remembering Coach I — YouTube video tribute"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerPolicy="strict-origin-when-cross-origin"
+            allowFullScreen
+          />
         </section>
 
         <section className="coachi-section">
@@ -689,6 +685,25 @@ export function CoachIPage() {
             $270,000 for cancer research. The race gave the Plum running community a
             reason to get together each summer and support a cause close to him.
           </p>
+        </section>
+
+        <section className="coachi-section coachi-tree" aria-labelledby="coachi-tree-title">
+          <div>
+            <h2 id="coachi-tree-title">A Tree at Boyce Park</h2>
+            <p>
+              The Plum Boosters planted a northern red oak at Boyce Park in honor of
+              Coach I and Coach Max. Dedicated on May 10, 2020, it stands in the park
+              where Plum’s cross country team practices and competes.
+            </p>
+          </div>
+          <div className="coachi-tree-photos">
+            <a href={rootAsset("photos/coachi/boyce-park-tree.jpeg")} target="_blank" rel="noopener noreferrer" aria-label="View the tree at Boyce Park (opens in a new tab)">
+              <img src={rootAsset("photos/coachi/boyce-park-tree.jpeg")} alt="Northern red oak at Boyce Park with its dedication plaque" width="960" height="1261" loading="lazy" decoding="async" />
+            </a>
+            <a href={rootAsset("photos/coachi/boyce-park-tree-dedication.jpeg")} target="_blank" rel="noopener noreferrer" aria-label="View the tree dedication plaque (opens in a new tab)">
+              <img src={rootAsset("photos/coachi/boyce-park-tree-dedication.jpeg")} alt="Plaque dedicated to Coach I and Coach Max on May 10, 2020, with love from the 2019–2020 Plum Running Mustangs" width="960" height="2079" loading="lazy" decoding="async" />
+            </a>
+          </div>
         </section>
 
         <section className="coachi-section coachi-thanks">
