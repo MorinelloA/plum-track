@@ -1,0 +1,3 @@
+# Files Vite copies into dist/ that wrangler deploy must not upload.
+# IIS-only rewrite rules; wrangler.jsonc's not_found_handling replaces them.
+web.config

@@ -1,0 +1,26 @@
+{
+  // Cloudflare Workers config for plummustangs.net. Build and publish with
+  // `npm run deploy` (vite build, then wrangler deploy).
+  // Cloudflare serves ./dist directly, free and unmetered. worker.js runs first
+  // only for /videos/*, to answer the byte-range requests Safari needs before it
+  // will play a video. Those runs count toward the account's free 100,000 Worker
+  // requests a day, which off-ramp and tonyt908 share.
+  "name": "plum-track",
+  "main": "worker.js",
+  "compatibility_date": "2026-09-01",
+  "assets": {
+    "directory": "./dist",
+    "binding": "ASSETS",
+    // Clean-path routes like /records/boys-outdoor get index.html, as
+    // public/web.config's rewrite did on IIS.
+    "not_found_handling": "single-page-application",
+    "run_worker_first": ["/videos/*"]
+  },
+  // Attach both hostnames; Cloudflare creates the DNS records and certificates on
+  // deploy, once the plummustangs.net zone is active. www.plummustangs.net is
+  // redirected to plummustangs.net by a Redirect Rule on the zone, not by this Worker.
+  "routes": [
+    { "pattern": "plummustangs.net", "custom_domain": true },
+    { "pattern": "www.plummustangs.net", "custom_domain": true }
+  ]
+}
