@@ -462,24 +462,28 @@ function App() {
         <PageBody route={route} homeVariant={t.homeVariant} />
       </main>
       <Footer />
-      <TweaksPanel title="Tweaks">
-        <TweakSection label="Home Page">
-          <TweakRadio label="Hero variant" value={t.homeVariant} onChange={(v) => setTweak("homeVariant", v)}
-            options={[
-              { value: "stadium", label: "Stadium" },
-              { value: "marquee", label: "Marquee" },
-              { value: "lanes", label: "Lanes" }
-            ]}/>
-        </TweakSection>
-        <TweakSection label="Navigation">
-          <TweakRadio label="Nav style" value={t.navVariant} onChange={(v) => setTweak("navVariant", v)}
-            options={[
-              { value: "dropdown", label: "Dropdown" },
-              { value: "mega", label: "Mega Menu" }
-            ]}/>
-          <TweakToggle label="Top utility band" value={t.showUtilityBand} onChange={(v) => setTweak("showUtilityBand", v)} />
-        </TweakSection>
-      </TweaksPanel>
+      {/* The design-tool panel opens on a postMessage from any page, so it's for local
+          development only and stays out of the production build. */}
+      {import.meta.env.DEV && (
+        <TweaksPanel title="Tweaks">
+          <TweakSection label="Home Page">
+            <TweakRadio label="Hero variant" value={t.homeVariant} onChange={(v) => setTweak("homeVariant", v)}
+              options={[
+                { value: "stadium", label: "Stadium" },
+                { value: "marquee", label: "Marquee" },
+                { value: "lanes", label: "Lanes" }
+              ]}/>
+          </TweakSection>
+          <TweakSection label="Navigation">
+            <TweakRadio label="Nav style" value={t.navVariant} onChange={(v) => setTweak("navVariant", v)}
+              options={[
+                { value: "dropdown", label: "Dropdown" },
+                { value: "mega", label: "Mega Menu" }
+              ]}/>
+            <TweakToggle label="Top utility band" value={t.showUtilityBand} onChange={(v) => setTweak("showUtilityBand", v)} />
+          </TweakSection>
+        </TweaksPanel>
+      )}
     </React.Fragment>
   );
 }

@@ -33,3 +33,14 @@ test('public/uploads is not deployed', async ({}, testInfo) => {
   const ignore = fs.readFileSync(path.join(ROOT, 'public', '.assetsignore'), 'utf8');
   expect(ignore).toMatch(/^\/?uploads\/?\**$/m);
 });
+
+test('the production build leaves out the Tweaks design panel', async ({}, testInfo) => {
+  // It opened on a postMessage from any page that framed the site. Reads the last
+  // `npm run build` (the gates build first).
+  desktopOnly(testInfo);
+  const assets = path.join(ROOT, 'dist', 'assets');
+  expect(fs.existsSync(assets), 'run npm run build first').toBe(true);
+  expect(fs.statSync(assets).mtimeMs, 'dist/ is older than src/App.jsx: run npm run build').toBeGreaterThan(fs.statSync(path.join(ROOT, 'src', 'App.jsx')).mtimeMs);
+  const bundle = fs.readdirSync(assets).filter(f => f.endsWith('.js')).map(f => fs.readFileSync(path.join(assets, f), 'utf8')).join('\n');
+  expect(bundle.includes('__activate_edit_mode'), 'the production bundle includes the Tweaks panel listener').toBe(false);
+});
