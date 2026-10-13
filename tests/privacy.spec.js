@@ -27,3 +27,9 @@ test('the re-encoded iPhone photos stay upright', async ({ page }, testInfo) => 
     expect(h, p).toBeGreaterThan(w);
   }
 });
+
+test('public/uploads is not deployed', async ({}, testInfo) => {
+  desktopOnly(testInfo);
+  const ignore = fs.readFileSync(path.join(ROOT, 'public', '.assetsignore'), 'utf8');
+  expect(ignore).toMatch(/^\/?uploads\/?\**$/m);
+});

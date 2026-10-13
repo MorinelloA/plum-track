@@ -1,3 +1,7 @@
 # Files Vite copies into dist/ that wrangler deploy must not upload.
 # IIS-only rewrite rules; wrangler.jsonc's not_found_handling replaces them.
 web.config
+
+# Source material kept beside the site (brand guide, raw meet data, logo originals,
+# an original photo with GPS data). Nothing links to it, so it is not deployed.
+uploads/
