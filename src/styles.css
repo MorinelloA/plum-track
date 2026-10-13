@@ -593,14 +593,16 @@ button { font-family: inherit; cursor: pointer; }
   transition: background 0.25s ease;
   cursor: default;
 }
-.lane:not(.main):hover {
-  background: var(--gold);
-}
-.lane:not(.main):hover .ln {
-  color: var(--plum-deep);
-}
-.lane:not(.main):hover .lc {
-  color: var(--plum);
+@media (hover: hover) { /* touch screens keep hover after a tap */
+  .lane:not(.main):hover {
+    background: var(--gold);
+  }
+  .lane:not(.main):hover .ln {
+    color: var(--plum-deep);
+  }
+  .lane:not(.main):hover .lc {
+    color: var(--plum);
+  }
 }
 .lane-icon {
   position: absolute;
@@ -628,9 +630,11 @@ button { font-family: inherit; cursor: pointer; }
 .lane-2 .lane-icon svg { transform: scale(0.86); }
 /* Bolt is a slim shape — let it fill more of the box */
 .lane-4 .lane-icon svg { transform: scale(1.12); }
-.lane:not(.main):hover .lane-icon {
-  opacity: 1;
-  transform: translate(-50%, -50%) scale(1);
+@media (hover: hover) {
+  .lane:not(.main):hover .lane-icon {
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(1);
+  }
 }
 .lane.main {
   background: var(--plum);
@@ -1211,9 +1215,11 @@ button { font-family: inherit; cursor: pointer; }
   background: var(--plum);
   transition: transform 0.18s ease, border-color 0.18s ease;
 }
-.timeline-current .cur-photo:hover img {
-  transform: scale(1.02);
-  border-color: var(--white);
+@media (hover: hover) {
+  .timeline-current .cur-photo:hover img {
+    transform: scale(1.02);
+    border-color: var(--white);
+  }
 }
 .timeline-current .cur-photo-zoom {
   font-family: var(--mono);
@@ -1452,10 +1458,12 @@ button { font-family: inherit; cursor: pointer; }
   transition: transform 0.18s ease, box-shadow 0.18s ease, background 0.18s ease;
   box-shadow: 0 4px 0 0 rgba(0,0,0,0.25);
 }
-.timeline-current .cur-video-cta:hover {
-  background: var(--gold-deep);
-  transform: translateY(-1px);
-  box-shadow: 0 5px 0 0 rgba(0,0,0,0.30);
+@media (hover: hover) {
+  .timeline-current .cur-video-cta:hover {
+    background: var(--gold-deep);
+    transform: translateY(-1px);
+    box-shadow: 0 5px 0 0 rgba(0,0,0,0.30);
+  }
 }
 .timeline-current .cur-video-cta:active {
   transform: translateY(1px);
@@ -1499,7 +1507,9 @@ button { font-family: inherit; cursor: pointer; }
   box-shadow: 0 0 0 3px rgba(0,0,0,0.20);
   transition: transform 0.18s ease;
 }
-.timeline-current .cur-video-cta:hover .cvc-play { transform: scale(1.08); }
+@media (hover: hover) {
+  .timeline-current .cur-video-cta:hover .cvc-play { transform: scale(1.08); }
+}
 .timeline-current .cvc-text {
   display: flex;
   flex-direction: column;
@@ -1531,7 +1541,9 @@ button { font-family: inherit; cursor: pointer; }
   margin-left: 6px;
   transition: transform 0.18s ease;
 }
-.timeline-current .cur-video-cta:hover .cvc-arrow { transform: translateX(3px); }
+@media (hover: hover) {
+  .timeline-current .cur-video-cta:hover .cvc-arrow { transform: translateX(3px); }
+}
 .timeline-foot {
   margin-top: 28px;
   padding-top: 18px;
@@ -1792,10 +1804,12 @@ button { font-family: inherit; cursor: pointer; }
   padding: 0;
   transition: transform 0.15s ease, box-shadow 0.15s ease;
 }
-.photo-card.real-photo:hover {
-  transform: scale(1.02);
-  box-shadow: 0 6px 24px rgba(0,0,0,0.18);
-  z-index: 1;
+@media (hover: hover) {
+  .photo-card.real-photo:hover {
+    transform: scale(1.02);
+    box-shadow: 0 6px 24px rgba(0,0,0,0.18);
+    z-index: 1;
+  }
 }
 .photo-card.real-photo .corner {
   background: rgba(0,0,0,0.55);
@@ -2078,9 +2092,11 @@ button { font-family: inherit; cursor: pointer; }
   cursor: pointer;
   transition: transform 0.15s, box-shadow 0.15s;
 }
-.learn-card:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 12px 28px rgba(80, 47, 140, 0.12);
+@media (hover: hover) {
+  .learn-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 12px 28px rgba(80, 47, 140, 0.12);
+  }
 }
 .learn-card .lcorner {
   position: absolute;
@@ -2421,10 +2437,12 @@ button { font-family: inherit; cursor: pointer; }
   font: inherit;
   color: inherit;
 }
-.ladder-tile:hover {
-  transform: translateY(-3px);
-  box-shadow: 0 14px 32px rgba(80, 47, 140, 0.18);
-  border-color: var(--plum);
+@media (hover: hover) {
+  .ladder-tile:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 14px 32px rgba(80, 47, 140, 0.18);
+    border-color: var(--plum);
+  }
 }
 .lt-frame {
   position: relative;
@@ -2459,8 +2477,10 @@ button { font-family: inherit; cursor: pointer; }
   transition: transform 0.15s, opacity 0.15s;
   pointer-events: none;
 }
-.ladder-tile:hover .lt-play {
-  transform: translate(-50%, -50%) scale(1.1);
+@media (hover: hover) {
+  .ladder-tile:hover .lt-play {
+    transform: translate(-50%, -50%) scale(1.1);
+  }
 }
 .lt-orient {
   position: absolute;
@@ -2499,8 +2519,10 @@ button { font-family: inherit; cursor: pointer; }
   padding: 12px 14px 14px;
   border-top: 3px solid var(--plum);
 }
-.ladder-tile:hover .lt-name {
-  border-top-color: var(--gold);
+@media (hover: hover) {
+  .ladder-tile:hover .lt-name {
+    border-top-color: var(--gold);
+  }
 }
 
 .ladder-empty {
@@ -3966,9 +3988,11 @@ button { font-family: inherit; cursor: pointer; }
   cursor: pointer;
   transition: transform 0.15s ease, box-shadow 0.15s ease;
 }
-.memorial-card:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 14px 28px rgba(31, 18, 60, 0.28);
+@media (hover: hover) {
+  .memorial-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 14px 28px rgba(31, 18, 60, 0.28);
+  }
 }
 .memorial-card .mc-eb {
   font-family: var(--mono);
@@ -4167,7 +4191,9 @@ button { font-family: inherit; cursor: pointer; }
 @media (max-width: 700px) {
   .coachi-trophy img { height: 260px; }
 }
-.coachi-gallery .cg-tile:hover img { transform: scale(1.04); }
+@media (hover: hover) {
+  .coachi-gallery .cg-tile:hover img { transform: scale(1.04); }
+}
 .coachi-gallery .cg-0 { grid-column: span 3; grid-row: span 2; }
 .coachi-gallery .cg-1 { grid-column: span 3; grid-row: span 1; }
 .coachi-gallery .cg-2 { grid-column: span 2; grid-row: span 1; }
