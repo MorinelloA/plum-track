@@ -27,6 +27,13 @@ test('colours come from tokens: no raw colour literals outside :root', async ({}
   }
 });
 
+test('the browser toolbar colour is a palette token: --ink, like the band at the top of every page', async ({}, testInfo) => {
+  sourceCheck(testInfo);
+  const ink = read('src/styles.css').match(/--ink:\s*(#[0-9a-fA-F]{6})/)[1];
+  const theme = read('index.html').match(/<meta name="theme-color" content="([^"]+)"/)[1];
+  expect(theme.toUpperCase()).toBe(ink.toUpperCase());
+});
+
 test('text is at least 10px: no font size under 10px', async ({}, testInfo) => {
   sourceCheck(testInfo);
   const css = read('src/styles.css').replace(/\/\*[\s\S]*?\*\//g, '');
