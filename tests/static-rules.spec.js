@@ -34,6 +34,20 @@ test('the browser toolbar colour is a palette token: --ink, like the band at the
   expect(theme.toUpperCase()).toBe(ink.toUpperCase());
 });
 
+test('text sizes up to 36px come from the type scale', async ({}, testInfo) => {
+  sourceCheck(testInfo);
+  // kit.md; display sizes above 36px are set per hero and stay as drawn
+  const SCALE = [10, 11, 12, 13, 14, 15, 16, 18, 20, 22, 24, 26, 28, 30, 32, 36];
+  const offScale = v => parseFloat(v) <= 36 && !SCALE.includes(parseFloat(v));
+  const css = read('src/styles.css').replace(/\/\*[\s\S]*?\*\//g, '');
+  const off = [...css.matchAll(/font(?:-size)?:[^;{}]*?(\d+(?:\.\d+)?)px/g)].filter(m => offScale(m[1])).map(m => m[0].trim());
+  expect(off, 'font sizes off the scale in src/styles.css').toEqual([]);
+  for (const f of pageFiles()) {
+    const inline = [...read(f).matchAll(/fontSize:\s*(\d+(?:\.\d+)?)/g)].filter(m => offScale(m[1])).map(m => m[0]);
+    expect(inline, f).toEqual([]);
+  }
+});
+
 test('text is at least 10px: no font size under 10px', async ({}, testInfo) => {
   sourceCheck(testInfo);
   const css = read('src/styles.css').replace(/\/\*[\s\S]*?\*\//g, '');
