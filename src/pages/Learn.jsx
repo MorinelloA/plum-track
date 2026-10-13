@@ -332,14 +332,14 @@ function LearnCategory({ id }) {
           <p className="page-subtitle">Choose a sub-topic to dig in. Each section includes drills, routines, or reference material.</p>
         </div>
       </div>
-      <div className="subnav">
+      <nav className="subnav" aria-label="Learn topics">
         <a className="subnav-tab" href={routeHref("/learn")}>← All Resources</a>
         {topic.subs.map(s => (
           <a key={s.id} className="subnav-tab" href={routeHref("/learn/" + id + "/" + s.id)}>
             {s.title}
           </a>
         ))}
-      </div>
+      </nav>
       <div className="subtopic-list">
         {topic.subs.map(s => (
           <a key={s.id} className="subtopic" href={routeHref("/learn/" + id + "/" + s.id)}>
@@ -630,14 +630,14 @@ function LearnSubPage({ cat, sub }) {
           <p className="page-subtitle">{subTopic.count}</p>
         </div>
       </div>
-      <div className="subnav">
+      <nav className="subnav" aria-label="Learn topics">
         <a className="subnav-tab" href={routeHref("/learn/" + cat)}>← Back to {topic.title}</a>
         {topic.subs.map(s => (
-          <a key={s.id} className={"subnav-tab" + (s.id === sub ? " active" : "")} href={routeHref("/learn/" + cat + "/" + s.id)}>
+          <a key={s.id} className={"subnav-tab" + (s.id === sub ? " active" : "")} href={routeHref("/learn/" + cat + "/" + s.id)} aria-current={s.id === sub ? "page" : undefined}>
             {s.title}
           </a>
         ))}
-      </div>
+      </nav>
       {body}
       <MediaLightbox media={media} onClose={() => setMedia(null)} />
     </div>

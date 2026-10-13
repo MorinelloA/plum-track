@@ -453,13 +453,13 @@ export function RecordsPage({ sub }) {
           <div className="rs-lbl">EVENTS<br/>TRACKED</div>
         </div>
       </div>
-      <div className="subnav">
+      <nav className="subnav" aria-label="Record lists">
         {RECORD_TABS.map(t => (
-          <a className={"subnav-tab" + (t.id === tab.id ? " active" : "")} href={routeHref("/records/" + t.id)} key={t.id}>
+          <a className={"subnav-tab" + (t.id === tab.id ? " active" : "")} href={routeHref("/records/" + t.id)} aria-current={t.id === tab.id ? "page" : undefined} key={t.id}>
             {t.title}
           </a>
         ))}
-      </div>
+      </nav>
       <RecordsTable data={data} hasProgression={hasProgression} showSchool={showSchool} />
     </div>
   );
@@ -483,13 +483,13 @@ export function JrHighPage({ sub }) {
           <p className="page-subtitle">Top marks set during 7th and 8th grade competition at Plum Middle School. The pipeline starts here.</p>
         </div>
       </div>
-      <div className="subnav">
+      <nav className="subnav" aria-label="Junior high record lists">
         {tabs.map(t => (
-          <a className={"subnav-tab" + (t.id === tab.id ? " active" : "")} href={routeHref("/jrhigh/" + t.id)} key={t.id}>
+          <a className={"subnav-tab" + (t.id === tab.id ? " active" : "")} href={routeHref("/jrhigh/" + t.id)} aria-current={t.id === tab.id ? "page" : undefined} key={t.id}>
             {t.title}
           </a>
         ))}
-      </div>
+      </nav>
       <RecordsTable data={data} hasProgression={false} />
     </div>
   );

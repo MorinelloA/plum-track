@@ -18,13 +18,13 @@ function YearPicker({ years, active, base }) {
           {years.map(y => <option key={y} value={y}>{y}</option>)}
         </select>
       </label>
-      <div className="archive-yearrail" role="tablist" aria-label="Select season year">
+      <nav className="archive-yearrail" aria-label="Season year">
         {years.map(y => (
-          <a key={y} className={"archive-yr" + (y === active ? " active" : "")} href={routeHref(base + "/" + y)} role="tab" aria-selected={y === active}>
+          <a key={y} className={"archive-yr" + (y === active ? " active" : "")} href={routeHref(base + "/" + y)} aria-current={y === active ? "page" : undefined}>
             <span className="y">{y}</span>
           </a>
         ))}
-      </div>
+      </nav>
     </React.Fragment>
   );
 }

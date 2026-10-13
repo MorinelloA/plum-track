@@ -29,7 +29,7 @@ function ArchiveYearRail({ years, available, current, onPick }) {
           {years.map(y => <option key={y} value={y} disabled={!available.includes(y)}>{y}</option>)}
         </select>
       </label>
-      <div className="archive-yearrail" role="tablist" aria-label="Season year">
+      <nav className="archive-yearrail" aria-label="Season year">
         {years.map(y => {
           const has = available.includes(y);
           return (
@@ -37,15 +37,14 @@ function ArchiveYearRail({ years, available, current, onPick }) {
               key={y}
               className={"archive-yr" + (y === current ? " active" : "") + (has ? "" : " empty")}
               onClick={() => onPick(y)}
-              role="tab"
-              aria-selected={y === current}
+              aria-current={y === current ? "page" : undefined}
               disabled={!has}
             >
               <span className="y">{y}</span>
             </button>
           );
         })}
-      </div>
+      </nav>
     </React.Fragment>
   );
 }
@@ -74,20 +73,19 @@ function ArchiveBanner({ data }) {
 
 function ArchiveSectionTabs({ sections, current, onPick }) {
   return (
-    <div className="archive-sectabs" role="tablist">
+    <nav className="archive-sectabs" aria-label="Archive sections">
       {sections.map((s, i) => (
         <button
           key={s}
           className={"archive-sectab" + (s === current ? " active" : "")}
           onClick={() => onPick(s)}
-          role="tab"
-          aria-selected={s === current}
+          aria-current={s === current ? "page" : undefined}
         >
           <span className="num">{String(i + 1).padStart(2, "0")}</span>
           {SECTION_LABELS[s]}
         </button>
       ))}
-    </div>
+    </nav>
   );
 }
 

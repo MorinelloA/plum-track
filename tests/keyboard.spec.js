@@ -61,3 +61,19 @@ test('after an in-app navigation, focus moves to the new page heading', async ({
   await expect(page).toHaveURL(/girls-indoor/);
   await expect(page.locator('main h1')).toBeFocused();
 });
+
+test('season, section and record pickers are navigation with a current item, not fake tabs', async ({ page }, testInfo) => {
+  for (const path of ['/results/season-archives/2016/dual-meets', '/gallery/2016', '/roster/2015', '/records/boys-outdoor', '/learn/drills/hurdles']) {
+    await page.goto(path);
+    await expect(page.locator('main [role="tab"], main [role="tablist"]')).toHaveCount(0);
+  }
+  await page.goto('/records/boys-outdoor');
+  await expect(page.getByRole('navigation', { name: 'Record lists' }).locator('[aria-current="page"]')).toHaveText('Boys Outdoor');
+  await page.goto('/results/season-archives/2016/dual-meets');
+  await expect(page.getByRole('navigation', { name: 'Archive sections' }).locator('[aria-current="page"]')).toContainText('Dual');
+  if (testInfo.project.name === 'desktop') {   // the year rails are desktop-only; phones get a select
+    await expect(page.getByRole('navigation', { name: 'Season year' }).locator('[aria-current="page"]')).toHaveText('2016');
+    await page.goto('/gallery/2007');
+    await expect(page.getByRole('navigation', { name: 'Season year' }).locator('[aria-current="page"]')).toHaveText('2007');
+  }
+});
