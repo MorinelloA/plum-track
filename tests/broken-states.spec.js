@@ -38,3 +38,9 @@ test('unknown Learn pages fall back instead of rendering blank', async ({ page }
     await expect(page.locator('main h1')).toHaveText(heading);
   }
 });
+
+test('the home page has no empty headings', async ({ page }) => {
+  await page.goto('/');
+  const empty = await page.locator('main :is(h1, h2, h3, h4, h5, h6)').evaluateAll(hs => hs.filter(h => !h.textContent.trim()).length);
+  expect(empty).toBe(0);
+});

@@ -21,7 +21,6 @@ function EventsRail({ variant }) {
         </div>
         <div className="events-grid" style={{ gridTemplateColumns: "1fr" }}>
           <div className="events-col">
-            <h3 style={{ marginBottom: 0 }}></h3>
             {running.map(ev => (
               <div className="event-row" key={ev.name}>
                 <span className="ord">{ev.ord}</span>
