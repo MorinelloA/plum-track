@@ -9,6 +9,7 @@ import { PhotosPage, RosterPage, SchedulePage, FormsPage, ContactPage, StatesPag
 import { LearnPage } from './pages/Learn.jsx';
 import { DonatePage } from './pages/Donate.jsx';
 import { routeHref } from './utils/paths.js';
+import { useModalDialog } from './utils/useModalDialog.js';
 
 const NAV = [
   { id: "home", title: "Home", href: "/", match: (r) => r.section === "home" },
@@ -124,6 +125,48 @@ function BrandLockup() {
         <span className="bot">PLUM MUSTANGS</span>
       </div>
     </a>
+  );
+}
+
+// --- Mobile navigation ---
+function MobileNav({ route }) {
+  const [open, setOpen] = React.useState(false);
+  const dialogRef = useModalDialog(open, () => setOpen(false));
+  React.useEffect(() => { setOpen(false); }, [route.section, route.sub, route.deep]);
+  React.useEffect(() => {
+    const query = window.matchMedia('(max-width: 1024px)');
+    const onResize = () => { if (!query.matches) setOpen(false); };
+    query.addEventListener('change', onResize);
+    return () => query.removeEventListener('change', onResize);
+  }, []);
+  return (
+    <div className="mobile-nav">
+      <button className="mobile-menu-toggle" type="button" aria-expanded={open} aria-controls="mobile-site-menu" onClick={() => setOpen(true)}>
+        <span aria-hidden="true">☰</span> Menu
+        <span className="mobile-current-page">{NAV.find(item => item.match(route))?.title || 'Plum Mustangs'}</span>
+      </button>
+      {open && (
+        <div className="mobile-menu-overlay" onClick={() => setOpen(false)}>
+          <div className="mobile-menu-panel" id="mobile-site-menu" ref={dialogRef} role="dialog" aria-modal="true" aria-label="Site menu" tabIndex={-1} onClick={event => event.stopPropagation()}>
+            <div className="mobile-menu-toolbar"><span>Plum Mustangs</span><button aria-label="Close menu" onClick={() => setOpen(false)}>✕</button></div>
+            <nav aria-label="Main navigation">
+              {NAV.map(item => item.children ? (
+                <details className="mobile-menu-group" key={item.id} open={item.match(route) || undefined}>
+                  <summary>{item.title}</summary>
+                  <div className="mobile-menu-links">
+                    {item.children.map((child, i) => child.section ? <span className="mobile-menu-label" key={i}>{child.label}</span> : (
+                      <a key={child.id} href={routeHref(child.href)} aria-current={child.href === window.location.pathname ? 'page' : undefined} onClick={() => setOpen(false)}>{child.title}</a>
+                    ))}
+                  </div>
+                </details>
+              ) : <a className="mobile-menu-link" key={item.id} href={routeHref(item.href)} aria-current={item.match(route) ? 'page' : undefined} onClick={() => setOpen(false)}>{item.title}</a>)}
+              <a className="mobile-menu-link" href={routeHref('/contact')} onClick={() => setOpen(false)}>Contact</a>
+              <a className="mobile-menu-link" href={routeHref('/donate')} onClick={() => setOpen(false)}>Donate</a>
+            </nav>
+          </div>
+        </div>
+      )}
+    </div>
   );
 }
 
@@ -336,6 +379,7 @@ function App() {
           </div>
         </div>
         {t.navVariant === "mega" ? <NavMega route={route} /> : <NavDropdown route={route} />}
+        <MobileNav route={route} />
       </header>
       <main>
         <PageBody route={route} homeVariant={t.homeVariant} />

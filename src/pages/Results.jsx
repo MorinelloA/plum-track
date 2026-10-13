@@ -24,7 +24,7 @@ function ChampionsList({ data, title }) {
       {sorted.map((c, i) => (
         <div className={"champ-card" + (c.gender === "girls" ? " girls" : "")} key={i}>
           <div className="yr">{c.yr}</div>
-          <div>
+          <div className="champ-details">
             <div className="ev">{c.event}</div>
             {c.photo ? (
               <button
@@ -71,9 +71,9 @@ function PlacersList({ data, title }) {
           {yearBlock.entries.map((e, i) => (
             <div className="placer-row" key={i}>
               <div className={"place" + (e.place === "1st" ? " gold" : "")}>{e.place}</div>
-              <div>
+              <div className="placer-details">
                 <span className="ath">{e.athlete}</span>
-                <span style={{ fontFamily: "var(--mono)", fontSize: 11, color: "var(--grey)", letterSpacing: "0.1em", textTransform: "uppercase", marginLeft: 10 }}>{e.event}</span>
+                <span className="ev" style={{ marginLeft: 10 }}>{e.event}</span>
               </div>
               <div className="mk">{e.mark}</div>
               <div></div>
@@ -121,7 +121,7 @@ export function ResultsPage({ sub, deep }) {
   }
 
   return (
-    <div className="page">
+    <div className="page results-page">
       <div className="page-header">
         <div>
           <div className="page-eyebrow">WPIAL · PIAA · SEASON ARCHIVES</div>
@@ -129,13 +129,13 @@ export function ResultsPage({ sub, deep }) {
           <p className="page-subtitle">WPIAL and PIAA championship finishes, dual meet records, invitational results, honor rolls, and season archives for Plum Mustangs Track &amp; Field.</p>
         </div>
       </div>
-      <div className="subnav">
+      <nav className="subnav" aria-label="Results pages">
         {RESULT_TABS.map(t => (
-          <a className={"subnav-tab" + (t.id === tab.id ? " active" : "")} href={routeHref("/results/" + t.id)} key={t.id}>
+          <a className={"subnav-tab" + (t.id === tab.id ? " active" : "")} href={routeHref("/results/" + t.id)} aria-current={t.id === tab.id ? "page" : undefined} key={t.id}>
             {t.title}
           </a>
         ))}
-      </div>
+      </nav>
       {content}
     </div>
   );

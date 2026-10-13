@@ -4,19 +4,28 @@ import { PTF_DATA } from '../data/data.js';
 import { PTF_PHOTOS } from '../data/photos.js';
 import { PTF_ROSTERS, PTF_COACHING_STAFF } from '../data/rosters.js';
 import { rootAsset, routeHref } from '../utils/paths.js';
+import { useModalDialog } from '../utils/useModalDialog.js';
 
 const PHOTO_YEARS = Object.keys(PTF_PHOTOS || {}).map(Number).sort((a, b) => b - a);
 const ROSTER_YEARS = Object.keys(PTF_ROSTERS || {}).filter(k => Number(k) > 2000).map(Number).sort((a, b) => b - a);
 
 function YearPicker({ years, active, base }) {
   return (
-    <div className="archive-yearrail" role="tablist" aria-label="Select season year">
-      {years.map(y => (
-        <a key={y} className={"archive-yr" + (y === active ? " active" : "")} href={routeHref(base + "/" + y)} role="tab" aria-selected={y === active}>
-          <span className="y">{y}</span>
-        </a>
-      ))}
-    </div>
+    <React.Fragment>
+      <label className="mobile-year-picker">
+        <span>Season</span>
+        <select value={active} onChange={event => { window.location.href = routeHref(base + "/" + event.target.value); }} aria-label="Select season year">
+          {years.map(y => <option key={y} value={y}>{y}</option>)}
+        </select>
+      </label>
+      <div className="archive-yearrail" role="tablist" aria-label="Select season year">
+        {years.map(y => (
+          <a key={y} className={"archive-yr" + (y === active ? " active" : "")} href={routeHref(base + "/" + y)} role="tab" aria-selected={y === active}>
+            <span className="y">{y}</span>
+          </a>
+        ))}
+      </div>
+    </React.Fragment>
   );
 }
 
@@ -26,12 +35,13 @@ export function PhotosPage({ sub }) {
   const year = (parsedSub && PHOTO_YEARS.includes(parsedSub)) ? parsedSub : PHOTO_YEARS[0];
   const allPhotos = (PTF_PHOTOS && PTF_PHOTOS[year]) || [];
   const [lightbox, setLightbox] = React.useState(null);
+  const lightboxRef = useModalDialog(lightbox !== null, () => setLightbox(null));
+  React.useEffect(() => { setLightbox(null); }, [year]);
 
-  // Close lightbox on Escape
+  // Arrow keys move through photos; the shared dialog handles Escape and focus.
   React.useEffect(() => {
     if (lightbox === null) return;
     const handler = (e) => {
-      if (e.key === "Escape") setLightbox(null);
       if (e.key === "ArrowRight") setLightbox(i => Math.min(i + 1, allPhotos.length - 1));
       if (e.key === "ArrowLeft") setLightbox(i => Math.max(i - 1, 0));
     };
@@ -103,31 +113,23 @@ export function PhotosPage({ sub }) {
       {lightbox !== null && (
         <div
           className="photo-lightbox"
+          ref={lightboxRef}
+          role="dialog"
+          aria-modal="true"
+          aria-label={year + " season photo gallery"}
+          tabIndex={-1}
           onClick={() => setLightbox(null)}
-          style={{
-            position: "fixed", inset: 0, background: "rgba(0,0,0,0.92)",
-            display: "flex", alignItems: "center", justifyContent: "center",
-            zIndex: 9999, cursor: "zoom-out"
-          }}
         >
-          <button
-            onClick={(e) => { e.stopPropagation(); setLightbox(i => Math.max(i - 1, 0)); }}
-            disabled={lightbox === 0}
-            style={{position: "absolute", left: 20, top: "50%", transform: "translateY(-50%)", background: "rgba(255,255,255,0.1)", border: "none", color: "#fff", fontSize: 32, width: 52, height: 52, borderRadius: "50%", cursor: "pointer", display: "flex", alignItems: "center", justifyContent: "center", opacity: lightbox === 0 ? 0.3 : 1}}
-          >‹</button>
+          <button className="photo-lightbox-close" aria-label="Close gallery" onClick={() => setLightbox(null)}>✕</button>
           <img
             src={rootAsset("photos/" + year + "/" + allPhotos[lightbox])}
             alt={"Photo " + (lightbox + 1)}
             onClick={(e) => e.stopPropagation()}
-            style={{maxWidth: "90vw", maxHeight: "90vh", objectFit: "contain", boxShadow: "0 8px 48px rgba(0,0,0,0.6)"}}
           />
-          <button
-            onClick={(e) => { e.stopPropagation(); setLightbox(i => Math.min(i + 1, allPhotos.length - 1)); }}
-            disabled={lightbox === allPhotos.length - 1}
-            style={{position: "absolute", right: 20, top: "50%", transform: "translateY(-50%)", background: "rgba(255,255,255,0.1)", border: "none", color: "#fff", fontSize: 32, width: 52, height: 52, borderRadius: "50%", cursor: "pointer", display: "flex", alignItems: "center", justifyContent: "center", opacity: lightbox === allPhotos.length - 1 ? 0.3 : 1}}
-          >›</button>
-          <div style={{position: "absolute", bottom: 20, left: "50%", transform: "translateX(-50%)", color: "rgba(255,255,255,0.6)", fontFamily: "var(--mono)", fontSize: 12, letterSpacing: "0.1em"}}>
-            {lightbox + 1} / {allPhotos.length} · ESC TO CLOSE
+          <div className="photo-lightbox-controls" onClick={event => event.stopPropagation()}>
+            <button aria-label="Previous photo" onClick={() => setLightbox(i => Math.max(i - 1, 0))} disabled={lightbox === 0}>‹</button>
+            <span role="status" aria-live="polite">{lightbox + 1} / {allPhotos.length}</span>
+            <button aria-label="Next photo" onClick={() => setLightbox(i => Math.min(i + 1, allPhotos.length - 1))} disabled={lightbox === allPhotos.length - 1}>›</button>
           </div>
         </div>
       )}
@@ -278,7 +280,7 @@ export function SchedulePage() {
       {PTF_DATA.scheduleByMonth.map(month => (
         <div className="schedule-month" key={month.month}>
           <div className="mhead">{month.month}</div>
-          <table className="data-table" style={{ tableLayout: "fixed" }}>
+          <table className="data-table schedule-table" role="table" style={{ tableLayout: "fixed" }}>
             <thead>
               <tr>
                 <th style={{width: 90}}>Date</th>
@@ -290,13 +292,13 @@ export function SchedulePage() {
             <tbody>
               {month.meets.map((m, i) => (
                 <tr key={i}>
-                  <td>
+                  <td className="schedule-date" data-label="Date">
                     <span style={{ fontFamily: "var(--display)", fontSize: 22, color: "var(--plum-deep)" }}>{m.d}</span>
                     <span style={{ fontFamily: "var(--mono)", fontSize: 10, marginLeft: 8, letterSpacing: "0.15em", color: "var(--grey)" }}>{m.day}</span>
                   </td>
                   <td className="event-name">{m.name}</td>
-                  <td><span style={{ fontFamily: "var(--mono)", fontSize: 12, color: "var(--grey)", letterSpacing: "0.08em" }}>{m.loc.toUpperCase()}</span></td>
-                  <td style={{ textAlign: "right" }}>
+                  <td className="schedule-location" data-label="Location"><span style={{ fontFamily: "var(--mono)", fontSize: 12, color: "var(--grey)", letterSpacing: "0.08em" }}>{m.loc.toUpperCase()}</span></td>
+                  <td className="schedule-type" data-label="Type" style={{ textAlign: "right" }}>
                     <span className={"tag" + (m.tag === "HOME" ? " home" : "")} style={{ display: "inline-block", fontFamily: "var(--mono)", fontSize: 10, padding: "4px 8px", letterSpacing: "0.15em", border: "1px solid var(--line)", background: m.tag === "HOME" ? "var(--gold)" : "transparent", color: m.tag === "HOME" ? "var(--plum-deep)" : "var(--grey)" }}>
                       {m.tag}
                     </span>
@@ -475,7 +477,7 @@ const PIAA_QUAL_PV_MIN = { girls: "9-6", boys: "12-3" };
 
 export function StatesPage() {
   const renderTable = (rows) => (
-    <table className="data-table" style={{ tableLayout: "fixed" }}>
+    <table className="data-table qual-table" role="table" style={{ tableLayout: "fixed" }}>
       <thead>
         <tr>
           <th>Event</th>
@@ -487,8 +489,8 @@ export function StatesPage() {
         {rows.map((r, i) => (
           <tr key={i}>
             <td className="event-name">{r.event}</td>
-            <td style={{ textAlign: "right", fontFamily: "var(--mono)" }}>{r.girls}</td>
-            <td style={{ textAlign: "right", fontFamily: "var(--mono)" }}>{r.boys}</td>
+            <td data-label="Girls" style={{ textAlign: "right", fontFamily: "var(--mono)" }}>{r.girls}</td>
+            <td data-label="Boys" style={{ textAlign: "right", fontFamily: "var(--mono)" }}>{r.boys}</td>
           </tr>
         ))}
       </tbody>
@@ -528,7 +530,7 @@ export function StatesPage() {
 
       <p style={{ fontSize: 12, color: "var(--grey)", marginTop: 20 }}>
         Standards reflect the 2025–2026 PIAA Rules &amp; Regulations.
-        {" "}<a href="https://www.piaa.org/assets/web/documents/Handbook%20-%20Section%20III%20-%20Rules%20and%20Regulations.pdf" target="_blank" rel="noopener" style={{ color: "var(--plum)" }}>View the official PIAA handbook →</a>
+        {" "}<a className="standards-link" href="https://www.piaa.org/assets/web/documents/Handbook%20-%20Section%20III%20-%20Rules%20and%20Regulations.pdf" target="_blank" rel="noopener" style={{ color: "var(--plum)" }}>View the official PIAA handbook →</a>
       </p>
     </div>
   );

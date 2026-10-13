@@ -22,23 +22,31 @@ function sortHighlightsByPlace(highlights) {
 
 function ArchiveYearRail({ years, available, current, onPick }) {
   return (
-    <div className="archive-yearrail" role="tablist" aria-label="Season year">
-      {years.map(y => {
-        const has = available.includes(y);
-        return (
-          <button
-            key={y}
-            className={"archive-yr" + (y === current ? " active" : "") + (has ? "" : " empty")}
-            onClick={() => onPick(y)}
-            role="tab"
-            aria-selected={y === current}
-            disabled={!has}
-          >
-            <span className="y">{y}</span>
-          </button>
-        );
-      })}
-    </div>
+    <React.Fragment>
+      <label className="mobile-year-picker">
+        <span>Season</span>
+        <select value={current} onChange={event => onPick(Number(event.target.value))} aria-label="Select archive season">
+          {years.map(y => <option key={y} value={y} disabled={!available.includes(y)}>{y}</option>)}
+        </select>
+      </label>
+      <div className="archive-yearrail" role="tablist" aria-label="Season year">
+        {years.map(y => {
+          const has = available.includes(y);
+          return (
+            <button
+              key={y}
+              className={"archive-yr" + (y === current ? " active" : "") + (has ? "" : " empty")}
+              onClick={() => onPick(y)}
+              role="tab"
+              aria-selected={y === current}
+              disabled={!has}
+            >
+              <span className="y">{y}</span>
+            </button>
+          );
+        })}
+      </div>
+    </React.Fragment>
   );
 }
 
@@ -87,7 +95,7 @@ function ArchiveSectionTabs({ sections, current, onPick }) {
 
 function DualMeetsTable({ meets }) {
   return (
-    <table className="dual-table">
+    <table className="dual-table" role="table">
       <thead>
         <tr>
           <th>Opponent</th>
@@ -98,19 +106,19 @@ function DualMeetsTable({ meets }) {
       <tbody>
         {meets.map((m, i) => (
           <tr key={i}>
-            <td>
+            <td className="dual-opponent">
               <div className="dt-opp">vs. {m.opp}</div>
             </td>
-            <td className="center">
+            <td className="center dual-score boys" data-label="Boys">
               {m.boys ? <span className="dt-score">{m.boys.for}–{m.boys.against}</span> : <span className="dt-na">—</span>}
             </td>
-            <td className="center">
+            <td className="center dual-result boys">
               {m.boys ? <span className={"dt-result " + m.boys.result}>{m.boys.result}</span> : null}
             </td>
-            <td className="center">
+            <td className="center dual-score girls" data-label="Girls">
               {m.girls ? <span className="dt-score">{m.girls.for}–{m.girls.against}</span> : <span className="dt-na">—</span>}
             </td>
-            <td className="center">
+            <td className="center dual-result girls">
               {m.girls ? <span className={"dt-result " + m.girls.result}>{m.girls.result}</span> : null}
             </td>
           </tr>

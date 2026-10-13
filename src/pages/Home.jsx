@@ -269,7 +269,7 @@ function HomeQuickAccess() {
             <p style={{ margin: "0 0 12px" }}>
               Mustangs advance to the state championships at Shippensburg University by placing <strong>top 4 at the WPIAL Championships</strong> — or <strong>top 8</strong> with a mark that meets the PIAA qualifying standard.
             </p>
-            <a href={routeHref("/states")} style={{ color: "var(--plum)", fontWeight: 600, textDecoration: "none" }}>How to qualify &amp; standards →</a>
+            <a className="standards-link" href={routeHref("/states")} style={{ color: "var(--plum)", fontWeight: 600, textDecoration: "none" }}>How to qualify &amp; standards →</a>
           </div>
         </div>
         <a href={routeHref("/coachi")} className="memorial-card">
