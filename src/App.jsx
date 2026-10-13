@@ -5,7 +5,7 @@ import { useTweaks, TweaksPanel, TweakSection, TweakRadio, TweakToggle } from '.
 import { HomeStadium, HomeMarquee, HomeLanes } from './pages/Home.jsx';
 import { RecordsPage, JrHighPage } from './pages/Records.jsx';
 import { ResultsPage } from './pages/Results.jsx';
-import { PhotosPage, RosterPage, SchedulePage, FormsPage, ContactPage, StatesPage, CoachIPage } from './pages/Content.jsx';
+import { PhotosPage, RosterPage, SchedulePage, FormsPage, ContactPage, StatesPage, CoachIPage, PHOTO_YEARS, ROSTER_YEARS } from './pages/Content.jsx';
 import { LearnPage } from './pages/Learn.jsx';
 import { DonatePage } from './pages/Donate.jsx';
 import { routeHref } from './utils/paths.js';
@@ -103,6 +103,36 @@ function useRoute() {
     };
   }, []);
   return parseRoute(path);
+}
+
+// === Page titles ===
+const SITE_TITLE = "Plum Mustangs Track & Field";
+const LEARN_TOPIC_TITLES = { drills: "Drills", inspiration: "Inspiration" };
+
+// The browser tab's title: the page the screen shows, then the site.
+function pageTitle(route) {
+  const child = (navId, id) => NAV.find(n => n.id === navId)?.children?.find(c => c.id === id && !c.section)?.title;
+  const shownYear = (years, sub) => { const y = parseInt(sub, 10); return years.includes(y) ? y : years[0]; };
+  switch (route.section) {
+    case "records": return (child("records", route.sub) || "Boys Indoor") + " Records";
+    case "jrhigh": return "Junior High " + (route.sub === "girls" ? "Girls" : "Boys") + " Records";
+    case "results":
+      if (route.sub === "season-archives") {
+        const year = parseInt(route.deep, 10);
+        return (year ? year + " " : "") + "Season Archives";
+      }
+      return child("results", route.sub) || "PIAA Champions";
+    case "photos": return shownYear(PHOTO_YEARS, route.sub) + " Photos & Videos";
+    case "roster": return shownYear(ROSTER_YEARS, route.sub) + " Roster";
+    case "schedule": return "Schedule";
+    case "forms": return child("forms", route.sub) || "Registration";
+    case "learn": return (route.deep && child("learn", route.deep)) || LEARN_TOPIC_TITLES[route.sub] || "Learn";
+    case "contact": return "Contact";
+    case "states": return "Qualifying for States";
+    case "coachi": return "Coach I";
+    case "donate": return "Donate";
+    default: return null;   // home, and unknown paths, which show the home page
+  }
 }
 
 // === Headers ===
@@ -390,6 +420,11 @@ const DEFAULTS = /*EDITMODE-BEGIN*/{
 function App() {
   const route = useRoute();
   const [t, setTweak] = useTweaks(DEFAULTS);
+
+  React.useEffect(() => {
+    const title = pageTitle(route);
+    document.title = title ? title + " · " + SITE_TITLE : SITE_TITLE;
+  }, [route.section, route.sub, route.deep]);
 
   return (
     <React.Fragment>

@@ -6,8 +6,8 @@ import { PTF_ROSTERS, PTF_COACHING_STAFF } from '../data/rosters.js';
 import { rootAsset, routeHref } from '../utils/paths.js';
 import { useModalDialog } from '../utils/useModalDialog.js';
 
-const PHOTO_YEARS = Object.keys(PTF_PHOTOS || {}).map(Number).sort((a, b) => b - a);
-const ROSTER_YEARS = Object.keys(PTF_ROSTERS || {}).filter(k => Number(k) > 2000).map(Number).sort((a, b) => b - a);
+export const PHOTO_YEARS = Object.keys(PTF_PHOTOS || {}).map(Number).sort((a, b) => b - a);
+export const ROSTER_YEARS = Object.keys(PTF_ROSTERS || {}).filter(k => Number(k) > 2000).map(Number).sort((a, b) => b - a);
 
 function YearPicker({ years, active, base }) {
   return (

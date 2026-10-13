@@ -21,3 +21,26 @@ test('the desktop menu closes on a tap outside it', async ({ page }, testInfo) =
   await page.locator('main').dispatchEvent('pointerdown');
   await expect(page.locator('.nav-dropdown')).toBeHidden();
 });
+
+test('each page has its own title', async ({ page }) => {
+  const site = 'Plum Mustangs Track & Field';
+  const cases = [
+    ['/', site],
+    ['/records/boys-outdoor', 'Boys Outdoor Records · ' + site],
+    ['/jrhigh/girls', 'Junior High Girls Records · ' + site],
+    ['/results/wpial-placers', 'WPIAL Placers · ' + site],
+    ['/results/season-archives/2016/dual-meets', '2016 Season Archives · ' + site],
+    ['/gallery/2007', '2007 Photos & Videos · ' + site],
+    ['/roster/2012', '2015 Roster · ' + site],
+    ['/learn/drills/hurdles', 'Hurdle Drills · ' + site],
+    ['/contact', 'Contact · ' + site],
+  ];
+  for (const [path, title] of cases) {
+    await page.goto(path);
+    await expect(page).toHaveTitle(title);
+  }
+  // and after an in-app navigation
+  await page.goto('/records/boys-outdoor');
+  await page.locator('.subnav-tab', { hasText: 'Girls Indoor' }).click();
+  await expect(page).toHaveTitle('Girls Indoor Records · ' + site);
+});
