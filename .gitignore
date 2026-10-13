@@ -7,3 +7,7 @@ handoff-extracted/
 # Full-size originals of videos re-encoded to fit Cloudflare's 25 MiB file limit
 media-originals/
 .wrangler/
+
+# Playwright output (npm run test:layout)
+test-results/
+playwright-report/
