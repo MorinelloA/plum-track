@@ -26,3 +26,14 @@ test('colours come from tokens: no raw colour literals outside :root', async ({}
     expect(found, f).toEqual([]);
   }
 });
+
+test('text is at least 10px: no font size under 10px', async ({}, testInfo) => {
+  sourceCheck(testInfo);
+  const css = read('src/styles.css').replace(/\/\*[\s\S]*?\*\//g, '');
+  const small = [...css.matchAll(/font(?:-size)?:[^;{}]*?(\d+(?:\.\d+)?)px/g)].filter(m => parseFloat(m[1]) < 10).map(m => m[0].trim());
+  expect(small, 'font sizes under 10px in src/styles.css').toEqual([]);
+  for (const f of pageFiles()) {
+    const inline = [...read(f).matchAll(/fontSize:\s*(\d+(?:\.\d+)?)/g)].filter(m => parseFloat(m[1]) < 10).map(m => m[0]);
+    expect(inline, f).toEqual([]);
+  }
+});

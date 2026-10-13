@@ -203,7 +203,7 @@ button { font-family: inherit; cursor: pointer; }
 }
 .brand-lockup .tf-tag .bot {
   font-family: var(--mono);
-  font-size: 9px;
+  font-size: 10px;
   letter-spacing: 0.24em;
   color: var(--grey);
   margin-top: 4px;
@@ -247,7 +247,7 @@ button { font-family: inherit; cursor: pointer; }
   border-bottom-color: var(--gold);
 }
 .nav-link .caret {
-  font-size: 9px;
+  font-size: 10px;
   opacity: 0.7;
 }
 .nav-dropdown {
@@ -1134,7 +1134,7 @@ button { font-family: inherit; cursor: pointer; }
 }
 .timeline-current .cur-photo-zoom {
   font-family: var(--mono);
-  font-size: 8px;
+  font-size: 10px;
   letter-spacing: 0.22em;
   text-transform: uppercase;
   color: var(--gold);
@@ -1285,7 +1285,7 @@ button { font-family: inherit; cursor: pointer; }
 .timeline-node .node-date,
 .timeline-node .node-location {
   font-family: var(--mono);
-  font-size: 9px;
+  font-size: 10px;
   letter-spacing: 0.12em;
   color: var(--grey);
   margin-top: 3px;
@@ -1309,7 +1309,7 @@ button { font-family: inherit; cursor: pointer; }
   background: var(--plum-darker);
   color: var(--gold);
   font-family: var(--mono);
-  font-size: 9px;
+  font-size: 10px;
   letter-spacing: 0.2em;
   padding: 4px 8px;
 }
@@ -1340,7 +1340,7 @@ button { font-family: inherit; cursor: pointer; }
   .timeline-node .node-info { flex: 1 1 60%; min-width: 0; }
   .timeline-node .node-athlete { font-size: 13px; }
   .timeline-node .node-date,
-  .timeline-node .node-location { font-size: 9px; letter-spacing: 0.08em; }
+  .timeline-node .node-location { font-size: 10px; letter-spacing: 0.08em; }
   /* Hide the small "CURRENT" badge — saves space; the gold card already signals current */
   .timeline-node .node-badge { display: none; }
 }
@@ -1433,7 +1433,7 @@ button { font-family: inherit; cursor: pointer; }
 }
 .timeline-current .cvc-detail {
   font-family: var(--mono);
-  font-size: 9px;
+  font-size: 10px;
   letter-spacing: 0.20em;
   color: var(--plum-darker);
   opacity: 0.75;
@@ -1713,7 +1713,7 @@ button { font-family: inherit; cursor: pointer; }
   top: 10px;
   right: 10px;
   font-family: var(--mono);
-  font-size: 9px;
+  font-size: 10px;
   letter-spacing: 0.18em;
   color: var(--plum);
   background: var(--gold);
@@ -1797,8 +1797,9 @@ button { font-family: inherit; cursor: pointer; }
 }
 .roster-card .grad-badge .grad-lbl {
   font-family: var(--mono);
-  font-size: 7px;
-  letter-spacing: 0.18em;
+  font-size: 10px;
+  letter-spacing: 0.04em;   /* "CLASS OF" on one line in the 58px badge at the 10px minimum */
+  white-space: nowrap;
   color: var(--gold-on-plum);
   margin-bottom: 3px;
 }
@@ -2352,7 +2353,7 @@ button { font-family: inherit; cursor: pointer; }
   top: 10px;
   left: 10px;
   font-family: var(--mono);
-  font-size: 9px;
+  font-size: 10px;
   letter-spacing: 0.22em;
   padding: 3px 8px;
   text-transform: uppercase;
@@ -2649,7 +2650,7 @@ button { font-family: inherit; cursor: pointer; }
 }
 .archive-banner .ab-stat .l {
   font-family: var(--mono);
-  font-size: 9px;
+  font-size: 10px;
   letter-spacing: 0.18em;
   color: var(--gold);
   margin-top: 4px;
@@ -2813,7 +2814,7 @@ button { font-family: inherit; cursor: pointer; }
 }
 .inv-head .inv-finishes .lab {
   font-family: var(--mono);
-  font-size: 9px;
+  font-size: 10px;
   letter-spacing: 0.2em;
   text-transform: uppercase;
   color: var(--grey);
@@ -2975,7 +2976,7 @@ button { font-family: inherit; cursor: pointer; }
 }
 .pb-leader-tag {
   font-family: var(--mono);
-  font-size: 9px;
+  font-size: 10px;
   letter-spacing: 0.22em;
   text-transform: uppercase;
   color: var(--plum);
@@ -3505,7 +3506,7 @@ button { font-family: inherit; cursor: pointer; }
 }
 .social-callout .social-text .net {
   font-family: var(--mono);
-  font-size: 9.5px;
+  font-size: 10px;
   letter-spacing: 0.22em;
   color: var(--gold);
   margin-top: 3px;
@@ -3579,7 +3580,7 @@ button { font-family: inherit; cursor: pointer; }
     align-items: flex-start;
     gap: 4px;
     padding: 8px 16px;
-    font-size: 9.5px;
+    font-size: 10px;
     letter-spacing: 0.12em;
   }
 
@@ -3598,7 +3599,7 @@ button { font-family: inherit; cursor: pointer; }
   .hero-inner { padding: 36px 16px 44px !important; }
   .hero h1, .hero-stadium h1 { font-size: 64px; line-height: 0.92; }
   .hero-eyebrow {
-    font-size: 9px;
+    font-size: 10px;
     letter-spacing: 0.18em;
     flex-wrap: wrap;
     gap: 6px;
@@ -3610,7 +3611,7 @@ button { font-family: inherit; cursor: pointer; }
     gap: 14px;
   }
   .hero-stat .num { font-size: 44px; }
-  .hero-stat .lbl { font-size: 9px; }
+  .hero-stat .lbl { font-size: 10px; }
 
   /* === Hero — Marquee === */
   .hero-marquee .big-plum,
@@ -3626,7 +3627,7 @@ button { font-family: inherit; cursor: pointer; }
   .lane { display: none; }
   .lane.main { display: flex; padding: 40px 22px; }
   .lane.main h1 { font-size: 56px; line-height: 0.92; }
-  .lane.main .lane-eb { font-size: 9.5px; letter-spacing: 0.2em; }
+  .lane.main .lane-eb { font-size: 10px; letter-spacing: 0.2em; }
   .lane.main .coach-tribute {
     margin-top: 22px;
     padding-top: 18px;
@@ -3656,7 +3657,7 @@ button { font-family: inherit; cursor: pointer; }
     font-size: 14px;
   }
   .event-row .ord { font-size: 14px; }
-  .event-row .meta { font-size: 9px; }
+  .event-row .meta { font-size: 10px; }
 
   /* === Home quick access === */
   .home-grid { padding: 36px 16px; gap: 24px; }
@@ -3671,7 +3672,7 @@ button { font-family: inherit; cursor: pointer; }
   .meet-row .date .d { font-size: 28px; }
   .meet-row .info .nm { font-size: 14px; }
   .meet-row .info .loc { font-size: 11px; }
-  .meet-row .tag { font-size: 9px; padding: 4px 7px; }
+  .meet-row .tag { font-size: 10px; padding: 4px 7px; }
   .quick-links { grid-template-columns: 1fr; }
   .quick-link { padding: 18px; }
 
@@ -3779,7 +3780,7 @@ button { font-family: inherit; cursor: pointer; }
   .big-tf { font-size: 30px !important; }
   .hero-stat .num { font-size: 36px; }
   .events-head h2 { font-size: 30px; }
-  .header-meta .hm-btn { font-size: 9.5px; padding: 6px 8px; }
+  .header-meta .hm-btn { font-size: 10px; padding: 6px 8px; }
 }
 
 /* === Home: Coach I memorial card === */
@@ -4450,7 +4451,7 @@ button { font-family: inherit; cursor: pointer; }
     padding: 36px 16px 40px;
   }
   .scholarship-band .sb-photo { outline-offset: 4px; }
-  .scholarship-band .sb-eb { font-size: 9.5px; letter-spacing: 0.22em; }
+  .scholarship-band .sb-eb { font-size: 10px; letter-spacing: 0.22em; }
   .scholarship-band h2 { font-size: 24px; margin-top: 8px; }
   .scholarship-band .sb-text { margin-top: 20px; font-size: 15px; }
   .scholarship-band .sb-actions {
@@ -4589,7 +4590,7 @@ main:focus, main h1:focus { outline: none; }
   .brand-lockup .plum-logo { height: 36px; }
   .brand-lockup .tf-tag { margin-left: 0; padding-left: 8px; }
   .brand-lockup .tf-tag .top { font-size: 18px; letter-spacing: 0.04em; }
-  .brand-lockup .tf-tag .bot { font-size: 8px; letter-spacing: 0.12em; }
+  .brand-lockup .tf-tag .bot { font-size: 10px; letter-spacing: 0.12em; }
   .header-meta { flex-direction: row; }
   .header-meta .hm-btn:not(.donate) { display: none; }
   .header-meta .hm-btn.donate { min-height: 44px; padding: 12px; font-size: 11px; }
@@ -4696,7 +4697,7 @@ main:focus, main h1:focus { outline: none; }
   .honor-row .mk { grid-area: mark; font-size: 14px; }
   .points-grid { grid-template-columns: minmax(0, 1fr); }
   .pb-leader { grid-template-columns: 44px minmax(0, 1fr) auto; gap: 12px; padding: 14px; }
-  .pb-leader-tag { font-size: 8px; letter-spacing: 0.05em; }
+  .pb-leader-tag { font-size: 10px; letter-spacing: 0.05em; }
   .pb-leader-name, .pb-ath { white-space: normal; overflow: visible; overflow-wrap: anywhere; }
   .pb-row { grid-template-columns: 24px minmax(0, 1fr) auto; }
   .pb-row .pb-meter { display: none; }
@@ -4711,7 +4712,7 @@ main:focus, main h1:focus { outline: none; }
   .roster-card { min-width: 0; flex-direction: column; align-items: flex-start; }
   .roster-card .nm, .roster-card .meta { overflow-wrap: anywhere; }
   .class-subheader { flex-wrap: wrap; gap: 8px; }
-  .class-subheader .class-count { font-size: 9px; letter-spacing: 0.1em; }
+  .class-subheader .class-count { font-size: 10px; letter-spacing: 0.1em; }
   .squad-header { flex-wrap: wrap; gap: 10px; }
   .social-callout { margin-left: 0; margin-right: 0; padding: 20px 16px; }
   .social-text { min-width: 0; overflow-wrap: anywhere; }
