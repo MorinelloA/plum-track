@@ -645,8 +645,10 @@ function LearnSubPage({ cat, sub }) {
 }
 
 export function LearnPage({ sub, deep }) {
-  if (!sub) return <LearnIndex />;
-  if (!deep) return <LearnCategory id={sub} />;
+  // Unknown topics fall back to the index, and unknown pages to their topic.
+  const topic = sub && LEARN_TOPICS[sub];
+  if (!topic) return <LearnIndex />;
+  if (!deep || !topic.subs.some(s => s.id === deep)) return <LearnCategory id={sub} />;
   return <LearnSubPage cat={sub} sub={deep} />;
 }
 

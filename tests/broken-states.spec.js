@@ -31,3 +31,10 @@ test('a roster year with no data shows the latest roster', async ({ page }, test
   expect(Number(await page.locator('.year-banner .stat .num').first().textContent())).toBeGreaterThan(0);
   if (testInfo.project.name === 'phone') await expect(page.locator('.mobile-year-picker select')).toHaveValue('2015');
 });
+
+test('unknown Learn pages fall back instead of rendering blank', async ({ page }) => {
+  for (const [path, heading] of [['/learn/foo', 'Learn'], ['/learn/drills/nutrition', 'Drills'], ['/learn/inspiration/pre', 'Inspiration']]) {
+    await page.goto(path);
+    await expect(page.locator('main h1')).toHaveText(heading);
+  }
+});
