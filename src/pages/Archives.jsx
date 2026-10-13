@@ -357,7 +357,8 @@ export function SeasonArchivePage({ sub }) {
     const d = ARCHIVES.data.find(x => x.year === y);
     // Try to preserve the current section if available, else use the year's first
     const nextSection = d.sections.includes(section) ? section : d.sections[0];
-    window.location.href = "/results/season-archives/" + y + "/" + nextSection;
+    // A year with no sections (2020) has no section segment.
+    window.location.href = "/results/season-archives/" + y + (nextSection ? "/" + nextSection : "");
   }
   function pickSection(s) {
     window.location.href = "/results/season-archives/" + current + "/" + s;
