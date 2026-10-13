@@ -14,6 +14,7 @@
   --gold-ink: #8A6100;       /* gold-family text on white and paper (5.2:1+) */
   --gold-on-plum: #FFDA7A;   /* gold text on --plum (4.6:1) */
   --focus-ring: var(--plum);  /* gold on the dark surfaces below */
+  --hit-min: 24px;            /* smallest hit area; 44px with a touch screen */
 
   /* Channels for translucent tints: rgba(var(--white-rgb), 0.85) */
   --white-rgb: 255, 255, 255;
@@ -32,6 +33,9 @@
   --display: "Anton", "Oswald", "Impact", sans-serif;
   --body: "Barlow", "Helvetica Neue", Helvetica, Arial, sans-serif;
   --mono: "IBM Plex Mono", ui-monospace, "SF Mono", Menlo, monospace;
+}
+@media (pointer: coarse) {
+  :root { --hit-min: 44px; }
 }
 
 * { box-sizing: border-box; }
@@ -4505,6 +4509,26 @@ button { font-family: inherit; cursor: pointer; }
 }
 /* Icons (src/components/Icon.jsx): the size and colour of the text around them. */
 .icon { display: inline-block; height: 1em; vertical-align: -0.125em; flex-shrink: 0; overflow: visible; }
+/* Touch targets: small controls get an invisible hit area at least --hit-min square,
+   centred on them, so they look the same and are easier to hit. */
+.hm-btn, .brand-lockup, .card h3 .seeall, .scholarship-band .sb-link, .progression-link,
+.gender-toggle button, .wr-tab, .wr-video-link, .cb-email, .donate-tribute-link,
+.footer-col a, .footer-social-link { position: relative; }
+:is(.hm-btn, .brand-lockup, .card h3 .seeall, .scholarship-band .sb-link, .progression-link, .athlete-link,
+.gender-toggle button, .wr-tab, .wr-video-link, .cb-email, .donate-tribute-link,
+.footer-col a, .footer-social-link)::after {
+  content: "";
+  position: absolute;
+  inset: min(0px, calc((100% - var(--hit-min)) / 2));
+}
+/* Where neighbours sit too close for that (chip rows, menu and footer lists) or a box
+   would clip it (the timeline's fitted name), a touch screen gets the control itself at
+   --hit-min, as every screen at 1024px and below already does. */
+@media (pointer: coarse) {
+  .lf-chip { min-height: var(--hit-min); }
+  .dropdown-link { display: flex; align-items: center; min-height: var(--hit-min); }
+  .footer-col a, .footer-social-link, .timeline-current .athlete-link { display: inline-flex; align-items: center; min-height: var(--hit-min); }
+}
 /* Skip link: off-screen until it has keyboard focus. */
 .skip-link {
   position: absolute;
