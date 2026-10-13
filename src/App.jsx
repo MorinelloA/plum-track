@@ -426,8 +426,26 @@ function App() {
     document.title = title ? title + " · " + SITE_TITLE : SITE_TITLE;
   }, [route.section, route.sub, route.deep]);
 
+  // After an in-app navigation, keyboard and screen-reader users start at the new page's heading.
+  const firstRender = React.useRef(true);
+  React.useEffect(() => {
+    if (firstRender.current) { firstRender.current = false; return; }
+    const target = document.querySelector("main h1") || document.getElementById("main");
+    if (!target) return;
+    if (!target.hasAttribute("tabindex")) target.setAttribute("tabindex", "-1");
+    target.focus({ preventScroll: true });
+  }, [route.section, route.sub, route.deep]);
+
+  const skipToContent = (event) => {
+    event.preventDefault();
+    const main = document.getElementById("main");
+    main.focus({ preventScroll: true });
+    main.scrollIntoView();
+  };
+
   return (
     <React.Fragment>
+      <a className="skip-link" href="#main" onClick={skipToContent}>Skip to content</a>
       {t.showUtilityBand && <UtilityBand />}
       <header className="site-header">
         <div className="header-row">
@@ -440,7 +458,7 @@ function App() {
         {t.navVariant === "mega" ? <NavMega route={route} /> : <NavDropdown route={route} />}
         <MobileNav route={route} />
       </header>
-      <main>
+      <main id="main" tabIndex={-1}>
         <PageBody route={route} homeVariant={t.homeVariant} />
       </main>
       <Footer />

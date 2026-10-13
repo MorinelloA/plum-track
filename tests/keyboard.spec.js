@@ -44,3 +44,20 @@ test('each page has its own title', async ({ page }) => {
   await page.locator('.subnav-tab', { hasText: 'Girls Indoor' }).click();
   await expect(page).toHaveTitle('Girls Indoor Records · ' + site);
 });
+
+test('a skip link is the first stop and jumps to the main content', async ({ page }) => {
+  await page.goto('/records/boys-outdoor');
+  await page.keyboard.press('Tab');
+  const skip = page.getByRole('link', { name: 'Skip to content' });
+  await expect(skip).toBeFocused();
+  await expect(skip).toBeInViewport();
+  await page.keyboard.press('Enter');
+  await expect(page.locator('main')).toBeFocused();
+});
+
+test('after an in-app navigation, focus moves to the new page heading', async ({ page }) => {
+  await page.goto('/records/boys-outdoor');
+  await page.locator('.subnav-tab', { hasText: 'Girls Indoor' }).click();
+  await expect(page).toHaveURL(/girls-indoor/);
+  await expect(page.locator('main h1')).toBeFocused();
+});

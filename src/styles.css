@@ -4673,6 +4673,24 @@ button { font-family: inherit; cursor: pointer; }
   outline: 3px solid var(--gold-deep);
   outline-offset: 3px;
 }
+/* Skip link: off-screen until it has keyboard focus. */
+.skip-link {
+  position: absolute;
+  left: 12px;
+  top: -80px;
+  z-index: 1000;
+  padding: 12px 16px;
+  background: var(--ink);
+  color: var(--white);
+  font-family: var(--mono);
+  font-size: 12px;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.skip-link:focus { top: 12px; }
+/* Focus moved by script (skip link, navigation) lands on main or the page heading: no ring. */
+main:focus, main h1:focus { outline: none; }
 .mobile-nav, .mobile-year-picker { display: none; }
 .timeline-overlay { width: 100%; overscroll-behavior: contain; }
 .timeline-panel { max-height: calc(100dvh - 56px); }
