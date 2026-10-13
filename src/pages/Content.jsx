@@ -140,7 +140,9 @@ export function PhotosPage({ sub }) {
 
 // === Roster ===
 export function RosterPage({ sub }) {
-  const year = parseInt(sub) || ROSTER_YEARS[0];
+  // A year without a roster falls back to the latest, as Photos does.
+  const parsedSub = parseInt(sub);
+  const year = ROSTER_YEARS.includes(parsedSub) ? parsedSub : ROSTER_YEARS[0];
   
   // Get actual roster data for this year, or empty if not yet entered
   const yearData = PTF_ROSTERS?.[year];

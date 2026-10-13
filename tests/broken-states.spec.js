@@ -24,3 +24,10 @@ test('a failed archive load offers Try again instead of loading forever', async 
   await archivesReady(page);
   await expect(page.locator('.archive-sectabs')).toBeVisible();
 });
+
+test('a roster year with no data shows the latest roster', async ({ page }, testInfo) => {
+  await page.goto('/roster/2012');
+  await expect(page.locator('.year-banner .yrbig')).toHaveText('2015');
+  expect(Number(await page.locator('.year-banner .stat .num').first().textContent())).toBeGreaterThan(0);
+  if (testInfo.project.name === 'phone') await expect(page.locator('.mobile-year-picker select')).toHaveValue('2015');
+});
