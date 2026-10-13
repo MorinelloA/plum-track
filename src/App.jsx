@@ -175,10 +175,33 @@ function NavDropdown({ route }) {
   const [open, setOpen] = React.useState(null);
   const [dropdownLeft, setDropdownLeft] = React.useState(0);
   const navRef = React.useRef(null);
+  const shellRef = React.useRef(null);
+  const buttonRefs = React.useRef({});
 
   React.useEffect(() => {
     setOpen(null);
   }, [route.section, route.sub, route.deep]);
+
+  // Escape closes the open menu and returns focus to its button; a click or tap
+  // anywhere outside the nav closes it too.
+  React.useEffect(() => {
+    if (!open) return;
+    const onKey = (event) => {
+      if (event.key !== "Escape") return;
+      const button = buttonRefs.current[open];
+      setOpen(null);
+      if (button) button.focus();
+    };
+    const onPointer = (event) => {
+      if (shellRef.current && !shellRef.current.contains(event.target)) setOpen(null);
+    };
+    document.addEventListener("keydown", onKey);
+    document.addEventListener("pointerdown", onPointer);
+    return () => {
+      document.removeEventListener("keydown", onKey);
+      document.removeEventListener("pointerdown", onPointer);
+    };
+  }, [open]);
 
   const positionDropdown = React.useCallback((target) => {
     if (!navRef.current || !target) return;
@@ -193,7 +216,7 @@ function NavDropdown({ route }) {
   const openItem = NAV.find(n => n.id === open && n.children);
 
   return (
-    <div className={"nav-shell" + (openItem ? " open" : "")} onMouseLeave={() => setOpen(null)}>
+    <div className={"nav-shell" + (openItem ? " open" : "")} ref={shellRef} onMouseLeave={() => setOpen(null)}>
       <nav className="site-nav" ref={navRef}>
         {NAV.map(n => (
           <div
@@ -205,6 +228,7 @@ function NavDropdown({ route }) {
             ) : (
               <button
                 type="button"
+                ref={(el) => { buttonRefs.current[n.id] = el; }}
                 className={"nav-link" + (n.match(route) ? " active" : "")}
                 aria-expanded={open === n.id}
                 onClick={(event) => {
