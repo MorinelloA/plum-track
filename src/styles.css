@@ -340,18 +340,6 @@ button { font-family: inherit; cursor: pointer; }
   color: var(--plum-deep);
   border-bottom-color: var(--gold);
 }
-.subnav-tab .pill {
-  display: inline-block;
-  background: var(--plum);
-  color: var(--white);
-  font-family: var(--mono);
-  font-size: 9px;
-  padding: 2px 6px;
-  border-radius: 3px;
-  margin-left: 6px;
-  letter-spacing: 0.05em;
-  vertical-align: 1px;
-}
 
 /* === Hero (home) === */
 .hero {
@@ -454,56 +442,6 @@ button { font-family: inherit; cursor: pointer; }
   text-transform: uppercase;
   color: var(--gold);
   margin-top: 4px;
-}
-.hero-art {
-  position: relative;
-  aspect-ratio: 1 / 1.05;
-  background: var(--plum-deep);
-  border: 1px solid rgba(255,200,69,0.35);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  overflow: hidden;
-}
-.hero-art .lanes {
-  position: absolute;
-  inset: 0;
-  background:
-    repeating-linear-gradient(
-      90deg,
-      transparent 0,
-      transparent 60px,
-      rgba(255,200,69,0.08) 60px,
-      rgba(255,200,69,0.08) 62px
-    );
-}
-.hero-art .stripe {
-  position: absolute;
-  inset: 0;
-  background:
-    linear-gradient(135deg, transparent 35%, rgba(255,200,69,0.12) 35%, rgba(255,200,69,0.12) 38%, transparent 38%),
-    linear-gradient(135deg, transparent 55%, rgba(255,200,69,0.08) 55%, rgba(255,200,69,0.08) 56%, transparent 56%);
-}
-.hero-art .logo-stack {
-  position: relative;
-  z-index: 2;
-  text-align: center;
-}
-.hero-art .logo-stack img {
-  max-width: 78%;
-  display: block;
-  margin: 0 auto;
-}
-.hero-art .ph-label {
-  position: absolute;
-  bottom: 14px;
-  left: 14px;
-  font-family: var(--mono);
-  font-size: 10px;
-  letter-spacing: 0.2em;
-  color: var(--gold);
-  text-transform: uppercase;
-  opacity: 0.7;
 }
 
 /* === Hero variation: MARQUEE === */
@@ -695,28 +633,6 @@ button { font-family: inherit; cursor: pointer; }
   align-self: center;
   font-style: italic;
 }
-.lane.main .coach-tribute .quote-attr {
-  grid-column: 2;
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  margin-top: 12px;
-  font-family: var(--mono);
-  font-size: 10px;
-  letter-spacing: 0.22em;
-  text-transform: uppercase;
-  color: rgba(255,255,255,0.7);
-}
-.lane.main .coach-tribute .quote-attr .dash {
-  display: inline-block;
-  width: 22px;
-  height: 1px;
-  background: var(--gold);
-}
-.lane.main .coach-tribute .quote-attr strong {
-  color: var(--gold);
-  font-weight: 600;
-}
 
 /* === Events rail === */
 .events-section {
@@ -755,28 +671,6 @@ button { font-family: inherit; cursor: pointer; }
   text-align: right;
   max-width: 32ch;
   line-height: 1.6;
-}
-.events-toggle {
-  display: inline-flex;
-  background: var(--white);
-  border: 1px solid var(--line);
-  padding: 4px;
-  gap: 2px;
-  margin-bottom: 20px;
-}
-.events-toggle button {
-  padding: 8px 14px;
-  font-family: var(--display);
-  font-size: 13px;
-  letter-spacing: 0.12em;
-  text-transform: uppercase;
-  background: transparent;
-  border: none;
-  color: var(--grey);
-}
-.events-toggle button.active {
-  background: var(--plum);
-  color: var(--gold);
 }
 .events-grid {
   display: grid;
@@ -1274,15 +1168,7 @@ button { font-family: inherit; cursor: pointer; }
 .timeline-current.has-photo .cur-athlete {
   font-size: 28px;
 }
-.timeline-current .cur-year {
-  font-family: var(--mono);
-  font-size: 10px;
-  letter-spacing: 0.2em;
-  color: var(--gold);
-  margin-top: 4px;
-}
-.timeline-current .cur-loc,
-.timeline-current .cur-date {
+.timeline-current .cur-loc {
   font-family: var(--mono);
   font-size: 10px;
   letter-spacing: 0.15em;
@@ -1761,21 +1647,6 @@ button { font-family: inherit; cursor: pointer; }
   background: var(--white);
   border: 1px solid var(--line);
 }
-.year-chip {
-  padding: 8px 12px;
-  font-family: var(--display);
-  font-size: 14px;
-  letter-spacing: 0.06em;
-  background: transparent;
-  border: 1px solid transparent;
-  color: var(--grey);
-}
-.year-chip:hover { color: var(--plum); }
-.year-chip.active {
-  background: var(--plum);
-  color: var(--gold);
-  border-color: var(--plum-deep);
-}
 
 /* Photo grid */
 .photo-grid {
@@ -1816,32 +1687,6 @@ button { font-family: inherit; cursor: pointer; }
   color: #fff;
   border: none;
   backdrop-filter: blur(4px);
-}
-.photo-card .ph-label {
-  font-family: var(--mono);
-  font-size: 10px;
-  letter-spacing: 0.15em;
-  text-transform: uppercase;
-  color: var(--grey);
-  background: var(--paper);
-  padding: 3px 6px;
-  border: 1px solid var(--line);
-}
-.photo-card.video::before {
-  content: "▶";
-  position: absolute;
-  top: 50%; left: 50%;
-  transform: translate(-50%, -50%);
-  width: 44px;
-  height: 44px;
-  background: var(--plum);
-  color: var(--gold);
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 16px;
-  padding-left: 3px;
 }
 .photo-card .corner {
   position: absolute;
@@ -2663,14 +2508,6 @@ button { font-family: inherit; cursor: pointer; }
   letter-spacing: 0.04em;
   color: var(--gold);
   text-align: right;
-}
-.champ-card .mark .mlabel {
-  display: block;
-  font-family: var(--mono);
-  font-size: 10px;
-  letter-spacing: 0.2em;
-  color: rgba(255,255,255,0.7);
-  margin-top: 4px;
 }
 /* Girls champions — reversed: gold background, plum text */
 .champ-card.girls {
@@ -3584,12 +3421,6 @@ button { font-family: inherit; cursor: pointer; }
 }
 
 @media (max-width: 768px) {
-  .wr-video-link {
-    padding: 4px 6px 4px 4px;
-  }
-  .wr-table .wr-video-label {
-    display: none;
-  }
 }
 
 /* Photos page — social callout */
@@ -3722,8 +3553,7 @@ button { font-family: inherit; cursor: pointer; }
     gap: 18px;
   }
   .archive-banner .ab-year { font-size: 72px; }
-  .archive-sectabs { overflow-x: auto; flex-wrap: nowrap; }
-  .archive-sectab { white-space: nowrap; }
+  .archive-sectabs { overflow-x: auto; }
   /* Utility band — stack lines, smaller */
   .utility-band {
     flex-direction: column;
@@ -3736,10 +3566,6 @@ button { font-family: inherit; cursor: pointer; }
 
   /* Header row */
   .site-header { border-bottom-width: 3px; }
-  .header-row {
-    gap: 12px;
-    padding: 14px 16px 0;
-  }
   .brand-lockup { justify-content: flex-start; }
   .plum-logo { height: 44px; }
   .tf-tag .top { font-size: 18px; }
@@ -3747,38 +3573,6 @@ button { font-family: inherit; cursor: pointer; }
   .header-meta { gap: 6px; flex-shrink: 0; }
   .hm-btn { font-size: 10px; padding: 7px 10px; }
 
-  /* Nav — horizontal scroll; dropdown panel overlays outside the scroll area */
-  .site-nav {
-    overflow-x: auto;
-    overflow-y: hidden;
-    flex-wrap: nowrap;
-    align-items: stretch;
-    padding: 0 16px;
-    -webkit-overflow-scrolling: touch;
-    scrollbar-width: none;
-    border-top: 1px solid var(--line);
-    margin-top: 12px;
-  }
-  .site-nav::-webkit-scrollbar { display: none; }
-  .nav-link {
-    font-size: 11px;
-    padding: 12px 10px;
-    letter-spacing: 0.08em;
-  }
-  .nav-link .caret { display: inline; }
-  .nav-dropdown,
-  .mega-panel { display: none !important; }
-  .nav-shell.open > .nav-dropdown {
-    display: block !important;
-    position: absolute;
-    top: 100%;
-    min-width: 220px;
-    max-width: calc(100vw - 32px);
-    box-shadow: 0 14px 30px rgba(31, 18, 60, 0.18);
-    border-top-width: 2px;
-    margin-bottom: 0;
-    z-index: 120;
-  }
 
   /* === Hero — Stadium === */
   .hero { padding: 0; }
@@ -3890,7 +3684,6 @@ button { font-family: inherit; cursor: pointer; }
     font-size: 13px;
     letter-spacing: 0.06em;
   }
-  .results-page .subnav-tab:last-child { grid-column: 1 / -1; }
   .results-page .records-group-head { font-size: 20px; letter-spacing: 0.05em; }
   .results-page .records-group-head .ic { flex-shrink: 0; }
   .champ-card {
@@ -3920,7 +3713,7 @@ button { font-family: inherit; cursor: pointer; }
 
   /* Photo / roster grids */
   .photo-grid { grid-template-columns: repeat(2, 1fr); gap: 8px; }
-  .roster-grid { grid-template-columns: repeat(2, 1fr); gap: 8px; }
+  .roster-grid { gap: 8px; }
   .roster-coaches { grid-template-columns: 1fr; }
 
   /* Social callout */
@@ -3932,10 +3725,6 @@ button { font-family: inherit; cursor: pointer; }
   .schedule-row {
     grid-template-columns: 70px 1fr;
     gap: 14px;
-  }
-  .schedule-row > *:nth-child(3) {
-    grid-column: 2;
-    margin-top: 4px;
   }
 
   /* Learn */
@@ -4117,16 +3906,6 @@ button { font-family: inherit; cursor: pointer; }
 .coachi-section p.lede {
   font-size: 19px;
   line-height: 1.6;
-}
-.coachi-aside {
-  font-family: var(--display);
-  font-size: 22px;
-  letter-spacing: 0.04em;
-  color: var(--plum);
-  text-transform: uppercase;
-  border-left: 3px solid var(--gold);
-  padding: 4px 0 4px 16px;
-  margin: 22px 0 0;
 }
 
 .coachi-gallery {
