@@ -381,6 +381,8 @@ function Footer() {
       </div>
       <div className="footer-bottom">
         <span>© 2026 PLUM BOROUGH SCHOOL DISTRICT</span>
+        {/* The home hero's horse is a CC BY 3.0 icon, which needs a visible credit. */}
+        <span>Horse icon by Delapouite, <a href="https://game-icons.net/" target="_blank" rel="noopener">game-icons.net</a>, <a href="https://creativecommons.org/licenses/by/3.0/" target="_blank" rel="noopener">CC BY 3.0</a></span>
         <span>900 ELICKER RD · PLUM, PA 15239</span>
       </div>
     </footer>

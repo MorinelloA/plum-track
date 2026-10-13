@@ -3690,6 +3690,7 @@ button { font-family: inherit; cursor: pointer; }
   color: rgba(255,255,255,0.55);
   text-transform: uppercase;
 }
+.footer-bottom a { color: inherit; text-decoration: underline; text-underline-offset: 2px; }
 
 /* === Responsive === */
 
