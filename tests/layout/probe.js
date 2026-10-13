@@ -690,9 +690,21 @@
     const parse = str => { const m = (str || '').match(/rgba?\([^)]*\)/); if (!m) return null; const p = m[0].match(/[\d.]+/g).map(Number); return { r: p[0], g: p[1], b: p[2], a: p.length > 3 ? p[3] : 1 }; };
     const lum = c => { const f = v => { v /= 255; return v <= 0.03928 ? v / 12.92 : Math.pow((v + 0.055) / 1.055, 2.4); }; return 0.2126 * f(c.r) + 0.7152 * f(c.g) + 0.0722 * f(c.b); };
     const ratio = (a, b) => { const x = lum(a), y = lum(b); return (Math.max(x, y) + 0.05) / (Math.min(x, y) + 0.05); };
-    let bg = null;
-    for (let n = el.parentElement; n; n = n.parentElement) { const c = parse(getComputedStyle(n).backgroundColor); if (c && c.a > 0.99) { bg = c; break; } }
-    bg = bg || { r: 255, g: 255, b: 255, a: 1 };
+    // What the ring is drawn against: the element's own background for an inset ring
+    // (negative outline-offset), otherwise what's behind the element. Translucent layers
+    // (a 92% lightbox backdrop) are blended down to the first opaque one.
+    const inset = parseFloat(s.outlineOffset) < 0;
+    const layers = [];
+    for (let n = inset ? el : el.parentElement; n; n = n.parentElement) {
+      const c = parse(getComputedStyle(n).backgroundColor);
+      if (c && c.a > 0) { layers.push(c); if (c.a > 0.99) break; }
+    }
+    let bg = { r: 255, g: 255, b: 255, a: 1 };
+    for (let i = layers.length - 1; i >= 0; i--) {
+      const c = layers[i];
+      bg = { r: c.r * c.a + bg.r * (1 - c.a), g: c.g * c.a + bg.g * (1 - c.a), b: c.b * c.a + bg.b * (1 - c.a), a: 1 };
+    }
+    bg = { r: Math.round(bg.r), g: Math.round(bg.g), b: Math.round(bg.b), a: 1 };
     const outline = s.outlineStyle !== 'none' && parseFloat(s.outlineWidth) >= 1 ? parse(s.outlineColor) : null;
     const shadow = s.boxShadow !== 'none' ? parse(s.boxShadow) : null;
     const ring = outline || shadow;

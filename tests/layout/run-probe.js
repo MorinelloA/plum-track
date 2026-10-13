@@ -16,6 +16,18 @@ export async function runProbe(page, options = {}) {
   return page.evaluate(opts => window.__plumProbe(opts), options);
 }
 
+// Loads the probe without running it, for window.__plumFocusCheck().
+export async function loadProbe(page) {
+  await page.evaluate(() => document.fonts.ready);
+  await page.evaluate(PROBE);
+}
+
+// Waits until no (finite) transition or animation is running.
+export function settled(page) {
+  return page.waitForFunction(() => document.getAnimations()
+    .every(a => a.playState !== 'running' || (a.effect && a.effect.getTiming().iterations === Infinity)));
+}
+
 // The issues of the given kinds, as short readable lines for a failure message.
 export function issuesOf(report, kinds) {
   return report.issues

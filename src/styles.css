@@ -13,6 +13,7 @@
   --white: #FFFFFF;
   --gold-ink: #8A6100;       /* gold-family text on white and paper (5.2:1+) */
   --gold-on-plum: #FFDA7A;   /* gold text on --plum (4.6:1) */
+  --focus-ring: var(--plum);  /* gold on the dark surfaces below */
 
   /* Channels for translucent tints: rgba(var(--white-rgb), 0.85) */
   --white-rgb: 255, 255, 255;
@@ -3196,7 +3197,6 @@ button { font-family: inherit; cursor: pointer; }
 .contact-form input:focus,
 .contact-form textarea:focus,
 .contact-form select:focus {
-  outline: none;
   border-color: var(--plum);
   background: var(--white);
 }
@@ -4494,8 +4494,12 @@ button { font-family: inherit; cursor: pointer; }
 }
 
 /* Shared dialogs: contain scrolling and keep dismissal within reach. */
-:is(a, button, input, select, textarea, summary):focus-visible {
-  outline: 3px solid var(--gold-deep);
+/* Focus ring: plum on light surfaces, gold on dark ones, 3:1 or better against both. */
+.site-nav, .site-footer, .scholarship-band, .coachi-hero, .coachi-give, .contact-info, .social-callout,
+.champ-card, .timeline-current, .media-overlay, .photo-lightbox, .mobile-menu-toolbar, .skip-link { --focus-ring: var(--gold); }
+.champ-card.girls { --focus-ring: var(--plum); }
+:is(a, button, input, select, textarea, summary, video):focus-visible {
+  outline: 3px solid var(--focus-ring);
   outline-offset: 3px;
 }
 /* Skip link: off-screen until it has keyboard focus. */
@@ -4514,6 +4518,8 @@ button { font-family: inherit; cursor: pointer; }
   text-decoration: none;
 }
 .skip-link:focus { top: 12px; }
+/* It sits over both the ink band and the white header: draw its ring inside it. */
+.skip-link:focus-visible { outline-offset: -5px; }
 /* Focus moved by script (skip link, navigation) lands on main or the page heading: no ring. */
 main:focus, main h1:focus { outline: none; }
 .mobile-nav, .mobile-year-picker { display: none; }
