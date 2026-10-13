@@ -666,6 +666,14 @@ export const PTF_RECORDS = {
           "photo": "photos/athletes/greg-bacon.png"
         },
         {
+          "yr": "2023-05-05",
+          "mark": "49.94",
+          "athlete": "PJ McNeal",
+          "location": "Pine Richland Invitational",
+          // Photo: https://athletics.stvincent.edu/sports/mens-track-and-field/roster/p-j-mcneal/11498
+          "photo": "photos/athletes/pj-mcneal.jpg"
+        },
+        {
           "yr": "2026-04-18",
           "mark": "49.75",
           "athlete": "Kent Holmes",
@@ -1059,17 +1067,33 @@ export const PTF_RECORDS = {
     },
     {
       "event": "Shot Put",
-      "mark": "58'7½\"",
-      "athlete": "Bob Thirey",
-      "year": "1977"
+      "mark": "59'5¼\"",
+      "athlete": "Logan Parker",
+      "year": "2020-07-11",
+      "location": "USATF Rose Invitational",
+      "photo": "photos/athletes/logan-parker.jpg",
+      "progression": [
+        {
+          "yr": "1977",
+          "mark": "58'7½\"",
+          "athlete": "Bob Thirey"
+        },
+        {
+          "yr": "2020-07-11",
+          "mark": "59'5¼\"",
+          "athlete": "Logan Parker",
+          "location": "USATF Rose Invitational",
+          "photo": "photos/athletes/logan-parker.jpg"
+        }
+      ]
     },
     {
       "event": "Discus",
-      "mark": "154'8\"",
-      "athlete": "Luke Linhart",
-      "year": "1991-05-24",
-      "location": "PIAA States",
-      "photo": "photos/athletes/luke-linhart.png",
+      "mark": "161'9\"",
+      "athlete": "Logan Parker",
+      "year": "2021-04-30",
+      "location": "Mars Invitational",
+      "photo": "photos/athletes/logan-parker.jpg",
       "progression": [
         {
           "yr": "1991-05-24",
@@ -1077,6 +1101,20 @@ export const PTF_RECORDS = {
           "athlete": "Luke Linhart",
           "location": "PIAA States",
           "photo": "photos/athletes/luke-linhart.png"
+        },
+        {
+          "yr": "2021-04-16",
+          "mark": "157'2\"",
+          "athlete": "Logan Parker",
+          "location": "Lady Spartan / Wildcat Invitational",
+          "photo": "photos/athletes/logan-parker.jpg"
+        },
+        {
+          "yr": "2021-04-30",
+          "mark": "161'9\"",
+          "athlete": "Logan Parker",
+          "location": "Mars Invitational",
+          "photo": "photos/athletes/logan-parker.jpg"
         }
       ]
     },
