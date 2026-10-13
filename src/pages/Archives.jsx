@@ -324,14 +324,27 @@ function ArchiveSectionBody({ data, section }) {
 
 export function SeasonArchivePage({ sub }) {
   const [ARCHIVES, setArchives] = React.useState(null);
+  const [loadFailed, setLoadFailed] = React.useState(false);
   React.useEffect(() => {
     let cancelled = false;
-    import('../data/archives.js').then(m => {
-      if (!cancelled) setArchives(m.PTF_ARCHIVES);
-    });
+    import('../data/archives.js').then(
+      m => { if (!cancelled) setArchives(m.PTF_ARCHIVES); },
+      () => { if (!cancelled) setLoadFailed(true); }
+    );
     return () => { cancelled = true; };
   }, []);
 
+  if (loadFailed) {
+    // A failed module import can't be retried in place, so Try again reloads the page.
+    return (
+      <div className="archive-empty" role="alert" style={{ padding: '40px 0', textAlign: 'center' }}>
+        Couldn't load the season archives.
+        <div style={{ marginTop: 16 }}>
+          <button type="button" className="progression-link" onClick={() => window.location.reload()}>Try again</button>
+        </div>
+      </div>
+    );
+  }
   if (!ARCHIVES) {
     return <div className="archive-empty" style={{ padding: '40px 0', textAlign: 'center' }}>Loading season archives…</div>;
   }
