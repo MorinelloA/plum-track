@@ -77,3 +77,27 @@ test('season, section and record pickers are navigation with a current item, not
     await expect(page.getByRole('navigation', { name: 'Season year' }).locator('[aria-current="page"]')).toHaveText('2007');
   }
 });
+
+test('icon glyphs are hidden from screen readers', async ({ page }) => {
+  const exposedGlyphs = () => page.evaluate(() => {
+    const re = /[‹›←-⇿⌀-⏿■-◿☀-➿⬀-⯿]/;
+    const walker = document.createTreeWalker(document.body, NodeFilter.SHOW_TEXT);
+    const out = [];
+    for (let n = walker.nextNode(); n; n = walker.nextNode()) {
+      if (!re.test(n.textContent)) continue;
+      const el = n.parentElement;
+      // Hidden, or inside a control whose aria-label replaces its text.
+      if (el.closest('[aria-hidden="true"], [aria-label]')) continue;
+      out.push(`${el.tagName.toLowerCase()}.${el.className}: ${n.textContent.trim().slice(0, 40)}`);
+    }
+    return out;
+  });
+  for (const path of ['/', '/records/boys-outdoor', '/results/piaa-champions', '/donate', '/coachi', '/learn', '/learn/drills/hurdles', '/states']) {
+    await page.goto(path);
+    expect(await exposedGlyphs(), path).toEqual([]);
+  }
+  await page.goto('/records/boys-outdoor');
+  await page.locator('table.records-table tr', { has: page.locator('td.event-name', { hasText: /^4×400 Meter Relay$/ }) }).locator('button.progression-link').click();
+  await expect(page.locator('.timeline-panel')).toBeVisible();
+  expect(await exposedGlyphs(), 'progression timeline').toEqual([]);
+});

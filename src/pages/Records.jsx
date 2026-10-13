@@ -183,7 +183,7 @@ export function MediaLightbox({ media, onClose }) {
         ) : (
           <div className="media-video">
             <div className="mv-stripes" aria-hidden="true"></div>
-            <div className="mv-play">▶</div>
+            <div className="mv-play" aria-hidden="true">▶</div>
             <div className="mv-label">VIDEO PLACEHOLDER</div>
             <div className="mv-sub">Drop the {media.mark || "performance"} clip{media.subtitle ? " from " + media.subtitle : ""} here.</div>
           </div>
@@ -267,7 +267,7 @@ function RecordTimeline({ record, onClose, onMedia }) {
             >
               <span className="cvc-frame" aria-hidden="true">
                 <span className="cvc-stripes"></span>
-                <span className="cvc-play">▶</span>
+                <span className="cvc-play" aria-hidden="true">▶</span>
               </span>
               <span className="cvc-text">
                 <span className="cvc-eyebrow">Watch the Record</span>
@@ -408,7 +408,7 @@ function RecordsTable({ data, hasProgression = true, showSchool = false }) {
                     <td className="record-action" style={{ textAlign: "right" }}>
                       {r.progression ? (
                         <button className="progression-link" onClick={() => setOpen(r)}>
-                          Progression →
+                          Progression&nbsp;<span aria-hidden="true">→</span>
                         </button>
                       ) : r.video ? (
                         <button className="progression-link" onClick={() => openMedia({
@@ -417,7 +417,7 @@ function RecordsTable({ data, hasProgression = true, showSchool = false }) {
                           mark: r.mark,
                           subtitle: r.event + " · " + yearOnly(r.year)
                         })}>
-                          ▶ Watch
+                          <span aria-hidden="true">▶</span>&nbsp;Watch
                         </button>
                       ) : null}
                     </td>

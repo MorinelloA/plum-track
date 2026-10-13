@@ -266,7 +266,7 @@ function NavDropdown({ route }) {
                   setOpen((current) => current === n.id ? null : n.id);
                 }}
               >
-                {n.title}<span className="caret">▾</span>
+                {n.title}<span className="caret" aria-hidden="true">▾</span>
               </button>
             )}
           </div>
@@ -296,7 +296,7 @@ function NavMega({ route }) {
         <div className="nav-item" key={n.id} onMouseEnter={() => setOpen(n.id)}>
           {n.href ? (
             <a className={"nav-link" + (n.match(route) ? " active" : "")} href={routeHref(n.href)}>
-              {n.title}{n.children && <span className="caret">▾</span>}
+              {n.title}{n.children && <span className="caret" aria-hidden="true">▾</span>}
             </a>
           ) : (
             <button
@@ -305,7 +305,7 @@ function NavMega({ route }) {
               aria-expanded={n.children ? open === n.id : undefined}
               onClick={() => setOpen((current) => current === n.id ? null : n.id)}
             >
-              {n.title}{n.children && <span className="caret">▾</span>}
+              {n.title}{n.children && <span className="caret" aria-hidden="true">▾</span>}
             </button>
           )}
         </div>

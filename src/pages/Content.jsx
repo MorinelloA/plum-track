@@ -532,7 +532,7 @@ export function StatesPage() {
 
       <p style={{ fontSize: 12, color: "var(--grey)", marginTop: 20 }}>
         Standards reflect the 2025–2026 PIAA Rules &amp; Regulations.
-        {" "}<a className="standards-link" href="https://www.piaa.org/assets/web/documents/Handbook%20-%20Section%20III%20-%20Rules%20and%20Regulations.pdf" target="_blank" rel="noopener" style={{ color: "var(--plum)" }}>View the official PIAA handbook →</a>
+        {" "}<a className="standards-link" href="https://www.piaa.org/assets/web/documents/Handbook%20-%20Section%20III%20-%20Rules%20and%20Regulations.pdf" target="_blank" rel="noopener" style={{ color: "var(--plum)" }}>View the official PIAA handbook&nbsp;<span aria-hidden="true">→</span></a>
       </p>
     </div>
   );
@@ -571,7 +571,7 @@ export function CoachIPage() {
           <div className="coachi-hero-sub">Joseph "Coach I" Ionta · 1953 - 2025</div>
           <div className="coachi-hero-tag">Plum Mustangs Track &amp; Field · Cross Country</div>
           <div className="coachi-hero-cta">
-            <a className="give-btn" href={routeHref("/donate")}>Donate to the scholarship →</a>
+            <a className="give-btn" href={routeHref("/donate")}>Donate to the scholarship&nbsp;<span aria-hidden="true">→</span></a>
           </div>
         </div>
       </section>
@@ -729,7 +729,7 @@ export function CoachIPage() {
             The Joseph Ionta “Coach I” Memorial Scholarship honors his years at Plum.
             If you’d like to give in his memory, you can contribute below.
           </p>
-          <a className="give-btn" href={routeHref("/donate")}>Donate to the scholarship →</a>
+          <a className="give-btn" href={routeHref("/donate")}>Donate to the scholarship&nbsp;<span aria-hidden="true">→</span></a>
         </section>
 
         <section className="coachi-finale">

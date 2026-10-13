@@ -20,7 +20,7 @@ function ChampionsList({ data, title }) {
   const [media, setMedia] = React.useState(null);
   return (
     <div>
-      <div className="records-group-head"><span className="ic">★</span>{title}</div>
+      <div className="records-group-head"><span className="ic" aria-hidden="true">★</span>{title}</div>
       {sorted.map((c, i) => (
         <div className={"champ-card" + (c.gender === "girls" ? " girls" : "")} key={i}>
           <div className="yr">{c.yr}</div>

@@ -106,8 +106,8 @@ export function ScholarshipBand() {
         </div>
         <p className="sb-text">He gave Plum more than 35 years. Give something back in his name.</p>
         <div className="sb-actions">
-          <a className="give-btn" href={routeHref("/donate")}>Donate now →</a>
-          <a className="sb-link" href={routeHref("/coachi")}>Read his story →</a>
+          <a className="give-btn" href={routeHref("/donate")}>Donate now&nbsp;<span aria-hidden="true">→</span></a>
+          <a className="sb-link" href={routeHref("/coachi")}>Read his story&nbsp;<span aria-hidden="true">→</span></a>
         </div>
       </div>
     </section>
@@ -132,7 +132,7 @@ export function DonatePage() {
           <ZeffyDonationForm />
           <p className="donate-note">
             Payments are handled by Zeffy. Form not loading?{" "}
-            <a href={ZEFFY_PAGE_URL} target="_blank" rel="noopener">Open it on Zeffy ↗</a>
+            <a href={ZEFFY_PAGE_URL} target="_blank" rel="noopener">Open it on Zeffy&nbsp;<span aria-hidden="true">↗</span></a>
           </p>
         </section>
 
@@ -148,7 +148,7 @@ export function DonatePage() {
             cover spikes or a vaulting pole, he bought them himself.
           </p>
           <p>Now a scholarship carries his name. Give what you can.</p>
-          <a className="donate-tribute-link" href={routeHref("/coachi")}>Read the full tribute →</a>
+          <a className="donate-tribute-link" href={routeHref("/coachi")}>Read the full tribute&nbsp;<span aria-hidden="true">→</span></a>
         </aside>
       </div>
     </div>

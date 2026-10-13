@@ -312,7 +312,7 @@ function LearnIndex() {
                 </div>
               ))}
             </div>
-            <div className="more">EXPLORE {topic.title.toUpperCase()} →</div>
+            <div className="more">EXPLORE {topic.title.toUpperCase()}&nbsp;<span aria-hidden="true">→</span></div>
           </a>
         ))}
       </div>
@@ -333,7 +333,7 @@ function LearnCategory({ id }) {
         </div>
       </div>
       <nav className="subnav" aria-label="Learn topics">
-        <a className="subnav-tab" href={routeHref("/learn")}>← All Resources</a>
+        <a className="subnav-tab" href={routeHref("/learn")}><span aria-hidden="true">←</span>&nbsp;All Resources</a>
         {topic.subs.map(s => (
           <a key={s.id} className="subnav-tab" href={routeHref("/learn/" + id + "/" + s.id)}>
             {s.title}
@@ -631,7 +631,7 @@ function LearnSubPage({ cat, sub }) {
         </div>
       </div>
       <nav className="subnav" aria-label="Learn topics">
-        <a className="subnav-tab" href={routeHref("/learn/" + cat)}>← Back to {topic.title}</a>
+        <a className="subnav-tab" href={routeHref("/learn/" + cat)}><span aria-hidden="true">←</span>&nbsp;Back to {topic.title}</a>
         {topic.subs.map(s => (
           <a key={s.id} className={"subnav-tab" + (s.id === sub ? " active" : "")} href={routeHref("/learn/" + cat + "/" + s.id)} aria-current={s.id === sub ? "page" : undefined}>
             {s.title}
