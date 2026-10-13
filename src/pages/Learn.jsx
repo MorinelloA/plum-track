@@ -378,6 +378,35 @@ const ORIENTATION_LABELS = {
   combo: "Multi-Direction"
 };
 
+// A drill tile's muted preview. A library holds up to 32 clips, so each one loads only as
+// its tile comes near the screen; the first frame still shows as the thumbnail.
+function DrillPreview({ src }) {
+  const ref = React.useRef(null);
+  const [near, setNear] = React.useState(false);
+  React.useEffect(() => {
+    const video = ref.current;
+    if (near || !video) return;
+    if (!("IntersectionObserver" in window)) { setNear(true); return; }
+    const observer = new IntersectionObserver(entries => {
+      if (entries.some(entry => entry.isIntersecting)) { setNear(true); observer.disconnect(); }
+    }, { rootMargin: "300px 0px" });
+    observer.observe(video);
+    return () => observer.disconnect();
+  }, [near]);
+  return (
+    <video
+      ref={ref}
+      className="lt-video"
+      src={near ? src : undefined}
+      preload="metadata"
+      muted
+      playsInline
+      onMouseEnter={(e) => { e.currentTarget.play().catch(() => {}); }}
+      onMouseLeave={(e) => { e.currentTarget.pause(); e.currentTarget.currentTime = 0; }}
+    />
+  );
+}
+
 function VideoDrillLibrary({ families, videoSrc, orientationIds, hero, coachCards, onMedia }) {
   const [orientation, setOrientation] = React.useState("all");
   const [familyFilter, setFamilyFilter] = React.useState("all");
@@ -480,15 +509,7 @@ function VideoDrillLibrary({ families, videoSrc, orientationIds, hero, coachCard
                   title={"Play " + drill.name}
                 >
                   <span className="lt-frame">
-                    <video
-                      className="lt-video"
-                      src={videoSrc(drill.file)}
-                      preload="metadata"
-                      muted
-                      playsInline
-                      onMouseEnter={(e) => { e.currentTarget.play().catch(() => {}); }}
-                      onMouseLeave={(e) => { e.currentTarget.pause(); e.currentTarget.currentTime = 0; }}
-                    />
+                    <DrillPreview src={videoSrc(drill.file)} />
                     <span className="lt-play" aria-hidden="true">▶</span>
                     <span className={"lt-orient lt-orient-" + drill.orientation}>
                       {(ORIENTATION_LABELS[drill.orientation] || drill.orientation).toUpperCase()}

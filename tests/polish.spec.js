@@ -18,3 +18,18 @@ test('hover lifts only happen on devices that can hover', async ({ page }, testI
     expect(transform).not.toBe('none');
   }
 });
+
+test('a drill library loads only the clips near the screen', async ({ page }, testInfo) => {
+  test.skip(testInfo.project.name !== 'desktop', 'one viewport is enough');
+  const clips = new Set();
+  page.on('request', r => { if (/\/videos\/ladderdrills\//.test(r.url())) clips.add(r.url()); });
+  await page.goto('/learn/drills/ladders');
+  await expect(page.locator('.ladder-tile').first()).toBeVisible();
+  await page.waitForTimeout(2000);
+  expect(await page.locator('.ladder-tile').count()).toBeGreaterThan(25);
+  expect(clips.size).toBeLessThan(15);
+  // ...and a tile scrolled into view loads its clip
+  const last = page.locator('.ladder-tile video').last();
+  await last.scrollIntoViewIfNeeded();
+  await expect.poll(() => last.evaluate(v => !!v.currentSrc)).toBe(true);
+});
