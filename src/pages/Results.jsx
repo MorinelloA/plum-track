@@ -1,5 +1,6 @@
 // === Results pages (PIAA / WPIAL — champions & placers) ===
 import React from 'react';
+import { Icon } from '../components/Icon.jsx';
 import { PTF_RESULTS } from '../data/results.js';
 import { MediaLightbox } from './Records.jsx';
 import { SeasonArchivePage } from './Archives.jsx';
@@ -20,7 +21,7 @@ function ChampionsList({ data, title }) {
   const [media, setMedia] = React.useState(null);
   return (
     <div>
-      <div className="records-group-head"><span className="ic" aria-hidden="true">★</span>{title}</div>
+      <div className="records-group-head"><span className="ic" aria-hidden="true"><Icon name="star" /></span>{title}</div>
       {sorted.map((c, i) => (
         <div className={"champ-card" + (c.gender === "girls" ? " girls" : "")} key={i}>
           <div className="yr">{c.yr}</div>
@@ -34,7 +35,7 @@ function ChampionsList({ data, title }) {
                 title={"View photo of " + c.athlete}
               >
                 <span className="athlete-link-text">{c.athlete}</span>
-                <span className="athlete-link-ic" aria-hidden="true">▢</span>
+                <span className="athlete-link-ic" aria-hidden="true"><Icon name="photo" /></span>
               </button>
             ) : (
               <div className="nm">{c.athlete}</div>
@@ -49,7 +50,7 @@ function ChampionsList({ data, title }) {
                 title="Click to watch video"
               >
                 <span className="athlete-link-text">{c.mark}</span>
-                <span className="athlete-link-ic" aria-hidden="true">▶</span>
+                <span className="athlete-link-ic" aria-hidden="true"><Icon name="play" /></span>
               </button>
             ) : c.mark}
           </div>

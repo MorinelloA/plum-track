@@ -10,6 +10,7 @@ import { LearnPage } from './pages/Learn.jsx';
 import { DonatePage } from './pages/Donate.jsx';
 import { routeHref } from './utils/paths.js';
 import { useModalDialog } from './utils/useModalDialog.js';
+import { Icon } from './components/Icon.jsx';
 
 const NAV = [
   { id: "home", title: "Home", href: "/", match: (r) => r.section === "home" },
@@ -172,13 +173,13 @@ function MobileNav({ route }) {
   return (
     <div className="mobile-nav">
       <button className="mobile-menu-toggle" type="button" aria-expanded={open} aria-controls="mobile-site-menu" onClick={() => setOpen(true)}>
-        <span aria-hidden="true">☰</span> Menu
+        <Icon name="menu" /> Menu
         <span className="mobile-current-page">{NAV.find(item => item.match(route))?.title || 'Plum Mustangs'}</span>
       </button>
       {open && (
         <div className="mobile-menu-overlay" onClick={() => setOpen(false)}>
           <div className="mobile-menu-panel" id="mobile-site-menu" ref={dialogRef} role="dialog" aria-modal="true" aria-label="Site menu" tabIndex={-1} onClick={event => event.stopPropagation()}>
-            <div className="mobile-menu-toolbar"><span>Plum Mustangs</span><button aria-label="Close menu" onClick={() => setOpen(false)}>✕</button></div>
+            <div className="mobile-menu-toolbar"><span>Plum Mustangs</span><button aria-label="Close menu" onClick={() => setOpen(false)}><Icon name="close" /></button></div>
             <nav aria-label="Main navigation">
               {NAV.map(item => item.children ? (
                 <details className="mobile-menu-group" key={item.id} open={item.match(route) || undefined}>
@@ -266,7 +267,7 @@ function NavDropdown({ route }) {
                   setOpen((current) => current === n.id ? null : n.id);
                 }}
               >
-                {n.title}<span className="caret" aria-hidden="true">▾</span>
+                {n.title}<span className="caret" aria-hidden="true"><Icon name="caretDown" /></span>
               </button>
             )}
           </div>
@@ -296,7 +297,7 @@ function NavMega({ route }) {
         <div className="nav-item" key={n.id} onMouseEnter={() => setOpen(n.id)}>
           {n.href ? (
             <a className={"nav-link" + (n.match(route) ? " active" : "")} href={routeHref(n.href)}>
-              {n.title}{n.children && <span className="caret" aria-hidden="true">▾</span>}
+              {n.title}{n.children && <span className="caret" aria-hidden="true"><Icon name="caretDown" /></span>}
             </a>
           ) : (
             <button
@@ -305,7 +306,7 @@ function NavMega({ route }) {
               aria-expanded={n.children ? open === n.id : undefined}
               onClick={() => setOpen((current) => current === n.id ? null : n.id)}
             >
-              {n.title}{n.children && <span className="caret" aria-hidden="true">▾</span>}
+              {n.title}{n.children && <span className="caret" aria-hidden="true"><Icon name="caretDown" /></span>}
             </button>
           )}
         </div>

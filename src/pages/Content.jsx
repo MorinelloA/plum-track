@@ -5,6 +5,7 @@ import { PTF_PHOTOS } from '../data/photos.js';
 import { PTF_ROSTERS, PTF_COACHING_STAFF } from '../data/rosters.js';
 import { rootAsset, routeHref } from '../utils/paths.js';
 import { useModalDialog } from '../utils/useModalDialog.js';
+import { Icon } from '../components/Icon.jsx';
 
 export const PHOTO_YEARS = Object.keys(PTF_PHOTOS || {}).map(Number).sort((a, b) => b - a);
 export const ROSTER_YEARS = Object.keys(PTF_ROSTERS || {}).filter(k => Number(k) > 2000).map(Number).sort((a, b) => b - a);
@@ -120,16 +121,16 @@ export function PhotosPage({ sub }) {
           tabIndex={-1}
           onClick={() => setLightbox(null)}
         >
-          <button className="photo-lightbox-close" aria-label="Close gallery" onClick={() => setLightbox(null)}>✕</button>
+          <button className="photo-lightbox-close" aria-label="Close gallery" onClick={() => setLightbox(null)}><Icon name="close" /></button>
           <img
             src={rootAsset("photos/" + year + "/" + allPhotos[lightbox])}
             alt={"Photo " + (lightbox + 1)}
             onClick={(e) => e.stopPropagation()}
           />
           <div className="photo-lightbox-controls" onClick={event => event.stopPropagation()}>
-            <button aria-label="Previous photo" onClick={() => setLightbox(i => Math.max(i - 1, 0))} disabled={lightbox === 0}>‹</button>
+            <button aria-label="Previous photo" onClick={() => setLightbox(i => Math.max(i - 1, 0))} disabled={lightbox === 0}><Icon name="chevronLeft" /></button>
             <span role="status" aria-live="polite">{lightbox + 1} / {allPhotos.length}</span>
-            <button aria-label="Next photo" onClick={() => setLightbox(i => Math.min(i + 1, allPhotos.length - 1))} disabled={lightbox === allPhotos.length - 1}>›</button>
+            <button aria-label="Next photo" onClick={() => setLightbox(i => Math.min(i + 1, allPhotos.length - 1))} disabled={lightbox === allPhotos.length - 1}><Icon name="chevronRight" /></button>
           </div>
         </div>
       )}
@@ -532,7 +533,7 @@ export function StatesPage() {
 
       <p style={{ fontSize: 12, color: "var(--grey)", marginTop: 20 }}>
         Standards reflect the 2025–2026 PIAA Rules &amp; Regulations.
-        {" "}<a className="standards-link" href="https://www.piaa.org/assets/web/documents/Handbook%20-%20Section%20III%20-%20Rules%20and%20Regulations.pdf" target="_blank" rel="noopener" style={{ color: "var(--plum)" }}>View the official PIAA handbook&nbsp;<span aria-hidden="true">→</span></a>
+        {" "}<a className="standards-link" href="https://www.piaa.org/assets/web/documents/Handbook%20-%20Section%20III%20-%20Rules%20and%20Regulations.pdf" target="_blank" rel="noopener" style={{ color: "var(--plum)" }}>View the official PIAA handbook&nbsp;<Icon name="arrowRight" /></a>
       </p>
     </div>
   );
@@ -571,7 +572,7 @@ export function CoachIPage() {
           <div className="coachi-hero-sub">Joseph "Coach I" Ionta · 1953 - 2025</div>
           <div className="coachi-hero-tag">Plum Mustangs Track &amp; Field · Cross Country</div>
           <div className="coachi-hero-cta">
-            <a className="give-btn" href={routeHref("/donate")}>Donate to the scholarship&nbsp;<span aria-hidden="true">→</span></a>
+            <a className="give-btn" href={routeHref("/donate")}>Donate to the scholarship&nbsp;<Icon name="arrowRight" /></a>
           </div>
         </div>
       </section>
@@ -729,7 +730,7 @@ export function CoachIPage() {
             The Joseph Ionta “Coach I” Memorial Scholarship honors his years at Plum.
             If you’d like to give in his memory, you can contribute below.
           </p>
-          <a className="give-btn" href={routeHref("/donate")}>Donate to the scholarship&nbsp;<span aria-hidden="true">→</span></a>
+          <a className="give-btn" href={routeHref("/donate")}>Donate to the scholarship&nbsp;<Icon name="arrowRight" /></a>
         </section>
 
         <section className="coachi-finale">

@@ -1,5 +1,6 @@
 // === Home page (with 3 variation layouts) ===
 import React from 'react';
+import { Icon } from '../components/Icon.jsx';
 import { PTF_DATA } from '../data/data.js';
 import { PTF_RECORDS } from '../data/records.js';
 import { routeHref } from '../utils/paths.js';
@@ -218,7 +219,7 @@ function HomeQuickAccess() {
     <div className="home-grid">
       <div>
         <div className="card">
-          <h3>Upcoming Meets <a className="seeall" href={routeHref("/schedule")}>FULL SCHEDULE&nbsp;<span aria-hidden="true">→</span></a></h3>
+          <h3>Upcoming Meets <a className="seeall" href={routeHref("/schedule")}>FULL SCHEDULE&nbsp;<Icon name="arrowRight" /></a></h3>
           {MEETS.map(m => (
             <div className="meet-row" key={m.date.m + m.date.d + m.name}>
               <div className="date"><span className="m">{m.date.m}</span><span className="d">{m.date.d}</span></div>
@@ -231,22 +232,22 @@ function HomeQuickAccess() {
           <a className="quick-link" href={routeHref("/records/boys-outdoor")}>
             <div className="lab">EXPLORE</div>
             <div className="nm">School Records</div>
-            <div className="arrow"><span aria-hidden="true">→</span>&nbsp;INDOOR · OUTDOOR · STADIUM</div>
+            <div className="arrow"><Icon name="arrowRight" />&nbsp;INDOOR · OUTDOOR · STADIUM</div>
           </a>
           <a className="quick-link" href={routeHref("/results/piaa-champions")}>
             <div className="lab">EXPLORE</div>
             <div className="nm">PIAA &amp; WPIAL Results</div>
-            <div className="arrow"><span aria-hidden="true">→</span>&nbsp;CHAMPIONS · PLACERS</div>
+            <div className="arrow"><Icon name="arrowRight" />&nbsp;CHAMPIONS · PLACERS</div>
           </a>
           <a className="quick-link" href={routeHref("/gallery")}>
             <div className="lab">ARCHIVE</div>
             <div className="nm">Photos &amp; Videos</div>
-            <div className="arrow"><span aria-hidden="true">→</span>&nbsp;VIEW GALLERY</div>
+            <div className="arrow"><Icon name="arrowRight" />&nbsp;VIEW GALLERY</div>
           </a>
           <a className="quick-link" href={routeHref("/learn/drills")}>
             <div className="lab">TRAINING</div>
             <div className="nm">Drills &amp; Inspiration</div>
-            <div className="arrow"><span aria-hidden="true">→</span>&nbsp;HURDLES · LADDERS</div>
+            <div className="arrow"><Icon name="arrowRight" />&nbsp;HURDLES · LADDERS</div>
           </a>
         </div>
       </div>
@@ -268,7 +269,7 @@ function HomeQuickAccess() {
             <p style={{ margin: "0 0 12px" }}>
               Mustangs advance to the state championships at Shippensburg University by placing <strong>top 4 at the WPIAL Championships</strong> — or <strong>top 8</strong> with a mark that meets the PIAA qualifying standard.
             </p>
-            <a className="standards-link" href={routeHref("/states")} style={{ color: "var(--plum)", fontWeight: 600, textDecoration: "none" }}>How to qualify &amp; standards&nbsp;<span aria-hidden="true">→</span></a>
+            <a className="standards-link" href={routeHref("/states")} style={{ color: "var(--plum)", fontWeight: 600, textDecoration: "none" }}>How to qualify &amp; standards&nbsp;<Icon name="arrowRight" /></a>
           </div>
         </div>
         <a href={routeHref("/coachi")} className="memorial-card">
@@ -277,7 +278,7 @@ function HomeQuickAccess() {
           <div className="mc-name">Joseph “Coach I” Ionta</div>
           <div className="mc-years">35+ years · Plum Mustangs Track &amp; Cross Country</div>
           <div className="mc-quote">“Look at you!”</div>
-          <div className="mc-cta">Read the tribute&nbsp;<span aria-hidden="true">→</span></div>
+          <div className="mc-cta">Read the tribute&nbsp;<Icon name="arrowRight" /></div>
         </a>
       </div>
     </div>

@@ -3,6 +3,7 @@ import React from 'react';
 import { PTF_RECORDS } from '../data/records.js';
 import { rootAsset, routeHref } from '../utils/paths.js';
 import { useModalDialog } from '../utils/useModalDialog.js';
+import { Icon } from '../components/Icon.jsx';
 
 const RECORDS = PTF_RECORDS;
 
@@ -161,7 +162,7 @@ function AthleteName({ name, displayName, onMedia, subtitle, className }) {
       title={"View photo of " + name}
     >
       <span className="athlete-link-text">{shown}</span>
-      <span className="athlete-link-ic" aria-hidden="true">▢</span>
+      <span className="athlete-link-ic" aria-hidden="true"><Icon name="photo" /></span>
     </button>
   );
 }
@@ -174,7 +175,7 @@ export function MediaLightbox({ media, onClose }) {
   const mediaSrc = rootAsset(media.src);
   return (
     <div className="media-overlay" ref={dialogRef} role="dialog" aria-modal="true" aria-label={media.type === "photo" ? "Athlete photo" : "Performance video"} tabIndex={-1} onClick={onClose}>
-      <button className="media-close" onClick={onClose} aria-label="Close">✕</button>
+      <button className="media-close" onClick={onClose} aria-label="Close"><Icon name="close" /></button>
       <div className="media-stage" onClick={(e) => e.stopPropagation()}>
         {media.type === "photo" ? (
           <img className="media-photo" src={mediaSrc} alt={media.name || ""} />
@@ -183,7 +184,7 @@ export function MediaLightbox({ media, onClose }) {
         ) : (
           <div className="media-video">
             <div className="mv-stripes" aria-hidden="true"></div>
-            <div className="mv-play" aria-hidden="true">▶</div>
+            <div className="mv-play" aria-hidden="true"><Icon name="play" /></div>
             <div className="mv-label">VIDEO PLACEHOLDER</div>
             <div className="mv-sub">Drop the {media.mark || "performance"} clip{media.subtitle ? " from " + media.subtitle : ""} here.</div>
           </div>
@@ -217,7 +218,7 @@ function RecordTimeline({ record, onClose, onMedia }) {
       <div className="timeline-panel" ref={dialogRef} role="dialog" aria-modal="true" aria-label={record.event + " record progression"} tabIndex={-1} onClick={(e) => e.stopPropagation()}>
         <div className="timeline-toolbar">
           <div className="timeline-eb">RECORD PROGRESSION</div>
-          <button className="timeline-close" onClick={onClose} aria-label="Close progression">✕</button>
+          <button className="timeline-close" onClick={onClose} aria-label="Close progression"><Icon name="close" /></button>
         </div>
         <h2 className="timeline-title">{record.event}</h2>
         <div className={"timeline-current" + (hasPhoto ? " has-photo" : "") + (curVideo ? " has-video" : "")}>
@@ -267,13 +268,13 @@ function RecordTimeline({ record, onClose, onMedia }) {
             >
               <span className="cvc-frame" aria-hidden="true">
                 <span className="cvc-stripes"></span>
-                <span className="cvc-play" aria-hidden="true">▶</span>
+                <span className="cvc-play" aria-hidden="true"><Icon name="play" /></span>
               </span>
               <span className="cvc-text">
                 <span className="cvc-eyebrow">Watch the Record</span>
                 <span className="cvc-detail">Full record-breaking performance</span>
               </span>
-              <span className="cvc-arrow" aria-hidden="true">→</span>
+              <span className="cvc-arrow" aria-hidden="true"><Icon name="arrowRight" /></span>
             </button>
           )}
         </div>
@@ -303,7 +304,7 @@ function RecordTimeline({ record, onClose, onMedia }) {
                           onClick={onPlayVideo}
                         >
                           <span className="athlete-link-text">{p.mark}</span>
-                          <span className="athlete-link-ic" aria-hidden="true">▶</span>
+                          <span className="athlete-link-ic" aria-hidden="true"><Icon name="play" /></span>
                         </button>
                       ) : p.mark}
                     </div>
@@ -394,7 +395,7 @@ function RecordsTable({ data, hasProgression = true, showSchool = false }) {
                         })}
                       >
                         <span className="athlete-link-text">{r.mark}</span>
-                        <span className="athlete-link-ic" aria-hidden="true">▶</span>
+                        <span className="athlete-link-ic" aria-hidden="true"><Icon name="play" /></span>
                       </button>
                     ) : r.mark}
                   </td>
@@ -408,7 +409,7 @@ function RecordsTable({ data, hasProgression = true, showSchool = false }) {
                     <td className="record-action" style={{ textAlign: "right" }}>
                       {r.progression ? (
                         <button className="progression-link" onClick={() => setOpen(r)}>
-                          Progression&nbsp;<span aria-hidden="true">→</span>
+                          Progression&nbsp;<Icon name="arrowRight" />
                         </button>
                       ) : r.video ? (
                         <button className="progression-link" onClick={() => openMedia({
@@ -417,7 +418,7 @@ function RecordsTable({ data, hasProgression = true, showSchool = false }) {
                           mark: r.mark,
                           subtitle: r.event + " · " + yearOnly(r.year)
                         })}>
-                          <span aria-hidden="true">▶</span>&nbsp;Watch
+                          <Icon name="play" />&nbsp;Watch
                         </button>
                       ) : null}
                     </td>

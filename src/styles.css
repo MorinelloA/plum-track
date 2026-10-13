@@ -4502,6 +4502,8 @@ button { font-family: inherit; cursor: pointer; }
   outline: 3px solid var(--focus-ring);
   outline-offset: 3px;
 }
+/* Icons (src/components/Icon.jsx): the size and colour of the text around them. */
+.icon { display: inline-block; height: 1em; vertical-align: -0.125em; flex-shrink: 0; overflow: visible; }
 /* Skip link: off-screen until it has keyboard focus. */
 .skip-link {
   position: absolute;

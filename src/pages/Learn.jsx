@@ -2,6 +2,7 @@
 import React from 'react';
 import { MediaLightbox } from './Records.jsx';
 import { routeHref } from '../utils/paths.js';
+import { Icon } from '../components/Icon.jsx';
 
 const LEARN_TOPICS = {
   "drills": {
@@ -312,7 +313,7 @@ function LearnIndex() {
                 </div>
               ))}
             </div>
-            <div className="more">EXPLORE {topic.title.toUpperCase()}&nbsp;<span aria-hidden="true">→</span></div>
+            <div className="more">EXPLORE {topic.title.toUpperCase()}&nbsp;<Icon name="arrowRight" /></div>
           </a>
         ))}
       </div>
@@ -333,7 +334,7 @@ function LearnCategory({ id }) {
         </div>
       </div>
       <nav className="subnav" aria-label="Learn topics">
-        <a className="subnav-tab" href={routeHref("/learn")}><span aria-hidden="true">←</span>&nbsp;All Resources</a>
+        <a className="subnav-tab" href={routeHref("/learn")}><Icon name="arrowLeft" />&nbsp;All Resources</a>
         {topic.subs.map(s => (
           <a key={s.id} className="subnav-tab" href={routeHref("/learn/" + id + "/" + s.id)}>
             {s.title}
@@ -510,7 +511,7 @@ function VideoDrillLibrary({ families, videoSrc, orientationIds, hero, coachCard
                 >
                   <span className="lt-frame">
                     <DrillPreview src={videoSrc(drill.file)} />
-                    <span className="lt-play" aria-hidden="true">▶</span>
+                    <span className="lt-play" aria-hidden="true"><Icon name="play" /></span>
                     <span className={"lt-orient lt-orient-" + drill.orientation}>
                       {(ORIENTATION_LABELS[drill.orientation] || drill.orientation).toUpperCase()}
                     </span>
@@ -652,7 +653,7 @@ function LearnSubPage({ cat, sub }) {
         </div>
       </div>
       <nav className="subnav" aria-label="Learn topics">
-        <a className="subnav-tab" href={routeHref("/learn/" + cat)}><span aria-hidden="true">←</span>&nbsp;Back to {topic.title}</a>
+        <a className="subnav-tab" href={routeHref("/learn/" + cat)}><Icon name="arrowLeft" />&nbsp;Back to {topic.title}</a>
         {topic.subs.map(s => (
           <a key={s.id} className={"subnav-tab" + (s.id === sub ? " active" : "")} href={routeHref("/learn/" + cat + "/" + s.id)} aria-current={s.id === sub ? "page" : undefined}>
             {s.title}
