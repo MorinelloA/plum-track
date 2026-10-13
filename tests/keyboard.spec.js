@@ -80,7 +80,7 @@ test('season, section and record pickers are navigation with a current item, not
 
 test('icon glyphs are hidden from screen readers', async ({ page }) => {
   const exposedGlyphs = () => page.evaluate(() => {
-    const re = /[‹›←-⇿⌀-⏿■-◿☀-➿⬀-⯿]/;
+    const re = /[\u{2039}\u{203A}\u{2190}-\u{21FF}\u{2300}-\u{23FF}\u{25A0}-\u{25FF}\u{2600}-\u{27BF}\u{2B00}-\u{2BFF}]/u;
     const walker = document.createTreeWalker(document.body, NodeFilter.SHOW_TEXT);
     const out = [];
     for (let n = walker.nextNode(); n; n = walker.nextNode()) {
