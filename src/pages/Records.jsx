@@ -324,7 +324,7 @@ function RecordTimeline({ record, onClose, onMedia }) {
           })}
         </div>
         <div className="timeline-foot">
-          Records verified by Plum HS Track &amp; Field staff. To submit a correction, email <span style={{ color: "var(--gold-deep)" }}>morinelloa@gmail.com</span>.
+          Records verified by Plum HS Track &amp; Field staff. To submit a correction, email <span style={{ color: "var(--gold-ink)" }}>morinelloa@gmail.com</span>.
         </div>
       </div>
     </div>

@@ -114,7 +114,7 @@ export function HomeLanes() {
       <section className="hero hero-lanes">
         <div className="lanes-grid">
           <div className="lane lane-1">
-            <span className="ln">1</span>
+            <span className="ln" aria-hidden="true">1</span>
             <span className="lane-icon" aria-hidden="true">
               <svg viewBox="0 0 24 24">
                 {/* leaf */}
@@ -128,7 +128,7 @@ export function HomeLanes() {
             <span className="lc">PLUM</span>
           </div>
           <div className="lane lane-2">
-            <span className="ln">2</span>
+            <span className="ln" aria-hidden="true">2</span>
             {/* Horse-head silhouette — game-icons.net (Delapouite, CC BY 3.0) */}
             <span className="lane-icon" aria-hidden="true">
               <svg viewBox="0 0 512 512" fillRule="evenodd">
@@ -146,7 +146,7 @@ export function HomeLanes() {
             </blockquote>
           </div>
           <div className="lane lane-4">
-            <span className="ln">4</span>
+            <span className="ln" aria-hidden="true">4</span>
             <span className="lane-icon" aria-hidden="true">
               <svg viewBox="0 0 24 24">
                 <path d="M14 2 L5 14 H11 L10 22 L19 9 H13 L14 2 Z"/>
@@ -155,7 +155,7 @@ export function HomeLanes() {
             <span className="lc">SPEED</span>
           </div>
           <div className="lane lane-5">
-            <span className="ln">5</span>
+            <span className="ln" aria-hidden="true">5</span>
             <span className="lane-icon" aria-hidden="true">
               <svg viewBox="0 0 24 24">
                 <path d="M20.57 14.86L22 13.43 20.57 12 17 15.57 8.43 7 12 3.43 10.57 2 9.14 3.43 7.71 2 5.57 4.14 4.14 2.71 2.71 4.14l1.43 1.43L2 7.71l1.43 1.43L2 10.57 3.43 12 7 8.43 15.57 17 12 20.57 13.43 22l1.43-1.43L16.29 22l2.14-2.14 1.43 1.43 1.43-1.43-1.43-1.43L22 16.29z"/>
@@ -164,7 +164,7 @@ export function HomeLanes() {
             <span className="lc">STRENGTH</span>
           </div>
           <div className="lane lane-6">
-            <span className="ln">6</span>
+            <span className="ln" aria-hidden="true">6</span>
             <span className="lane-icon" aria-hidden="true">
               <svg viewBox="0 0 24 24">
                 <path d="M13.5.67s.74 2.65.74 4.8c0 2.06-1.35 3.73-3.41 3.73-2.07 0-3.63-1.67-3.63-3.73l.03-.36C5.21 7.51 4 10.62 4 14c0 4.42 3.58 8 8 8s8-3.58 8-8C20 8.61 17.41 3.8 13.5.67zM11.71 19c-1.78 0-3.22-1.4-3.22-3.14 0-1.62 1.05-2.76 2.81-3.12 1.77-.36 3.6-1.21 4.62-2.58.39 1.29.59 2.65.59 4.04 0 2.65-2.15 4.8-4.8 4.8z"/>
