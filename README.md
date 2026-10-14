@@ -35,6 +35,7 @@ The site follows its own small design kit, written down in the October 2026 UI a
 - **Icons.** `src/components/Icon.jsx` draws them as SVG in the text's colour. Don't use text glyphs such as ▶, ✕ or → as icons: they come from whatever font the device has, and iPhones turn some into emoji.
 - **Fields.** 44px tall, with `--field-edge` borders and `--ink` text. Text is 16px on touch screens, because iPhones and iPads zoom into smaller fields.
 - **Pieces.** Sibling buttons share one box (border, padding, height); only the fill sets the primary apart. The Boys/Girls and Men's/Women's toggles share one rule set. Every dialog close button is 44px with an 18px icon.
+- **Dialogs.** Build a new dialog on `useModalDialog` (`src/utils/useModalDialog.js`). It traps focus, closes on Escape, locks the page's scroll, returns focus to the button that opened it, and gives the dialog a history entry so the Back button closes it instead of leaving the page.
 - **Grids.** Tile and card grids keep a partial last row, so every tile stays one size; a lone section tab or record card spans its row.
 - **Names.** Long names wrap between words (`overflow-wrap: break-word`). Only emails and social handles use `anywhere`.
 
