@@ -1070,7 +1070,7 @@ button { font-family: inherit; cursor: pointer; }
   background: transparent;
   border: 1px solid var(--line);
   font-family: var(--mono);
-  font-size: 14px;
+  font-size: 18px;
   color: var(--grey);
 }
 .timeline-close:hover { background: var(--ink); color: var(--gold); }
@@ -4587,7 +4587,8 @@ main:focus, main h1:focus { outline: none; }
   color: var(--white);
   font-size: 28px;
 }
-.photo-lightbox-close { position: absolute; right: 16px; top: max(12px, env(safe-area-inset-top)); font-size: 20px; }
+/* Dialog close buttons are all 44px with an 18px icon: square in a toolbar, round over a photo. */
+.photo-lightbox-close { position: absolute; right: 16px; top: max(12px, env(safe-area-inset-top)); width: 44px; height: 44px; font-size: 18px; }
 .photo-lightbox-controls { display: flex; align-items: center; justify-content: space-between; gap: 24px; color: var(--white); font-family: var(--mono); font-size: 13px; }
 .photo-lightbox-controls button:disabled { opacity: 0.3; cursor: default; }
 
@@ -4613,7 +4614,7 @@ main:focus, main h1:focus { outline: none; }
   .mobile-menu-overlay { position: fixed; inset: 0; z-index: 400; background: rgba(var(--ink-rgb), 0.78); }
   .mobile-menu-panel { position: absolute; inset: 0 0 0 auto; width: min(420px, 100%); height: 100dvh; overflow-y: auto; overscroll-behavior: contain; background: var(--paper); }
   .mobile-menu-toolbar { position: sticky; top: 0; z-index: 1; display: flex; align-items: center; justify-content: space-between; padding: max(12px, env(safe-area-inset-top)) 16px 12px; border-bottom: 3px solid var(--gold); background: var(--plum-darker); color: var(--white); font-family: var(--display); font-size: 22px; }
-  .mobile-menu-toolbar button { width: 44px; height: 44px; border: 1px solid var(--gold); background: transparent; color: var(--gold); font-size: 20px; }
+  .mobile-menu-toolbar button { width: 44px; height: 44px; border: 1px solid var(--gold); background: transparent; color: var(--gold); font-size: 18px; }
   .mobile-menu-panel nav { padding: 8px 16px max(24px, env(safe-area-inset-bottom)); }
   .mobile-menu-link, .mobile-menu-group summary { display: block; min-height: 48px; padding: 12px 8px; border-bottom: 1px solid var(--line); color: var(--plum-deep); font-family: var(--display); font-size: 18px; cursor: pointer; }
   .mobile-menu-group summary { display: list-item; list-style-position: inside; }
