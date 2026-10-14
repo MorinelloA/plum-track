@@ -11,6 +11,33 @@ npm run dev
 
 The dev server runs at `http://localhost:3000/`.
 
+## Tests
+
+```
+npm run test:layout
+```
+
+This runs the Playwright tests in `tests/` against a dev server of their own on port 3110, as a 1280px desktop with a mouse and a 390px phone with a touch screen, and a few tests also as a tablet held sideways. They check the layout rules below and the fixes from the October 2026 UI audit. No test reaches a real outside service: Formspree, Zeffy and YouTube are answered locally, Google Fonts come from a cache in `node_modules/.cache` (filled the first time), and everything else is blocked.
+
+- **Another copy of the site.** `BASE_URL=http://127.0.0.1:3101 npm run test:layout` runs the tests against a server that's already running, without starting one. Add `APP_ROOT=<folder>` for the tests that read source files.
+- **Retries.** Each test gets one retry, and a test that only passes on retry is reported as flaky. Security software that scans web traffic can hold local responses for seconds at a time; the retry absorbs that.
+- **The probe.** `tests/layout/probe.js` measures the page: overflow, clipped controls, cut-off text, tap-target sizes, contrast, field alignment and more. It's shared with the audit's capture harness, so keep the two copies identical.
+
+## Layout and brand rules
+
+The site follows its own small design kit, written down in the October 2026 UI audit. When rules conflict, accessibility (WCAG 2.2 AA) wins, then this kit. The PBSD brand guide is a reference, not a rulebook.
+
+- **Colours.** Every colour is a token in `:root` at the top of `src/styles.css`; nothing else in the stylesheet or the pages uses a raw colour value (a test checks). Gold text on a light surface uses `--gold-ink`, and small gold text on plum uses `--gold-on-plum`; plain `--gold` and `--gold-deep` are too light for text there. The browser toolbar colour (`theme-color` in `index.html`) is `--ink`, like the band at the top of every page.
+- **Type.** Anton for display text, with one weight that the browser thickens for headings (that heavier look is intended); Barlow 400, 600, 700 and italic for body text; IBM Plex Mono 400, 600 and 700 for labels and marks. Sizes up to 36px come from the scale 10, 11, 12, 13, 14, 15, 16, 18, 20, 22, 24, 26, 28, 30, 32 and 36px, and nothing is under 10px. Tests check both.
+- **Layout.** One fluid column up to 1280px. At 1024px and below the site switches to its phone layout: the menu button, tables as cards, and 44px controls. A tablet held sideways gets the desktop layout.
+- **Touch.** Every control can be hit over at least 44px with a touch screen and 24px with a mouse. Small controls get an invisible hit area (`--hit-min`; "Touch targets" in `styles.css`) instead of a bigger look. Where neighbours sit too close for that, a touch screen draws the control 44px tall.
+- **Focus.** A 3px ring, plum on light surfaces and gold on dark ones (`--focus-ring`). Never remove it with `outline: none`.
+- **Icons.** `src/components/Icon.jsx` draws them as SVG in the text's colour. Don't use text glyphs such as ▶, ✕ or → as icons: they come from whatever font the device has, and iPhones turn some into emoji.
+- **Fields.** 44px tall, with `--field-edge` borders and `--ink` text. Text is 16px on touch screens, because iPhones and iPads zoom into smaller fields.
+- **Pieces.** Sibling buttons share one box (border, padding, height); only the fill sets the primary apart. The Boys/Girls and Men's/Women's toggles share one rule set. Every dialog close button is 44px with an 18px icon.
+- **Grids.** Tile and card grids keep a partial last row, so every tile stays one size; a lone section tab or record card spans its row.
+- **Names.** Long names wrap between words (`overflow-wrap: break-word`). Only emails and social handles use `anywhere`.
+
 ## Hosting
 
 Cloudflare hosts the site as a Worker named `plum-track`, configured in `wrangler.jsonc`, at plummustangs.net and www.plummustangs.net. To build and publish, run this from the repo root. Wrangler asks you to log in to Cloudflare the first time.
