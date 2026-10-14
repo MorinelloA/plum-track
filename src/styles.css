@@ -2980,9 +2980,7 @@ button { font-family: inherit; cursor: pointer; }
   color: var(--ink);
   line-height: 1.1;
   margin-bottom: 8px;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
+  overflow-wrap: break-word;
 }
 .pb-leader-meter {
   height: 4px;
@@ -3042,13 +3040,12 @@ button { font-family: inherit; cursor: pointer; }
 .pb-row.medal-2 .pb-rank,
 .pb-row.medal-3 .pb-rank { color: var(--plum); font-weight: 700; }
 .pb-ath {
+  min-width: 0;
   font-family: var(--body);
   font-weight: 600;
   font-size: 14px;
   color: var(--ink);
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
+  overflow-wrap: break-word;
 }
 .pb-meter {
   display: block;
@@ -4699,7 +4696,6 @@ main:focus, main h1:focus { outline: none; }
   .points-grid { grid-template-columns: minmax(0, 1fr); }
   .pb-leader { grid-template-columns: 44px minmax(0, 1fr) auto; gap: 12px; padding: 14px; }
   .pb-leader-tag { font-size: 10px; letter-spacing: 0.05em; }
-  .pb-leader-name, .pb-ath { white-space: normal; overflow: visible; overflow-wrap: anywhere; }
   .pb-row { grid-template-columns: 24px minmax(0, 1fr) auto; }
   .pb-row .pb-meter { display: none; }
   .perflist-event .pl-head { flex-wrap: wrap; gap: 6px; }
