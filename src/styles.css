@@ -3680,20 +3680,6 @@ button { font-family: inherit; cursor: pointer; }
   .results-page .page-header { margin-bottom: 20px; }
   .results-page .page-title { font-size: 48px; }
   .results-page .page-subtitle { font-size: 15px; }
-  .results-page .subnav {
-    display: grid;
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-    gap: 4px 8px;
-    margin-bottom: 20px;
-  }
-  .results-page .subnav-tab {
-    display: flex;
-    align-items: center;
-    min-height: 44px;
-    padding: 10px 8px;
-    font-size: 13px;
-    letter-spacing: 0.06em;
-  }
   .results-page .records-group-head { font-size: 20px; letter-spacing: 0.05em; }
   .results-page .records-group-head .ic { flex-shrink: 0; }
   .champ-card {
