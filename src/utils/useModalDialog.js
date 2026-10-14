@@ -4,6 +4,9 @@ const dialogs = [];
 let pagePosition;
 
 // Keep nested photo/video dialogs above their progression and return to the opener.
+// While a dialog is open it owns a history entry with the page's own address (state
+// { plumDialog: depth }), so the browser's Back button closes the top dialog and stays on the
+// page instead of leaving it. Closing the dialog any other way takes the entry away again.
 export function useModalDialog(open, onClose) {
   const ref = useRef(null);
   const closeRef = useRef(onClose);
@@ -14,6 +17,10 @@ export function useModalDialog(open, onClose) {
     const dialog = ref.current;
     const opener = document.activeElement;
     const token = {};
+    const depth = dialogs.length + 1;
+    let closedByBack = false;
+    // Before the scroll lock, so the page's own entry keeps its real scroll position.
+    window.history.pushState({ plumDialog: depth }, '', window.location.href);
     if (!dialogs.length) {
       pagePosition = {
         x: window.scrollX, y: window.scrollY,
@@ -46,19 +53,29 @@ export function useModalDialog(open, onClose) {
         }
       }
     };
+    // Back moved below this dialog's entry: close it, and stay on the page.
+    const onBack = () => {
+      const at = (window.history.state && window.history.state.plumDialog) || 0;
+      if (at >= depth) return;
+      closedByBack = true;
+      closeRef.current();
+    };
     const onRoute = () => {
       pagePosition.x = 0;
       pagePosition.y = 0;
       closeRef.current();
     };
     document.addEventListener('keydown', onKey);
-    window.addEventListener('popstate', onRoute);
+    window.addEventListener('popstate', onBack);
     window.addEventListener('hashchange', onRoute);
     return () => {
       document.removeEventListener('keydown', onKey);
-      window.removeEventListener('popstate', onRoute);
+      window.removeEventListener('popstate', onBack);
       window.removeEventListener('hashchange', onRoute);
       dialogs.splice(dialogs.indexOf(token), 1);
+      // Closed with its button, Escape or a tap outside: take its history entry away again,
+      // unless a link already replaced it with a new page.
+      if (!closedByBack && window.history.state && window.history.state.plumDialog === depth) window.history.back();
       if (!dialogs.length) {
         const { x, y, url, ...styles } = pagePosition;
         Object.assign(document.body.style, styles);

@@ -68,17 +68,24 @@ function parseRoute(path) {
 function useRoute() {
   const getPath = () => window.location.hash.startsWith("#/") ? window.location.hash.slice(1) : (window.location.pathname || "/");
   const [path, setPath] = React.useState(getPath);
+  const pathRef = React.useRef(path);
   React.useEffect(() => {
     // Normalize legacy hash URLs (e.g. /#/records/boys-outdoor) to clean paths.
     if (window.location.hash.startsWith("#/")) {
       const clean = window.location.hash.slice(1);
       window.history.replaceState(null, "", clean);
+      pathRef.current = clean;
       setPath(clean);
     }
   }, []);
   React.useEffect(() => {
     const onRoute = () => {
-      setPath(getPath());
+      const next = getPath();
+      // An open dialog's history entry has the page's own address (useModalDialog):
+      // stepping over it isn't a navigation, so the page and its scroll position stay.
+      if (next === pathRef.current) return;
+      pathRef.current = next;
+      setPath(next);
       window.scrollTo(0, 0);
     };
     const onClick = (event) => {
@@ -91,7 +98,10 @@ function useRoute() {
       if (url.origin !== window.location.origin || url.hash || url.pathname === window.location.pathname) return;
 
       event.preventDefault();
-      window.history.pushState(null, "", url.pathname + url.search);
+      // A link inside an open dialog (the phone menu) replaces the dialog's history entry,
+      // so Back returns straight to the page the dialog was opened on.
+      const fromDialog = window.history.state && window.history.state.plumDialog;
+      window.history[fromDialog ? "replaceState" : "pushState"](null, "", url.pathname + url.search);
       onRoute();
     };
     window.addEventListener("popstate", onRoute);
