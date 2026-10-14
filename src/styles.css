@@ -4689,6 +4689,7 @@ main:focus, main h1:focus { outline: none; }
   .archive-banner .ab-stats { flex-wrap: wrap; white-space: normal; gap: 16px; }
   .archive-sectabs { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); flex-wrap: wrap; overflow: visible; }
   .archive-sectab { min-height: 48px; padding: 10px; white-space: normal; text-align: left; }
+  .archive-sectab:only-child { grid-column: 1 / -1; }   /* a year with one section */
   .archive-sectab .num { margin-right: 4px; }
   .inv-card { padding: 16px; }
   .inv-head > div { min-width: 0; }
@@ -4770,6 +4771,7 @@ main:focus, main h1:focus { outline: none; }
 
 @media (min-width: 769px) and (max-width: 1024px) {
   .data-table tbody, .dual-table tbody { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .data-table tbody tr:only-child, .dual-table tbody tr:only-child { grid-column: 1 / -1; }   /* a group of one */
   .points-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .roster-card { flex-direction: row; align-items: center; }
   .timeline-rail { padding-left: 0; }
