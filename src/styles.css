@@ -15,6 +15,7 @@
   --gold-on-plum: #FFDA7A;   /* gold text on --plum (4.6:1) */
   --focus-ring: var(--plum);  /* gold on the dark surfaces below */
   --hit-min: 24px;            /* smallest hit area; 44px with a touch screen */
+  --field-edge: #8C8577;      /* field borders: 3.2:1 or better on white, paper and paper-2 */
 
   /* Channels for translucent tints: rgba(var(--white-rgb), 0.85) */
   --white-rgb: 255, 255, 255;
@@ -3163,16 +3164,25 @@ button { font-family: inherit; cursor: pointer; }
   color: var(--grey);
   margin-bottom: 6px;
 }
+/* Fields: edges you can see (3:1), ink text, one height for single-line fields. */
 .contact-form input,
 .contact-form textarea,
 .contact-form select {
   width: 100%;
+  min-height: 44px;
   padding: 11px 12px;
-  border: 1px solid var(--line);
+  border: 1px solid var(--field-edge);
   font-family: var(--body);
   font-size: 14px;
+  color: var(--ink);
   background: var(--paper);
   margin-bottom: 16px;
+}
+.contact-form input, .contact-form select { height: 44px; }   /* a select sits 1px taller at 16px */
+.contact-form ::placeholder { color: var(--grey); opacity: 1; }
+/* iPhones and iPads zoom into a field whose text is under 16px. */
+@media (pointer: coarse), (max-width: 1024px) {
+  .contact-form input, .contact-form textarea, .contact-form select { font-size: 16px; }
 }
 .contact-form input:focus,
 .contact-form textarea:focus,
@@ -4715,7 +4725,6 @@ main:focus, main h1:focus { outline: none; }
   .social-text { min-width: 0; overflow-wrap: anywhere; }
   .social-link { min-height: 44px; }
   .contact-form { padding: 20px 16px; }
-  .contact-form input, .contact-form select, .contact-form textarea { font-size: 16px; min-height: 44px; }
   .contact-info { padding: 24px 18px; }
   .cb-email { max-width: 100%; min-height: 44px; overflow-wrap: anywhere; }
   .cb-at { flex-shrink: 0; }
