@@ -1770,7 +1770,7 @@ button { font-family: inherit; cursor: pointer; }
 /* Roster table */
 .roster-grid {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(4, minmax(0, 1fr));
   gap: 12px;
 }
 .roster-card {
@@ -1819,6 +1819,7 @@ button { font-family: inherit; cursor: pointer; }
   text-transform: uppercase;
   line-height: 1.1;
 }
+.roster-card .nm, .roster-card .meta { overflow-wrap: break-word; }
 .roster-card .meta {
   font-family: var(--mono);
   font-size: 10px;
@@ -2481,7 +2482,7 @@ button { font-family: inherit; cursor: pointer; }
 }
 .champ-details { min-width: 0; }
 .champ-card .athlete-link { max-width: 100%; }
-.champ-card .athlete-link-text { min-width: 0; overflow-wrap: anywhere; }
+.champ-card .athlete-link-text { min-width: 0; overflow-wrap: break-word; }
 .champ-card .athlete-link-ic { flex-shrink: 0; }
 .champ-card .yr {
   font-family: var(--display);
@@ -3706,7 +3707,7 @@ button { font-family: inherit; cursor: pointer; }
   .champ-card .yr { grid-area: year; font-size: 36px; text-align: left; }
   .champ-details { grid-area: details; }
   .champ-card .ev { margin-top: 0; letter-spacing: 0.14em; }
-  .champ-card .nm { font-size: 26px; line-height: 1.15; overflow-wrap: anywhere; }
+  .champ-card .nm { font-size: 26px; line-height: 1.15; overflow-wrap: break-word; }
   .champ-card .mark { grid-area: mark; font-size: 28px; white-space: nowrap; }
   .champ-card .athlete-link { min-height: 44px; align-items: center; }
 
@@ -4552,15 +4553,15 @@ main:focus, main h1:focus { outline: none; }
 .timeline-toolbar .timeline-eb { margin: 0; }
 .timeline-close { position: static; width: 44px; height: 44px; flex-shrink: 0; }
 .timeline-panel .athlete-link { max-width: 100%; }
-.timeline-panel .athlete-link-text { min-width: 0; overflow-wrap: anywhere; }
+.timeline-panel .athlete-link-text { min-width: 0; overflow-wrap: break-word; }
 .timeline-panel .athlete-link-ic { flex-shrink: 0; }
-.node-athlete { overflow-wrap: anywhere; }
+.node-athlete { overflow-wrap: break-word; }
 .placer-details .ev { font-size: 11px; }
 .media-overlay { align-items: flex-start; padding-top: 72px; overflow-y: auto; overscroll-behavior: contain; }
 .media-stage { min-width: 0; max-width: min(880px, 100%); max-height: none; }
 .media-photo, .media-video-player { max-height: calc(100dvh - 240px); }
 .media-close { width: 44px; height: 44px; z-index: 1; }
-.media-caption { overflow-wrap: anywhere; }
+.media-caption { overflow-wrap: break-word; }
 .photo-lightbox {
   position: fixed;
   inset: 0;
@@ -4626,7 +4627,7 @@ main:focus, main h1:focus { outline: none; }
   .page, .results-page { padding: 24px 16px 48px; }
   .page-header { flex-direction: column; align-items: stretch; gap: 16px; margin-bottom: 20px; }
   .page-header > div { min-width: 0; }
-  .page-title, .results-page .page-title { font-size: clamp(32px, 9vw, 48px); line-height: 1.05; overflow-wrap: anywhere; }
+  .page-title, .results-page .page-title { font-size: clamp(32px, 9vw, 48px); line-height: 1.05; overflow-wrap: break-word; }
   .page-eyebrow { font-size: 10px; letter-spacing: 0.16em; }
   .page-subtitle { font-size: 16px; }
   .card h3 .seeall, .standards-link, .scholarship-band .sb-link { display: inline-flex; align-items: center; min-height: 44px; }
@@ -4641,7 +4642,7 @@ main:focus, main h1:focus { outline: none; }
   .records-group-head .ic { flex-shrink: 0; }
   .gender-toggle button, .wr-tab, .lf-chip { min-height: 44px; }
   .athlete-link { min-height: 44px; align-items: center; max-width: 100%; }
-  .athlete-link-text { min-width: 0; overflow-wrap: anywhere; }
+  .athlete-link-text { min-width: 0; overflow-wrap: break-word; }
   .athlete-link-ic { flex-shrink: 0; }
 
   /* Keep table headers available to assistive technology; label each mobile value. */
@@ -4649,7 +4650,7 @@ main:focus, main h1:focus { outline: none; }
   .data-table thead, .dual-table thead { position: absolute; width: 1px; height: 1px; padding: 0; overflow: hidden; clip-path: inset(50%); white-space: nowrap; }
   .data-table tbody, .dual-table tbody { display: grid; gap: 12px; }
   .data-table tbody tr, .dual-table tbody tr { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px 16px; padding: 16px; border: 1px solid var(--line); border-left: 4px solid var(--plum); background: var(--white); }
-  .data-table tbody td, .dual-table tbody td, .dual-table tbody td.center + td.center { display: block; min-width: 0; padding: 0; border: none; font-size: 16px; white-space: normal; overflow-wrap: anywhere; text-align: left; }
+  .data-table tbody td, .dual-table tbody td, .dual-table tbody td.center + td.center { display: block; min-width: 0; padding: 0; border: none; font-size: 16px; white-space: normal; overflow-wrap: break-word; text-align: left; }
   .data-table [data-label]::before, .dual-table [data-label]::before { content: attr(data-label); display: block; margin-bottom: 4px; font-family: var(--mono); font-size: 10px; font-weight: 400; letter-spacing: 0.12em; text-transform: uppercase; color: var(--grey); }
   .data-table tbody .event-name { grid-column: 1 / -1; font-size: 20px; order: 0; }
   .data-table tbody .mark { grid-column: 1; order: 1; font-size: 20px; }
@@ -4675,7 +4676,7 @@ main:focus, main h1:focus { outline: none; }
 
   .placer-block { padding: 16px; }
   .placer-row { grid-template-columns: minmax(0, 1fr) auto; grid-template-areas: "details place" "details mark"; gap: 4px 12px; padding: 12px 0; align-items: start; font-size: 16px; }
-  .placer-details { grid-area: details; min-width: 0; overflow-wrap: anywhere; }
+  .placer-details { grid-area: details; min-width: 0; overflow-wrap: break-word; }
   .placer-details .ev { display: block; margin: 6px 0 0 !important; font-size: 11px; }
   .placer-row .place { grid-area: place; font-size: 22px; white-space: nowrap; text-align: right; }
   .placer-row .mk { grid-area: mark; font-size: 14px; text-align: right; }
@@ -4693,17 +4694,17 @@ main:focus, main h1:focus { outline: none; }
   .archive-sectab .num { margin-right: 4px; }
   .inv-card { padding: 16px; }
   .inv-head > div { min-width: 0; }
-  .inv-name, .inv-meta { overflow-wrap: anywhere; }
+  .inv-name, .inv-meta { overflow-wrap: break-word; }
   .inv-head .inv-finishes { flex-wrap: wrap; gap: 8px 16px; }
   .inv-row { grid-template-columns: minmax(0, 1fr) auto; grid-template-areas: "event place" "athlete mark"; gap: 6px 12px; padding: 12px 0; border-bottom: 1px solid var(--line); }
   .inv-row > span:first-child { display: none; }
   .inv-row .ev { grid-area: event; }
-  .inv-row .ath { grid-area: athlete; min-width: 0; font-size: 15px; overflow-wrap: anywhere; }
+  .inv-row .ath { grid-area: athlete; min-width: 0; font-size: 15px; overflow-wrap: break-word; }
   .inv-row .pl { grid-area: place; text-align: right; }
   .inv-row .mk { grid-area: mark; }
   .honor-row { grid-template-columns: minmax(0, 1fr) auto; grid-template-areas: "event mark" "athlete athlete"; gap: 6px 12px; padding: 14px; }
   .honor-row .ev { grid-area: event; }
-  .honor-row .ath { grid-area: athlete; overflow-wrap: anywhere; }
+  .honor-row .ath { grid-area: athlete; overflow-wrap: break-word; }
   .honor-row .mk { grid-area: mark; font-size: 14px; }
   .points-grid { grid-template-columns: minmax(0, 1fr); }
   .pb-leader { grid-template-columns: 44px minmax(0, 1fr) auto; gap: 12px; padding: 14px; }
@@ -4713,13 +4714,12 @@ main:focus, main h1:focus { outline: none; }
   .perflist-event .pl-head { flex-wrap: wrap; gap: 6px; }
   .perflist-entry { grid-template-columns: 24px minmax(0, 1fr) auto; grid-template-areas: "rank athlete mark" "rank grade mark"; gap: 4px 10px; padding: 12px 14px; }
   .perflist-entry .rk { grid-area: rank; }
-  .perflist-entry .ath { grid-area: athlete; font-size: 15px; overflow-wrap: anywhere; }
+  .perflist-entry .ath { grid-area: athlete; font-size: 15px; overflow-wrap: break-word; }
   .perflist-entry .grade { grid-area: grade; }
   .perflist-entry .mk { grid-area: mark; }
 
   .roster-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .roster-card { min-width: 0; flex-direction: column; align-items: flex-start; }
-  .roster-card .nm, .roster-card .meta { overflow-wrap: anywhere; }
   .class-subheader { flex-wrap: wrap; gap: 8px; }
   .class-subheader .class-count { font-size: 10px; letter-spacing: 0.1em; }
   .squad-header { flex-wrap: wrap; gap: 10px; }
@@ -4742,18 +4742,18 @@ main:focus, main h1:focus { outline: none; }
   .timeline-overlay { padding: 8px; }
   .timeline-panel { max-height: calc(100dvh - 16px); padding: 20px 16px; overscroll-behavior: contain; }
   .timeline-toolbar { top: -20px; margin: -20px -16px 20px; padding: 8px 16px; }
-  .timeline-title { font-size: clamp(28px, 8vw, 42px); line-height: 1.1; overflow-wrap: anywhere; }
+  .timeline-title { font-size: clamp(28px, 8vw, 42px); line-height: 1.1; overflow-wrap: break-word; }
   .timeline-current .cur-main { flex-direction: column; gap: 16px; }
   .timeline-current .cur-stat, .timeline-current.has-photo .cur-stat { display: flex; flex-direction: column; align-items: stretch; gap: 12px; }
-  .timeline-current .cur-athlete { line-height: 1.2; overflow-wrap: anywhere; }
+  .timeline-current .cur-athlete { line-height: 1.2; overflow-wrap: break-word; }
   .timeline-current .cur-meta-lines { margin-top: 0; }
-  .timeline-current .cur-loc { font-size: 11px; letter-spacing: 0.08em; overflow-wrap: anywhere; }
+  .timeline-current .cur-loc { font-size: 11px; letter-spacing: 0.08em; overflow-wrap: break-word; }
   .timeline-current .cur-video-cta { padding: 12px; gap: 12px; }
   .timeline-current .cvc-eyebrow { font-size: 15px; }
   .timeline-node .node-card-row { display: grid; grid-template-columns: minmax(0, 1fr); gap: 4px; }
   .timeline-node .node-mark { font-size: 20px; }
   .timeline-node .node-athlete { font-size: 15px; line-height: 1.45; }
-  .timeline-node .node-location { font-size: 10px; line-height: 1.5; overflow-wrap: anywhere; }
+  .timeline-node .node-location { font-size: 10px; line-height: 1.5; overflow-wrap: break-word; }
   .timeline-node .node-badge { display: none; }
   .media-overlay { align-items: flex-start; padding: max(68px, calc(env(safe-area-inset-top) + 56px)) 12px 20px; }
   .media-close { position: fixed; top: max(12px, env(safe-area-inset-top)); right: 12px; }
