@@ -3531,7 +3531,6 @@ button { font-family: inherit; cursor: pointer; }
   color: rgba(var(--white-rgb), 0.55);
   text-transform: uppercase;
 }
-.footer-bottom a { color: inherit; text-decoration: underline; text-underline-offset: 2px; }
 
 /* === Responsive === */
 

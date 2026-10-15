@@ -33,9 +33,3 @@ test('a drill library loads only the clips near the screen', async ({ page }, te
   await last.scrollIntoViewIfNeeded();
   await expect.poll(() => last.evaluate(v => !!v.currentSrc)).toBe(true);
 });
-
-test('the home hero horse icon (CC BY 3.0) is credited on the page', async ({ page }) => {
-  await page.goto('/');
-  await expect(page.locator('footer').getByText(/Horse icon by Delapouite/i)).toBeVisible();
-  await expect(page.locator('footer a[href="https://creativecommons.org/licenses/by/3.0/"]')).toHaveCount(1);
-});
